@@ -65,7 +65,7 @@ export function App() {
     };
     paint();
     const sky = new Image();
-    sky.src = "/sky-bg.jpg?v=9";
+    sky.src = `${import.meta.env.BASE_URL}sky-bg.jpg?v=9`;
     sky.onload = paint;
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onScroll);

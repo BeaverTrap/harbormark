@@ -43,7 +43,7 @@ body {
   position: absolute;
   left: 0;
   width: 100%;
-  background: #010206 url("/sky-bg.jpg?v=9") center top / 100% 100% no-repeat;
+  background: #010206 var(--sky-image) center top / 100% 100% no-repeat;
 }
 .stars {
   position: absolute;
@@ -51,7 +51,7 @@ body {
   z-index: 0;
   pointer-events: none;
   opacity: 0.45;
-  background: url("/stars.png") left top / 480px 480px repeat;
+  background: var(--stars-image) left top / 480px 480px repeat;
 }
 .sky-dim {
   position: fixed;
@@ -71,7 +71,7 @@ body {
   position: absolute;
   z-index: 0;
   border-radius: 50%;
-  background: url("/MOON.png") center / 128% no-repeat;
+  background: var(--moon-image) center / 128% no-repeat;
   opacity: 0.7;
 }
 .moon-large {
