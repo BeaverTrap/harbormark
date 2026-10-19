@@ -1,0 +1,1069 @@
+[
+  {
+    "name": "Alchemy",
+    "role": "Potions, Serums, Elixirs & Powders",
+    "trainers": [
+      "Alchemist Vizyl, Alchemist Maverak"
+    ],
+    "location": "Night Harbor (Blackfeather Bazaar), Underdocks (Western district)",
+    "tools": [
+      "Mortar and Pestle"
+    ],
+    "station": "Cauldron",
+    "intro": [
+      "Alchemy is one of the many tradeskills in Monsters & Memories. It focuses on breaking down herbs collected from Herbalism and reagents to brew powerful temporary buffs, utilities, and crafting materials."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your journey as an alchemist, visit a trainer:",
+          "Trainers: Alchemist Vizyl is located in Blackfeather Bazaar in Night Harbor. Alchemist Maverak is located in Western district in Underdocks.",
+          "Vendors: Next to Vizyl is an alchemist who sells the required flasks and vials, and will buy all excess cauldrons and ingredients. Veldara Stillflask is the supplier in Underdocks."
+        ]
+      },
+      {
+        "title": "The Crafting Process",
+        "lines": [
+          "NOTE* Alchemy Failures now return the vial instead of consuming it, at least it some cases. *NOTE*",
+          "Alchemy consists of two distinct steps:",
+          "Grinding (Preparation): First, grind herbs and reagents into powder in a Mortar and Pestle container, which can be bought at the alchemy vendor. The Mortar and Pestle must be placed in a main inventory bag slot to be accessible. Once placed, open it like a bag and click the hammer icon on the right side to open the crafting menu.",
+          "Brewing (Combining): Second, combine your crafted powder with a vial inside a Cauldron to produce the final product. Temporary Cauldrons are player-made through the Blacksmithing tradeskill, while a permanent starter cauldron is available by visiting the alchemy vendor."
+        ]
+      },
+      {
+        "title": "Ingredient Preparation",
+        "lines": [
+          "🧪 POWDER PROCESSING & CAULDRON SPECIFICATIONS",
+          "Click to Expand/Collapse"
+        ]
+      },
+      {
+        "title": "Player-Made Cauldrons ([[Skill Blacksmithing|Blacksmithing]])",
+        "lines": [
+          "Upgraded cauldrons are crafted by Blacksmiths and allow for more complex recipes requiring additional combine slots."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Alchemy"
+  },
+  {
+    "name": "Animal Taming",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Animal Taming is one of the many tradeskills in Monsters & Memories."
+    ],
+    "sections": [],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Animal_Taming"
+  },
+  {
+    "name": "Archaeology",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Archaeology is a potential tradeskill in Monsters & Memories.",
+      "There are no implementation specifics for this skill as of May 2026. (Source)"
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Archaeology"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Archaeology"
+  },
+  {
+    "name": "Astronomy",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Astronomy is a potential tradeskill in Monsters & Memories.",
+      "There are no implementation specifics for this skill as of May 2026. (Source)"
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Astronomy"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Astronomy"
+  },
+  {
+    "name": "Bind Wound",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Bind Wound is one of the many tradeskills in Monsters & Memories.",
+      "Players use a bandage item by right-clicking it while targeting themselves or another player. This acts as a channeled heal over time spell for 6 seconds. Movement or damage taken by the player applying the bandage will interrupt the bandaging process prematurely. A target can be bandaged while taking damage as long as they are not the player channeling the bandage heal."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Medic Zafira is the bind wound trainer is located in the Sojourner's Camp in Night Harbor. Next to her is a medic which will buy all excess bandages.",
+          "Medic Florina is the trainer in Underdocks, on the south side below the citadel."
+        ]
+      },
+      {
+        "title": "Healing",
+        "lines": [
+          "As of 2026-09-21, there are no recipes for Bind Wound.",
+          "Bind Wound skills are gained by applying bandages to players.",
+          "Bind Wound skillups can be gained even if a player is at maximum health.",
+          "Higher tier bandages require a higher base player level to use.",
+          "Below is a reference for bandages and healing amounts.",
+          "Bind Wound"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Bind_Wound"
+  },
+  {
+    "name": "Blacksmithing",
+    "role": "Armor, Weapons, Shields & Metals",
+    "trainers": [
+      "Musafar, Fahkri, Blacksmith hargrul"
+    ],
+    "location": "Night Harbor (Night Market), Underdocks (Forge Row)",
+    "tools": [
+      "Smithing Pliers",
+      "Smithing Hammer",
+      "Rivet Cutters"
+    ],
+    "station": "Anvil",
+    "intro": [
+      "Blacksmithing is one of the many Tradeskills in Monsters & Memories. It relies upon mined ore, corroded weapons and armor dropped by mobs, or scrap acquired via the breakdown of corroded items. Several recipes also require components crafted by Tailoring, Leatherworking, and Enchanting."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your journey as a blacksmith, visit the trainers in the Night Market near the Forge and Anvil:",
+          "Trainers: Blacksmith Musafar or Weaponsmith Fahkri (Located in Night Harbor). Blacksmith Hargrul in Forge Row, on a lower terrace of the Underdocks citadel.",
+          "Smithing Pliers: Sold by blacksmith vendors.",
+          "Smithing Hammer: Granted to characters with the Blacksmithing non-combat trait, or sold by vendors.",
+          "Rivet Cutters: Used to break down armor into their respective scraps.",
+          "Hammer and Chisel: Highly recommended for breaking down dropped weapons/armor into scraps.",
+          "Progression Tip: Early Blacksmithing is heavily constrained by the supply of copper. Copper can only be found by mining nodes and Smelting the ore into bars, or buying from players. Vendors do not sell copper ore. Skill progress in early tiers is extremely slow—expect to level up only ~5 points per 50 white-tier combines. Once you reach the Bronze tier, supply opens up via mob drops."
+        ]
+      },
+      {
+        "title": "Item Breakdown & Scrapping",
+        "lines": [
+          "\udd28 ITEM BREAKDOWN & SCRAPPING YIELDS (Hammer & Chisel)",
+          "Click to Expand/Collapse",
+          "All corroded, rusty, and standard metal gear can be broken down at an Anvil using a Hammer and Chisel to recover raw scraps for smithing and upgrades."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Blacksmithing"
+  },
+  {
+    "name": "Brewing",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Brewing is one of the many tradeskills in Monsters & Memories."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Brewer Gromni is the brewing trainer is located in the Night Market in Night Harbor. Next to him is a brewer which will presumably sell the required tools and will buy all excess brewing items."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Brewing"
+  },
+  {
+    "name": "Carpentry",
+    "role": "Furniture, Structures & Wood Goods",
+    "trainers": [
+      "Carpenter Quais"
+    ],
+    "location": "Night Harbor (Shipyard)",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Carpentry is one of the many tradeskills in Monsters & Memories. It utilizes components and materials sourced from Woodworking, Blacksmithing, and Alchemy."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your journey as a carpenter, visit the trainer in Night Harbor:",
+          "Trainers: Carpenter Quais (at the shipyard) in Night Harbor. Helga Hewell at the dockyard (south) in Underdocks.",
+          "Workstation: Carpentry tables serve as the primary workstations for crafting carpentry items."
+        ]
+      },
+      {
+        "title": "Ingredient Preparation",
+        "lines": [
+          "🪵 FRAMES & PANELS PROCESSING",
+          "Click to Expand/Collapse",
+          "These intermediate wooden components are used as foundational building blocks for crafting furniture, storage containers, carts, and structures."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Carpentry"
+  },
+  {
+    "name": "Cartography",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Cartography is a potential tradeskill in Monsters & Memories.",
+      "There are no implementation specifics for this skill as of May 2026. (Source)"
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Cartography"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Cartography"
+  },
+  {
+    "name": "Cooking",
+    "role": "Food, Stat Buffs & Meals",
+    "trainers": [
+      "Chef Argna, Violyn"
+    ],
+    "location": "Night Harbor (Shaded Bloom Inn)",
+    "tools": [
+      "Cleaver",
+      "Fish Scaler",
+      "Mortar and Pestle"
+    ],
+    "station": "Camp Kitchen",
+    "intro": [
+      "Cooking is one of the many tradeskills in Monsters & Memories. It allows players to turn raw meats, fish, and foraged vegetables into meals that provide temporary stat buffs and health regeneration."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your culinary journey, seek out the cooking trainers in the city:",
+          "Trainers: Chef Argna (at the Shaded Bloom Inn) or Cooking Trainer Violyn (in Night Harbor). Chef Kuuk in the rogues' cave or Chef Brigit in upper Western district; both in Underdocks.",
+          "Cleaver: Sold by a cook (West Inn) and Chef Daisy (North Inn) in Night Harbor.",
+          "Fish Scaler: Sold by Sproggets Bedsprings in the Night Market and by Tobbin Tanglefoot in Western district in Underdocks.",
+          "Mortar and Pestle: Sold by Alchemy Supplies vendors.",
+          "Camp Kitchen: The primary crafting station for Cooking, sold by a cook in Night Harbor."
+        ]
+      },
+      {
+        "title": "Ingredient Preparation",
+        "lines": [
+          "🍳 PREPARATION RECIPES & INGREDIENT PROCESSING",
+          "Click to Expand/Collapse",
+          "These recipes process raw mob drops and caught fish into cooked meats, fillets, and stocks needed for higher-tier meal recipes."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Cooking"
+  },
+  {
+    "name": "Disenchanting",
+    "role": "Reagent Extraction & Magic Salvage",
+    "trainers": [
+      "Disenchanter Kahni, Qaridi, Gwendyl"
+    ],
+    "location": "",
+    "tools": [
+      "Disenchanting Cube"
+    ],
+    "station": "",
+    "intro": [
+      "Disenchanting is one of the many tradeskills in Monsters & Memories. It serves as the primary gathering/salvaging profession for Enchanting, allowing players to break down magic-tagged items into magical powders and essences."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your path as a disenchanter, visit one of the city trainers:",
+          "Night Harbor: Disenchanter Kahni (Spellbinders of the Spire) or Disenchanter Qaridi (on a balcony near the docks, near Vauquelin and an enchanter).",
+          "Faelindral: Disenchanter Gwendyl (above the Inn, near Enchanter Wyrel and Vaelyndir the Jewelcrafter).",
+          "Underdocks: Disenchanter Gellar (in the blue-lit building south of the bank in Western district).",
+          "Disenchanting Cube: Sold by Enchanting Supplies vendors in major cities."
+        ]
+      },
+      {
+        "title": "Mechanics & Usage",
+        "lines": [
+          "Disenchanting Process: Place the Disenchanting Cube into an inventory bag slot. Place any item with a MAGIC tag into the cube and click 'Combine'. The cube will strip away the magical properties, yielding magical powder and rarely a magical essence.",
+          "Failure Risk: Just like other tradeskills, you can fail a disenchanting attempt. If you fail, the item is completely destroyed and no reagents are recovered.",
+          "Quality Tiers: The quality and tier of the resulting magical powder depend on the item being salvaged (item level or attribute count). For full tier breakdowns, see the Enchanting Tradeskill Page.",
+          "Note: Items like the Cinder Beetle Shield that no longer possess a MAGIC tag cannot be disenchanted."
+        ]
+      },
+      {
+        "title": "Disenchanting Yields",
+        "lines": [
+          "Note: This table lists sample item yields and corresponding trivial requirements. It will be revised as more level-range data is gathered.",
+          "Disenchanting"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Disenchanting"
+  },
+  {
+    "name": "Enchanting",
+    "role": "Equipment Scrolls, Bars & Scraps",
+    "trainers": [
+      "Enchanter Haffiz, Wyrel"
+    ],
+    "location": "",
+    "tools": [],
+    "station": "Tome of Enchantment Enchanting Station",
+    "intro": [],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your journey as an enchanter, visit one of the city trainers:",
+          "Night Harbor: Enchanter Haffiz is located in the Spellbinders of the Spire, next to the Enchanting tool (a bright purple orb from afar).",
+          "Faelindral: Enchanter Wyrel is located above the Inn (go up the ramp, bear left, follow signs) and above Vaelyndir the Jewelcrafter, alongside Disenchanter Gwendyl.",
+          "Underdocks: Requella is in the blue lit building next to the bank in Western district.",
+          "Tome of Enchantment: Sold by Enchanting Supply vendors in cities.",
+          "Trainee's Tome of Enchantment: Granted to characters with the Enchanter minor non-combat trait.",
+          "Enchanting Station: Located near enchanting trainers in major cities.",
+          "Recommendation: It is highly recommended to train Disenchanting and acquire a Disenchanting Cube at the same time. Rare drops from Herbalism and Mining Nodes can be Disenchanted more efficiently than items with the Magic Tag, which tend to be rare drops and expensive to aquire."
+        ]
+      },
+      {
+        "title": "How Scrolls Work",
+        "lines": [
+          "Usage: Right-click a scroll to make your hands glow with light blue smoke, then click an item to enchant it (can be interrupted by jumping or moving).",
+          "Trading & Vendors: Enchanted armor retains its enchant when traded to other players. Selling to a vendor removes the enchant, though it does not affect vendor buy price.",
+          "Restrictions: Equipment can only hold one enchantment at a time (new enchants overwrite old ones).",
+          "Failure Rate: Non-enchanter classes face a chance of failure when crafting scrolls inside the Tome of Enchantment. Enchanter-class characters enjoy 100% success rates."
+        ]
+      },
+      {
+        "title": "Reagents Needed per Armor Slot",
+        "lines": [
+          "To enchant a full set of armor, you will need **108 Powder Reagents** and **15 Magic Reagents**."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Enchanting"
+  },
+  {
+    "name": "Farming",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Farming is one of the many tradeskills in Monsters & Memories."
+    ],
+    "sections": [],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Farming"
+  },
+  {
+    "name": "Fermenting",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Fermenting is one of the many tradeskills in Monsters & Memories."
+    ],
+    "sections": [],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Fermenting"
+  },
+  {
+    "name": "Fishing",
+    "role": "Catching Fish, Crabs & Reagents",
+    "trainers": [
+      "Fisherman Abduh, Fisherman Dren, Expert Fisherman"
+    ],
+    "location": "",
+    "tools": [
+      "Fishing Pole"
+    ],
+    "station": "",
+    "intro": [
+      "Fishing is one of the many tradeskills in Monsters & Memories. It allows players to harvest seafood and aquatic reagents from various bodies of water across the world. Fishing pairs exceptionally well with Cooking, allowing you to turn your catches into substantial meals (e.g., combining Whitefish with Butter to make Pan Fried Whitefish, which lasts considerably longer than standard rations)."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your angling adventures, you will need to acquire a pole and learn the skill from a trainer."
+        ]
+      },
+      {
+        "title": "Equipment & Training",
+        "lines": [
+          "Purchase a Pole: Travel to a fisherman (Night Harbor) or a fisherman (Faelindral) or Fishmonger Lyla (Underdocks, north side) to purchase a Fishing Pole for a modest fee. This item is mandatory to start fishing.",
+          "Equip the Pole: Open your inventory and place the Fishing Pole into your main weapon slot. Because it is a two-handed weapon, you must unequip your shield first.",
+          "Prepare Bait (Optional): Return to Fishing Supplies and buy some grubs to use as bait. You can also find grubs with the Forage skill."
+        ]
+      },
+      {
+        "title": "How to Fish",
+        "lines": [
+          "Drag the Fishing skill icon from your Ability Book onto an empty slot in your hotbar.",
+          "Get close to any riverbank, lake shore, or coastal spot. (Note: Alongside the river in Evershade Weald will not work and returns \"You cannot fish here\").",
+          "Press the hotbar key assigned to Fishing to cast your line.",
+          "You don't need to perform any action to retrieve the line or the fish—everything is automatic!",
+          "Beta Insights & Skilling Up (Aug/Sep 2026):",
+          "Baitless Fishing: You can fish without bait, though you will see a warning message. You can successfully catch Whitefish commonly (and Basa less commonly) without bait starting at a Fishing skill of 50.",
+          "Multi-Skillups: You can skill-up immediately upon casting your reel, and can receive multiple skill-ups during a single cast (up to 3 observed).",
+          "Leveling: It is suspected you can skill up to max level anywhere, but it slows down significantly at higher levels. (Confirmed baitless skillups all the way to level 91+)."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Fishing"
+  },
+  {
+    "name": "Fletching",
+    "role": "Arrows, Bows & Wooden Shields",
+    "trainers": [],
+    "location": "Major Cities",
+    "tools": [
+      "Fletching Kit"
+    ],
+    "station": "Fletching Table",
+    "intro": [
+      "Fletching is one of the many tradeskills in Monsters & Memories. It focuses on the creation of ranged ammunition, bows, and lightweight wooden shields."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin creating items, visit a Fletching Supplies merchant to purchase a Fletching Kit.",
+          "To craft on the go, equip your Fletching Kit into one of your main bag slots, place your supplies inside the bag, and press the Combine button. A stationary Fletching Table is located in each major city, allowing for bulk combines and more complex fletching recipes that exceed the slot limits of the portable kit."
+        ]
+      },
+      {
+        "title": "Ingredient Preparation",
+        "lines": [
+          "🪵 WOOD PROCESSING & BOARDS",
+          "Click to Expand/Collapse",
+          "Raw wood logs harvested through foraging or purchased from suppliers must be processed into boards before crafting bows, shields, or advanced weaponry."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Fletching"
+  },
+  {
+    "name": "Herbalism",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Herbalism is one of the many tradeskills in Monsters & Memories.",
+      "Herbs collected from herbalism are used by Alchemists to brew powerful potions."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Herbalism Trainer is located in the Sojourner's Camp in Night Harbor.",
+          "Herbalist Jedesha is located in Western district in Underdocks.",
+          "By equipping a Sickle into the player's PRIMARY slot, a herbalist may gather various herbalism nodes."
+        ]
+      },
+      {
+        "title": "Notes",
+        "lines": [
+          "Early leveling from 1 - 25 can be done by harvesting Lionleaf and Ghost Poppy in Night Harbor outside of North Gate and West Gate.",
+          "The next tier of leveling can be done by harvesting Ironroot, Nomad's Grace, and Whispering Sage in Shaded Dunes, in the Ashira Oasis behind the sand wall illusion.",
+          "Note that the Stygian Moss and Shadeshroom have been added today (21/04/2026) and the only info is that they are \"mid tier herbs\". NEED MORE INFOS -Braum",
+          "Herbalism"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Herbalism"
+  },
+  {
+    "name": "Jewelcrafting",
+    "role": "Rings, Earrings, Necklaces & Gems",
+    "trainers": [
+      "Vaelyndir the Jewelcrafter, Sorgen Stoneshiner"
+    ],
+    "location": "",
+    "tools": [
+      "Jewelcrafting Kit"
+    ],
+    "station": "",
+    "intro": [],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your journey as a jewelcrafter, visit one of the city trainers:",
+          "Night Harbor: Locate the jewelcrafting trainer to acquire the skill, then purchase your Jewelcrafting Kit from a jewelcrafter in the Night Market.",
+          "Faelindral: Find Vaelyndir the Jewelcrafter alongside Enchanter Wyrel and Disenchanter Gwendyl up above the Inn (go up the ramp from the Inn, bear left, follow signs). All related suppliers are located nearby.",
+          "Underdocks Find Sorgen Stoneshiner at Forge Row in one of the lower terraces of the citadel.",
+          "Jewelcrafting Kit: The portable container used for basic combines. Sold by jewelcrafting vendors.",
+          "Trainee's Jewelcrafting Kit: Granted to characters with the Jewelcrafting minor non-combat trait.",
+          "Anvil: A stationary world object required to craft Chain Links using Smithing Pliers.",
+          "Quick Start Note: If you chose to start with the minor non-combat trait for jewelcrafting during character creation, you do not need to locate these NPCs—you are ready to craft immediately!"
+        ]
+      },
+      {
+        "title": "Jewelcrafting Materials & Components",
+        "lines": [
+          "Rule of Thumb: A standard 5-piece jewelry set typically requires 11 regular metal bars, 6 enchanted bars, and 5 gems. Use the tabs below to view component breakdowns, metal tiers, and gem tables.",
+          "Warning: The trivial levels below need significant updating. As a general rule of thumb, rings are easier than earrings which are easier than necklaces.",
+          "Jewelcrafting"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Jewelcrafting"
+  },
+  {
+    "name": "Leatherworking",
+    "role": "Leather Armor, Containers & Mount Gear",
+    "trainers": [
+      "Leatherworker Haiat, Leatherworker Keiros"
+    ],
+    "location": "Night Harbor (The Tannery), Underdocks",
+    "tools": [
+      "Leatherworking Kit",
+      "Seam Ripper"
+    ],
+    "station": "Leatherworking Station",
+    "intro": [
+      "Leatherworking is one of the many tradeskills in Monsters & Memories. It generally relies upon resources dropped by mobs or harvested from the world. Several recipes will also require components crafted by Tanning, Tailoring, and Enchanting."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your journey as a leatherworker, seek out the leatherworking trainers in the city:",
+          "Trainers: Leatherworker Haiat in Night Harbor (the tannery). Leatherworker Keiros in Underdocks (citadel district, east side).",
+          "Vendors: Next to them are generic leatherworker NPCs who sell optional items and will buy your excess leather armor, hides, and thread.",
+          "Leatherworking Kit: The portable container used for basic combines (holds up to 6 items). Sold by leatherworker vendors.",
+          "Trainee's Leatherworking Kit: Granted to characters with the Leatherworking minor non-combat trait.",
+          "Seam Ripper: Used to break down dropped armor into scraps.",
+          "Leatherworking Station: A stationary world object required to craft advanced recipes that use more than 6 ingredients."
+        ]
+      },
+      {
+        "title": "Learning Leatherworking",
+        "lines": [
+          "You can find the Leatherworking Trainer to learn the skill, or purchase a Leatherworking Kit and begin combining items to increase your skill naturally.",
+          "Progression Tip: It is highly recommended to purchase a Seam Ripper. When combined with Tattered Rawhide armor in your kit, it produces Rawhide Scraps. This process continues into higher-level leather armors and is an excellent way to acquire extra materials for leveling up."
+        ]
+      },
+      {
+        "title": "General Leatherworking Notes",
+        "lines": [
+          "Upgrading Armor: During your adventures, you will kill undead and humanoid targets that drop Rawhide Scraps or Tattered Rawhide armor. You can upgrade these by combining the tattered armor with scraps in your kit to produce Patched Rawhide armor.",
+          "Inventory Management: Breaking down armor into scraps is a great way to 'consolidate' loot while your group is holding a camp far away from vendors, as individual scraps are much lighter than armor pieces.",
+          "Vendor Value: Patched Rawhide armor sells to vendors for significantly more than Tattered Rawhide armor, making this a good source of early income.",
+          "Synergy: Leatherworking has great synergy with Blacksmithing, Tailoring, and Tanning.",
+          "Farming Spots: Tomb of the Last Wyrmsbane (near Nightharbor) and Ashira camps are great places for rawhide. On the Faelindral side, Blacktide Bay is excellent.",
+          "Note on Bags: Saddlebags CANNOT be used as bank bags."
+        ]
+      },
+      {
+        "title": "Dropped Tattered Leather Sets",
+        "lines": [
+          "Humanoid mobs will occasionally drop level-equivalent raw tattered leather armor items. These items can be equipped as a quick temporary armor boost, refurbished through Leatherworking, or broken down into raw materials.",
+          "List of dropped leather sets used as tradeskill materials:",
+          "Tattered Rawhide",
+          "Tattered Hide",
+          "Tattered Leather",
+          "Tattered Padded Leather",
+          "Tattered Thick Leather"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Leatherworking"
+  },
+  {
+    "name": "Lumberjacking",
+    "role": "Harvesting Wood & Resin",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "Wood Piles",
+    "intro": [
+      "Lumberjacking is one of the many tradeskills in Monsters & Memories. It serves as a primary gathering profession, allowing players to harvest raw wood and resin from nodes found throughout the forested areas of the world. Materials gathered are commonly refined by Woodworking to be used in Carpentry or Fletching."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin lumberjacking, you must acquire and equip a Lumberjack Axe.",
+          "Once equipped, locate a wood pile—these nodes are often found scattered next to trees in the wilderness. Simply right-click on the wood pile to begin harvesting. Successfully harvesting a node will yield Wood and other materials based on the tier of the node."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Lumberjacking"
+  },
+  {
+    "name": "Masonry",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Masonry is one of the many tradeskills in Monsters & Memories."
+    ],
+    "sections": [],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Masonry"
+  },
+  {
+    "name": "Mining",
+    "role": "Harvesting Ores, Stones & Gems",
+    "trainers": [
+      "Jull Orbel, Miner Falmud"
+    ],
+    "location": "Night Harbor (Sojourner's Camp), Underdocks (Overreach)",
+    "tools": [
+      "Mining Pick"
+    ],
+    "station": "Mineral Veins",
+    "intro": [
+      "Mining is one of the many tradeskills in Monsters & Memories. It serves as a primary gathering profession, allowing players to harvest raw metal ores, stones, and precious gems from mineral veins found throughout the world. Materials gathered are commonly refined by Smelting to be used in Blacksmithing or Jewelcrafting."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your career as a miner, you must acquire the necessary tools and training.",
+          "Trainers: Miner Falmud is located in the Sojourner's Camp in Night Harbor. Jull Orbel is located in the Underdocks, in the Overreach area just east of the elevators.",
+          "Vendor & Tools: Next to Falmud is a miner who sells the required Mining Pick and the optional Mining Pouch. This vendor will also buy all your excess ores, stones, and gems. You can also buy a mining pick near the blacksmith trainer in the Underdocks.",
+          "How to Mine: Equip or carry your Mining Pick, locate a mineral vein out in the world, and right-click on the node to begin harvesting.",
+          "Leveling Tip: The hardest part of the early mining grind is graduating from Copper! To find early skill-ups, look for nodes at the West Gate (Night Harbor) and along the cliffs in the Shaded Dunes."
+        ]
+      },
+      {
+        "title": "Mineral Veins & Locations",
+        "lines": [
+          "Mining"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Mining"
+  },
+  {
+    "name": "Navigation",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Navigation is a potential tradeskill in Monsters & Memories.",
+      "There are no implementation specifics for this skill as of May 2026. (Source)"
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Navigation can be trained in Night Harbor.",
+          "Navigation"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Navigation"
+  },
+  {
+    "name": "Poison Making",
+    "role": "Weapon Toxins & Extracts",
+    "trainers": [],
+    "location": "",
+    "tools": [
+      "Poison Making Kit"
+    ],
+    "station": "",
+    "intro": [
+      "Poison Making is one of the many tradeskills in Monsters & Memories, but is strictly restricted to Rogue characters. It allows rogues to extract toxins from venom glands and brew lethal poisons to apply to their weapons."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Poison Making can be learned from a rogue class trainer or by selecting the Poison Making trait in the character build window.",
+          "Training Note: Poison Making can be learned at level 1, however, the first recipe requirement begins at level 4.",
+          "Required Tools & Vendors:",
+          "Poison Making Kit: Sold by a poison maker. The kit features 4 slots for crafting ingredients.",
+          "Trainee's Poison Making Kit: Granted to characters with the Poison Making minor non-combat trait.",
+          "Crafting: Once you learn a recipe, poisons are crafted inside your Poison Making Kit and can then be applied directly to your weapons. Some recipes must be purchased from vendors, while others are discovered like traditional tradeskills."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Poison_Making"
+  },
+  {
+    "name": "Pottery",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Pottery is a potential tradeskill in Monsters & Memories.",
+      "There are no implementation specifics for this skill as of May 2026. (Source)"
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Pottery"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Pottery"
+  },
+  {
+    "name": "Riding",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Riding is one of the many tradeskills in Monsters & Memories.",
+      "Any player can train the Riding skill starting at level 15."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Rider Ebraim is a riding trainer located in the Sojourner's Camp in Night Harbor. Next to him is a rider which sells basic rigging. Also nearby is a stablemaster who sells various mounts and pack animals.",
+          "Jorel Farstride is the riding trainer in the Overreach of the Underdocks."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Riding"
+  },
+  {
+    "name": "Skinning",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Skinning is one of the many tradeskills in Monsters & Memories."
+    ],
+    "sections": [],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Skinning"
+  },
+  {
+    "name": "Smelting",
+    "role": "Metal Refining & Alloys",
+    "trainers": [
+      "Smelter Jadid, Jedara Kilnwright"
+    ],
+    "location": "Night Harbor (Night Market), Underdocks (Forge Row)",
+    "tools": [
+      "Ingot Molds"
+    ],
+    "station": "Forge",
+    "intro": [
+      "Smelting is one of the many tradeskills in Monsters & Memories. It is the foundational process of refining raw ores mined from the earth—or recycling metal scraps—into usable metal bars for Blacksmithing, Jewelcrafting, and other crafts."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your career as a smelter, you must acquire the necessary molds and find a workstation.",
+          "Trainer & Vendor: Smelter Jadid, the smelting trainer, is located in the Night Market in Night Harbor. Next to him is a smelter, a vendor who sells the various molds required for crafting.",
+          "Workstation: Visit a Forge to begin. Forges can be found in the Night Market and scattered around the city.",
+          "How to Craft: Left-click the Forge to open the crafting window, place your raw materials and mold into the slots, and press the Combine button."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Smelting"
+  },
+  {
+    "name": "Spellcrafting",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Spellcrafting is one of the many tradeskills in Monsters & Memories."
+    ],
+    "sections": [],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Spellcrafting"
+  },
+  {
+    "name": "Spinning",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Spinning is one of the many tradeskills in Monsters & Memories."
+    ],
+    "sections": [],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Spinning"
+  },
+  {
+    "name": "Spycraft",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Spycraft is a potential tradeskill in Monsters & Memories.",
+      "There are no implementation specifics for this skill as of May 2026. (Source)"
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "These are the NPCs who train Spycraft:",
+          "Night Harbor",
+          "Spycraft Trainer located underneath the Bard Guild stage."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Spycraft"
+  },
+  {
+    "name": "Stone Cutting",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Stone Cutting is one of the many tradeskills in Monsters & Memories.",
+      "In Night Harbor, the trainer is Stonecutter Sodunn."
+    ],
+    "sections": [],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Stone_Cutting"
+  },
+  {
+    "name": "Survival",
+    "role": "Bandages, Torches & Campfires",
+    "trainers": [
+      "Survival Trainers & Merchants"
+    ],
+    "location": "",
+    "tools": [
+      "Crafting: Survival (Ability)"
+    ],
+    "station": "",
+    "intro": [
+      "Survival is one of the many tradeskills in Monsters & Memories. It is an essential utility skill that allows adventurers to craft bandages for healing, torches for light, and campfires for cooking and resting in the wilderness."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Unlike tradeskills that require a specific physical crafting bench, Survival crafting is accessed directly through your character's innate abilities.",
+          "Trainers & Vendors: Survival merchants and trainers can be found across from the Sageside bank and on the north wall of the Sojourner Camp in Night Harbor.",
+          "Crafting Items: Open your Ability Book, navigate to the Skills section, and click Crafting: Survival. Cast this ability to open the creation menu and begin crafting items.",
+          "Building a Campfire: To build a campfire, open your Ability Book under skills and drag the \"Campfire\" icon to your hotbar. Ensure you have at least 8 Wood (and optionally Resin) in your inventory, then click the hotkey to deploy it. Campfires can be used for cooking raw meats, and their duration can be extended by adding more wood directly to the fire!"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Survival"
+  },
+  {
+    "name": "Tailoring",
+    "role": "Cloth Armor, Bags & Components",
+    "trainers": [
+      "Noura the Tailor, Flerri Dawntender, Yasmin Selvar"
+    ],
+    "location": "Night Harbor, Evershade Weald, Underdocks",
+    "tools": [
+      "Tailoring Kit",
+      "Seam Ripper"
+    ],
+    "station": "Loom",
+    "intro": [
+      "Tailoring is one of the many tradeskills in Monsters & Memories. It generally relies upon resources dropped by mobs or harvested from the world. Several recipes will also require components crafted by Blacksmithing."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your journey as a tailor, seek out the tailoring trainers:"
+        ]
+      },
+      {
+        "title": "Learning Tailoring",
+        "lines": [
+          "You can find the Tailoring Trainer to learn the skill, or purchase a Tailoring Kit and begin combining items to increase your skill naturally.",
+          "Progression Tip: It is highly recommended to find a Tailoring Vendor such as Master Tailor Sansha and purchase a Seam Ripper. When combined with Tattered Cloth armor in your kit, it produces Cloth Scraps. This process continues into higher-level cloth armors and is an excellent way to acquire extra materials for leveling up."
+        ]
+      },
+      {
+        "title": "General Tailoring Notes",
+        "lines": [
+          "Upgrading Armor: During your adventures, you will kill targets that drop Cloth Scraps or Tattered Cloth armor. You can upgrade these by combining the tattered armor with scraps in your kit to produce Patched Cloth armor.",
+          "Inventory Management: Breaking down armor into scraps is a great way to 'consolidate' loot while your group is holding a camp far away from vendors, as individual scraps are much lighter than armor pieces.",
+          "Vendor Value: Patched cloth armor sells to vendors for significantly more than tattered cloth armor, making this a good potential source of early income.",
+          "Synergy: Tailoring has good synergy with Leatherworking. The Seam Ripper can be used to break down leather armor in a Leatherworking Kit. Tailoring products are also required as an input to the next higher tier of leather armor.",
+          "Self-Sufficiency: You can get to the point where you are crafting armor for your group in the field just from the items that you are picking up from dead enemies.",
+          "Farming Spots: Tomb of the Last Wyrmsbane is a great place for cloth as well as Ashira camps."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Tailoring"
+  },
+  {
+    "name": "Tanning",
+    "role": "Pelt Refining & Canvas",
+    "trainers": [
+      "Tanner Burhan"
+    ],
+    "location": "",
+    "tools": [],
+    "station": "Tanning Bucket",
+    "intro": [
+      "Tanning is one of the many tradeskills in Monsters & Memories. It is a refinement profession utilized to convert raw animal pelts into usable canvas materials for the Leatherworking tradeskill."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "To begin your work as a tanner, seek out the trainer and gather your raw pelts to refine at a tanning bucket.",
+          "Trainers: Tanner Burhan, the tanning trainer, is located in the Tannery in Night Harbor. Tanner Paluvian is below the citadel, east side, in Underdocks.",
+          "Vendors: Next to Burhan is a tanner, a merchant who will buy all of your excess hides, leather, and thread.",
+          "Crafting Tip: When converting pelts into canvas, you must place them into the Tanning Bucket one at a time before pressing craft. The output quantity of canvas is based on the quality of the pelt. Note that obtaining these pelts directly from beasts currently does not require a specialized skinning skill!"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Tanning"
+  },
+  {
+    "name": "Tinkering",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Tinkering is one of the many tradeskills in Monsters & Memories.",
+      "In Night Harbor, the trainer is Tinkerer Boltia."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Visit the Tinkerer Vilsis in the stone building between the Sojourner's camp and the Leatherworking area in Night Harbor to buy a Tinkering Tookit.",
+          "To create items, open the Tinkering Tookit and click the hammer icon on the right to open the recipes menu. The bag must be empty to create items with the recipe menu.",
+          "As of 0.25.0.1, Tinkering is only used in creating Archer traps."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Tinkering"
+  },
+  {
+    "name": "Wagoneering",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Wagoneering is one of the many tradeskills in Monsters & Memories."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Wagoneering Trainer is located under the arcades next to the West Gate bank in Night Harbor. Cartalia Wain is the wagoneering trainer in Underdocks, on the north side below the citadel."
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Wagoneering"
+  },
+  {
+    "name": "Wilderness",
+    "role": "",
+    "trainers": [],
+    "location": "",
+    "tools": [],
+    "station": "",
+    "intro": [
+      "Wilderness is a potential tradeskill in Monsters & Memories.",
+      "There are no implementation specifics for this skill as of May 2026. (Source)"
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Outdoorsman Gahira is the wilderness trainer is located in the Sojourner's Camp in Night Harbor. Next to her is an outdoorsman which may sell the required items to use the skill.",
+          "Wilderness"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Wilderness"
+  },
+  {
+    "name": "Woodworking",
+    "role": "Lumber Refining & Boards",
+    "trainers": [],
+    "location": "Night Harbor (Shipyard)",
+    "tools": [],
+    "station": "Sawmill",
+    "intro": [
+      "Woodworking is one of the many tradeskills in Monsters & Memories. It refines raw lumber gathered via the Lumberjacking skill into usable boards and components required for Carpentry."
+    ],
+    "sections": [
+      {
+        "title": "Getting Started",
+        "lines": [
+          "Unlike many other tradeskills, Woodworking has no traditional trainer; instead, it relies entirely on the use of stationary world workstations called **Sawmills**.",
+          "Night Harbor Location: The sawmill is located at the shipyard, situated directly in front of the forge and Carpenter Quais."
+        ]
+      },
+      {
+        "title": "Skill Progression & Trivial Scale",
+        "lines": [
+          "Progression Note: Elder Wood Panel Board, Ironbark Board, and Wood Board all share identical trivial progressions across skill levels:",
+          "Yellow at Woodworking 1",
+          "White at Woodworking 4",
+          "Dark Blue at Woodworking 11",
+          "Light Blue at Woodworking 18",
+          "Green (Trivial) at Woodworking 25"
+        ]
+      },
+      {
+        "title": "Refined Boards & Panels",
+        "lines": [
+          "Woodworking"
+        ]
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Skill_Woodworking"
+  }
+]

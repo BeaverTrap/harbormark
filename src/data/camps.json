@@ -1,0 +1,6468 @@
+{
+  "Tattered Cloth Gorget": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeleton",
+      "zone": "Ail'Vorith",
+      "min": 4,
+      "max": 6
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal deacon",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A skeletal cavalier",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 10
+    }
+  ],
+  "Tattered Rawhide Bracer": [
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal deacon",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A Deepcut overseer",
+      "zone": "Underdocks",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A Fellstone ragecaller",
+      "zone": "Evershade Weald",
+      "min": 9,
+      "max": 11
+    }
+  ],
+  "Rusty Scimitar": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A goblin troublemaker",
+      "zone": "Night Harbor",
+      "min": 9,
+      "max": 9
+    }
+  ],
+  "Rusty Axe": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    }
+  ],
+  "Rusty Battle Axe": [
+    {
+      "npc": "A dryad fawn",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal deacon",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    }
+  ],
+  "Rusty Dagger": [
+    {
+      "npc": "A smuggler",
+      "zone": "Shaded Dunes",
+      "min": null,
+      "max": null
+    }
+  ],
+  "Rusty Great Scythe": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A skeletal monk",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 8,
+      "max": 10
+    },
+    {
+      "npc": "A hired thug",
+      "zone": "Sungreet Strand",
+      "min": 9,
+      "max": 9
+    },
+    {
+      "npc": "A bandit",
+      "zone": "Shaded Dunes",
+      "min": 10,
+      "max": 10
+    }
+  ],
+  "Rusty Mace": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A Fellstone ragecaller",
+      "zone": "Evershade Weald",
+      "min": 9,
+      "max": 11
+    },
+    {
+      "npc": "A Fellstone shaman",
+      "zone": "Evershade Weald",
+      "min": 9,
+      "max": 11
+    }
+  ],
+  "Rusty Maul": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "Rhakar Vexfang",
+      "zone": "Sungreet Strand",
+      "min": 5,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal deacon",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A skeletal cavalier",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 10
+    }
+  ],
+  "Rusty Scythe": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A skeletal monk",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 8,
+      "max": 10
+    },
+    {
+      "npc": "A hired thug",
+      "zone": "Sungreet Strand",
+      "min": 9,
+      "max": 9
+    }
+  ],
+  "Rusty Spear": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A Fellstone tracker",
+      "zone": "Evershade Weald",
+      "min": 8,
+      "max": 10
+    },
+    {
+      "npc": "A hired thug",
+      "zone": "Sungreet Strand",
+      "min": 9,
+      "max": 9
+    },
+    {
+      "npc": "A bandit",
+      "zone": "Shaded Dunes",
+      "min": 10,
+      "max": 10
+    }
+  ],
+  "Rusty Trident": [
+    {
+      "npc": "A dryad fawn",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    }
+  ],
+  "Rusty Warhammer": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A Fellstone tracker",
+      "zone": "Evershade Weald",
+      "min": 8,
+      "max": 10
+    },
+    {
+      "npc": "A skeletal monk",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 8,
+      "max": 10
+    }
+  ],
+  "Tattered Rawhide Gorget": [
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "An ashira raider",
+      "zone": "Shaded Dunes",
+      "min": 5,
+      "max": 7
+    },
+    {
+      "npc": "A Deepcut overseer",
+      "zone": "Underdocks",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A skeletal monk",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 8,
+      "max": 10
+    },
+    {
+      "npc": "A hired thug",
+      "zone": "Sungreet Strand",
+      "min": 9,
+      "max": 9
+    }
+  ],
+  "Tattered Rawhide Boots": [
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A Deepcut overseer",
+      "zone": "Underdocks",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A skeletal cavalier",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 10
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A Fellstone tracker",
+      "zone": "Evershade Weald",
+      "min": 8,
+      "max": 10
+    }
+  ],
+  "Tattered Cloth Gloves": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal deacon",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A Deepcut overseer",
+      "zone": "Underdocks",
+      "min": 5,
+      "max": 6
+    }
+  ],
+  "Tattered Rawhide Shoulderpads": [
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A Deepcut overseer",
+      "zone": "Underdocks",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A goblin troublemaker",
+      "zone": "Night Harbor",
+      "min": 9,
+      "max": 9
+    }
+  ],
+  "Tattered Rawhide Belt": [
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal cavalier",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 10
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A skeletal monk",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 8,
+      "max": 10
+    }
+  ],
+  "Tattered Rawhide Mask": [
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal deacon",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A Deepcut overseer",
+      "zone": "Underdocks",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A grave robber",
+      "zone": "Night Harbor",
+      "min": 6,
+      "max": 6
+    },
+    {
+      "npc": "A skeletal cavalier",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 10
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "Snar the Egg Collector",
+      "zone": "Night Harbor",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "Tattered Rawhide Cloak": [
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal deacon",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A Deepcut overseer",
+      "zone": "Underdocks",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A skeletal cavalier",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 10
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    }
+  ],
+  "Tattered Rawhide Gloves": [
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeleton",
+      "zone": "Ail'Vorith",
+      "min": 4,
+      "max": 6
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal cavalier",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 10
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A skeletal monk",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 8,
+      "max": 10
+    }
+  ],
+  "Tattered Rawhide Cap": [
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "Rhakar Vexfang",
+      "zone": "Sungreet Strand",
+      "min": 5,
+      "max": 5
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A Fellstone tracker",
+      "zone": "Evershade Weald",
+      "min": 8,
+      "max": 10
+    },
+    {
+      "npc": "A goblin troublemaker",
+      "zone": "Night Harbor",
+      "min": 9,
+      "max": 9
+    }
+  ],
+  "Tattered Rawhide Tunic": [
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "An ashira raider",
+      "zone": "Shaded Dunes",
+      "min": 5,
+      "max": 7
+    },
+    {
+      "npc": "Rhakar Vexfang",
+      "zone": "Sungreet Strand",
+      "min": 5,
+      "max": 5
+    },
+    {
+      "npc": "A Deepcut overseer",
+      "zone": "Underdocks",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    }
+  ],
+  "Tattered Rawhide Leggings": [
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    },
+    {
+      "npc": "A skeletal monk",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 8,
+      "max": 10
+    },
+    {
+      "npc": "A goblin troublemaker",
+      "zone": "Night Harbor",
+      "min": 9,
+      "max": 9
+    },
+    {
+      "npc": "A hired thug",
+      "zone": "Sungreet Strand",
+      "min": 9,
+      "max": 9
+    }
+  ],
+  "Tattered Cloth Belt": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal cavalier",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 10
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    }
+  ],
+  "Tattered Cloth Mantle": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal priest",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 8
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    }
+  ],
+  "Tattered Cloth Pantaloons": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal cavalier",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 10
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    }
+  ],
+  "Tattered Cloth Boots": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "Scout Leader Krindor",
+      "zone": "Evershade Weald",
+      "min": 6,
+      "max": 6
+    },
+    {
+      "npc": "A risen zombie",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 7,
+      "max": 11
+    },
+    {
+      "npc": "A greater shadowbone",
+      "zone": "Underdocks",
+      "min": 7,
+      "max": 9
+    }
+  ],
+  "Tattered Cloth Robe": [
+    {
+      "npc": "A dryad fawn",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A Deepcut overseer",
+      "zone": "Underdocks",
+      "min": 5,
+      "max": 6
+    }
+  ],
+  "Tattered Cloth Cape": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "An ashira raider",
+      "zone": "Shaded Dunes",
+      "min": 5,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal deacon",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 5,
+      "max": 6
+    }
+  ],
+  "Tattered Cloth Bracer": [
+    {
+      "npc": "A dryad fawn",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "Rhakar Vexfang",
+      "zone": "Sungreet Strand",
+      "min": 5,
+      "max": 5
+    }
+  ],
+  "Tattered Cloth Cap": [
+    {
+      "npc": "A dryad fawn",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal cavalier",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 6,
+      "max": 10
+    }
+  ],
+  "Tattered Cloth Veil": [
+    {
+      "npc": "A dryad fawn",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "Rhakar Vexfang",
+      "zone": "Sungreet Strand",
+      "min": 5,
+      "max": 5
+    }
+  ],
+  "Tattered Cloth Tunic": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal deacon",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A Deepcut overseer",
+      "zone": "Underdocks",
+      "min": 5,
+      "max": 6
+    }
+  ],
+  "Corroded Bronze Plate Bracer": [
+    {
+      "npc": "A skeletal guard",
+      "zone": "Ancient Crypt",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Corroded Bronze Scimitar": [
+    {
+      "npc": "A skeletal guard",
+      "zone": "Ancient Crypt",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "npc": "A Bloodynose frightener",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "npc": "A Bloodynose witch doctor",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A ghastly cook",
+      "zone": "Ancient Crypt",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    }
+  ],
+  "Corroded Bronze Spear": [
+    {
+      "npc": "A Bloodynose spooker",
+      "zone": "Tel Ekir",
+      "min": 13,
+      "max": 14
+    },
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose sergeant",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A fallen sentinel",
+      "zone": "Ancient Crypt",
+      "min": 19,
+      "max": 19
+    }
+  ],
+  "Tattered Wool Robe": [
+    {
+      "npc": "A skeletal guard",
+      "zone": "Ancient Crypt",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose frightener",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "npc": "A ghastly cook",
+      "zone": "Ancient Crypt",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "A skeletal acolyte",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "Taskmaster Gitch",
+      "zone": "Sungreet Strand",
+      "min": 18,
+      "max": 18
+    },
+    {
+      "npc": "A fallen sentinel",
+      "zone": "Ancient Crypt",
+      "min": 19,
+      "max": 19
+    }
+  ],
+  "Tattered Hide Mask": [
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose sergeant",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide bowman",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    },
+    {
+      "npc": "A Blacktide brute",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Corroded Bronze Chain Gorget": [
+    {
+      "npc": "A Bloodynose schemer",
+      "zone": "Tel Ekir",
+      "min": 13,
+      "max": 15
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A dusty skeleton",
+      "zone": "Fallen Pass",
+      "min": null,
+      "max": null
+    },
+    {
+      "npc": "A failed adventurer",
+      "zone": "Fallen Pass",
+      "min": null,
+      "max": null
+    }
+  ],
+  "Corroded Bronze Mace": [
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose sergeant",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A skeletal acolyte",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Corroded Bronze Plate Visor": [
+    {
+      "npc": "A skeletal guard",
+      "zone": "Ancient Crypt",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide brute",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Corroded Bronze Plate Girdle": [
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose sergeant",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A Blacktide brute",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide cleric",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    }
+  ],
+  "Corroded Bronze Plate Helm": [
+    {
+      "npc": "A ghastly cook",
+      "zone": "Ancient Crypt",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide raider",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Bloodchain sentry",
+      "zone": "Blacktide Bay",
+      "min": null,
+      "max": null
+    },
+    {
+      "npc": "A dusty skeleton",
+      "zone": "Fallen Pass",
+      "min": null,
+      "max": null
+    }
+  ],
+  "Rusty Iron Plate Cloak": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A ghostly cleric",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A skeletal worker",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A cultist acolyte",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A craven cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    }
+  ],
+  "Corroded Bronze Plate Pauldrons": [
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A Blacktide brute",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide guard",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    }
+  ],
+  "Corroded Bronze Plate Cloak": [
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide guard",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    }
+  ],
+  "Corroded Bronze Plate Boots": [
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A fallen sentinel",
+      "zone": "Ancient Crypt",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A Blacktide brute",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Corroded Bronze Plate Gauntlets": [
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "Crafty Rufkas",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A loyal protector",
+      "zone": "Night Harbor",
+      "min": 18,
+      "max": 18
+    },
+    {
+      "npc": "A fallen sentinel",
+      "zone": "Ancient Crypt",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Corroded Bronze Plate Greaves": [
+    {
+      "npc": "A skeletal guard",
+      "zone": "Ancient Crypt",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide guard",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    },
+    {
+      "npc": "A dusty skeleton",
+      "zone": "Fallen Pass",
+      "min": null,
+      "max": null
+    },
+    {
+      "npc": "A rat-chewed cleric",
+      "zone": "Fallen Pass",
+      "min": null,
+      "max": null
+    }
+  ],
+  "Corroded Bronze Plate Breastplate": [
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "High Marshal Fionna",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide raider",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Corroded Bronze Plate Collar": [
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose sergeant",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide guard",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    }
+  ],
+  "Corroded Bronze Scythe": [
+    {
+      "npc": "A Bloodynose frightener",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A loyal protector",
+      "zone": "Night Harbor",
+      "min": 18,
+      "max": 18
+    },
+    {
+      "npc": "A fallen sentinel",
+      "zone": "Ancient Crypt",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Corroded Bronze Great Scythe": [
+    {
+      "npc": "A ghastly cook",
+      "zone": "Ancient Crypt",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "A Bloodynose captain",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "A skeletal acolyte",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Corroded Bronze Dagger": [
+    {
+      "npc": "A skeletal guard",
+      "zone": "Ancient Crypt",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A ghastly cook",
+      "zone": "Ancient Crypt",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal acolyte",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A fallen sentinel",
+      "zone": "Ancient Crypt",
+      "min": 19,
+      "max": 19
+    }
+  ],
+  "Corroded Bronze Axe": [
+    {
+      "npc": "A Bloodynose schemer",
+      "zone": "Tel Ekir",
+      "min": 13,
+      "max": 15
+    },
+    {
+      "npc": "A ghastly cook",
+      "zone": "Ancient Crypt",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide bowman",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    },
+    {
+      "npc": "A Blacktide brute",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide guard",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    }
+  ],
+  "Corroded Bronze Battle Axe": [
+    {
+      "npc": "A skeletal guard",
+      "zone": "Ancient Crypt",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "npc": "A Bloodynose spooker",
+      "zone": "Tel Ekir",
+      "min": 13,
+      "max": 14
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal acolyte",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide guard",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    }
+  ],
+  "Corroded Bronze Warhammer": [
+    {
+      "npc": "A Bloodynose frightener",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "npc": "Vikar Brask",
+      "zone": "Night Harbor",
+      "min": 16,
+      "max": 17
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Corroded Bronze Maul": [
+    {
+      "npc": "A Bloodynose sergeant",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A Bloodynose voodooist",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A Blacktide acolyte",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    }
+  ],
+  "Corroded Bronze Trident": [
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose frightener",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "npc": "A Bloodynose sergeant",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A loyal protector",
+      "zone": "Night Harbor",
+      "min": 18,
+      "max": 18
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Tattered Hide Gloves": [
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide bowman",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    }
+  ],
+  "Rusty Iron Plate Greaves": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn knight",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 43
+    },
+    {
+      "npc": "A Witchguard serverat",
+      "zone": "Shallow Shoals",
+      "min": 39,
+      "max": 41
+    },
+    {
+      "npc": "High Priest of Muurtu",
+      "zone": "Shallow Shoals",
+      "min": 45,
+      "max": 45
+    },
+    {
+      "npc": "A Plagueborn watchman",
+      "zone": "Fallen Pass",
+      "min": null,
+      "max": null
+    },
+    {
+      "npc": "A smuggler",
+      "zone": "Fallen Pass",
+      "min": null,
+      "max": null
+    },
+    {
+      "npc": "A zombified rat",
+      "zone": "Fallen Watch",
+      "min": null,
+      "max": null
+    }
+  ],
+  "Corroded Bronze Chain Boots": [
+    {
+      "npc": "A skeletal guard",
+      "zone": "Ancient Crypt",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose sergeant",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A Blacktide guard",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    },
+    {
+      "npc": "A Blacktide raider",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Rusty Iron Plate Girdle": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A smuggler laborer",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Witchguard sacramir",
+      "zone": "Shallow Shoals",
+      "min": 39,
+      "max": 41
+    },
+    {
+      "npc": "A sand giant raider",
+      "zone": "Vale of Zintar",
+      "min": 45,
+      "max": 45
+    },
+    {
+      "npc": "A famished ghoul",
+      "zone": "Caves of Irem",
+      "min": null,
+      "max": null
+    },
+    {
+      "npc": "A marshaled",
+      "zone": "Caves of Irem",
+      "min": null,
+      "max": null
+    }
+  ],
+  "Rusty Iron Spear": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A druidic cultist",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A craven cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A devoted cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Claw enforcer",
+      "zone": "Night Harbor",
+      "min": 34,
+      "max": 36
+    }
+  ],
+  "Tattered Hide Cloak": [
+    {
+      "npc": "A skeletal guard",
+      "zone": "Ancient Crypt",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A loyal protector",
+      "zone": "Night Harbor",
+      "min": 18,
+      "max": 18
+    },
+    {
+      "npc": "A fallen sentinel",
+      "zone": "Ancient Crypt",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A rampaging wererat",
+      "zone": "Night Harbor",
+      "min": 20,
+      "max": 20
+    },
+    {
+      "npc": "A Blacktide guard",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    }
+  ],
+  "Tattered Wool Tunic": [
+    {
+      "npc": "A Bloodynose spooker",
+      "zone": "Tel Ekir",
+      "min": 13,
+      "max": 14
+    },
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose frightener",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "npc": "A Bloodynose captain",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "A skeletal acolyte",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    }
+  ],
+  "Tattered Wool Cape": [
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose frightener",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "npc": "A Bloodynose captain",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal acolyte",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A loyal protector",
+      "zone": "Night Harbor",
+      "min": 18,
+      "max": 18
+    }
+  ],
+  "Tattered Wool Bracer": [
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose frightener",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal acolyte",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A fallen sentinel",
+      "zone": "Ancient Crypt",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    }
+  ],
+  "Tattered Wool Gloves": [
+    {
+      "npc": "A Bloodynose frightener",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "npc": "A Bloodynose sergeant",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A ghastly cook",
+      "zone": "Ancient Crypt",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A fallen sentinel",
+      "zone": "Ancient Crypt",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    }
+  ],
+  "Corroded Bronze Chain Tunic": [
+    {
+      "npc": "Vile Will",
+      "zone": "Sungreet Strand",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A Bloodynose witch doctor",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A restless ghoul",
+      "zone": "Fallen Pass",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide brute",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 25
+    }
+  ],
+  "Rusty Iron Chain Gorget": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A smuggler laborer",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A roostguard giant",
+      "zone": "Caves of Irem",
+      "min": 39,
+      "max": 39
+    },
+    {
+      "npc": "A famished ghoul",
+      "zone": "Caves of Irem",
+      "min": null,
+      "max": null
+    },
+    {
+      "npc": "A ravenous ghoul",
+      "zone": "Caves of Irem",
+      "min": null,
+      "max": null
+    }
+  ],
+  "Rusty Iron Plate Gauntlets": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A craven cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Claw shafi",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "An enthralled explorer",
+      "zone": "Caves of Irem",
+      "min": 40,
+      "max": 40
+    }
+  ],
+  "Rusty Iron Maul": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A nefarious cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn scholar",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    }
+  ],
+  "Rusty Iron Chain Leggings": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A hired tracker",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A Claw enforcer",
+      "zone": "Night Harbor",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A crystallized skeleton",
+      "zone": "Glass Flats",
+      "min": 35,
+      "max": 39
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn knight",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 43
+    }
+  ],
+  "Tattered Leather Gloves": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A devoted cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Claw enforcer",
+      "zone": "Night Harbor",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn faithful",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 37
+    }
+  ],
+  "Tattered Leather Leggings": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher herbalist",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A druidic cultist",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    }
+  ],
+  "Tattered Leather Belt": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher herbalist",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend patroller",
+      "zone": "Vale of Zintar",
+      "min": 29,
+      "max": 31
+    },
+    {
+      "npc": "A ghostly cleric",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A smuggler laborer",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A craven cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    }
+  ],
+  "Rusty Iron Plate Bracer": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "Zakariah Shriki",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Claw shafi",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn faithful",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn knight",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 43
+    }
+  ],
+  "Rusty Iron Chain Mask": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A crystallized skeleton",
+      "zone": "Glass Flats",
+      "min": 35,
+      "max": 39
+    },
+    {
+      "npc": "A Claw henchman",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn faithful",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 37
+    },
+    {
+      "npc": "A Witchguard serverat",
+      "zone": "Shallow Shoals",
+      "min": 39,
+      "max": 41
+    }
+  ],
+  "Rusty Iron Plate Visor": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Claw shafi",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A grizzled smuggler",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn knight",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 43
+    },
+    {
+      "npc": "A roostguard giant",
+      "zone": "Caves of Irem",
+      "min": 39,
+      "max": 39
+    },
+    {
+      "npc": "A Witchguard sacramir",
+      "zone": "Shallow Shoals",
+      "min": 39,
+      "max": 41
+    }
+  ],
+  "Tattered Leather Cloak": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend patroller",
+      "zone": "Vale of Zintar",
+      "min": 29,
+      "max": 31
+    },
+    {
+      "npc": "A ghostly cleric",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A ghostly figure",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A druidic cultist",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A smuggler laborer",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A devoted cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    }
+  ],
+  "Rusty Iron Plate Collar": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn knight",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 43
+    },
+    {
+      "npc": "Seamas Growt",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 38
+    },
+    {
+      "npc": "A Witchguard serverat",
+      "zone": "Shallow Shoals",
+      "min": 39,
+      "max": 41
+    }
+  ],
+  "Rusty Iron Plate Helm": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A grizzled smuggler",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn knight",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 43
+    },
+    {
+      "npc": "A Witchguard serverat",
+      "zone": "Shallow Shoals",
+      "min": 39,
+      "max": 41
+    }
+  ],
+  "Rusty Iron Chain Coif": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A ghostly fighter",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A crystallized skeleton",
+      "zone": "Glass Flats",
+      "min": 35,
+      "max": 39
+    },
+    {
+      "npc": "A Claw henchman",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Claw shafi",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    }
+  ],
+  "Rusty Iron Chain Tunic": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Claw enforcer",
+      "zone": "Night Harbor",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    }
+  ],
+  "Rusty Iron Chain Boots": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn knight",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 43
+    },
+    {
+      "npc": "A treant",
+      "zone": "Glinting Hollow",
+      "min": 38,
+      "max": 38
+    },
+    {
+      "npc": "A Witchguard sacramir",
+      "zone": "Shallow Shoals",
+      "min": 39,
+      "max": 41
+    },
+    {
+      "npc": "A Plagueborn watchman",
+      "zone": "Fallen Pass",
+      "min": null,
+      "max": null
+    }
+  ],
+  "Tattered Wool Boots": [
+    {
+      "npc": "A skeletal guard",
+      "zone": "Ancient Crypt",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "npc": "Librarian Gallier",
+      "zone": "Ancient Crypt",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A loyal protector",
+      "zone": "Night Harbor",
+      "min": 18,
+      "max": 18
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    }
+  ],
+  "Tattered Wool Mantle": [
+    {
+      "npc": "A Bloodynose spooker",
+      "zone": "Tel Ekir",
+      "min": 13,
+      "max": 14
+    },
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose sergeant",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A Bloodynose captain",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "A skeletal acolyte",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A loyal protector",
+      "zone": "Night Harbor",
+      "min": 18,
+      "max": 18
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    }
+  ],
+  "Tattered Wool Veil": [
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose frightener",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "npc": "A Bloodynose sergeant",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "Crafty Rufkas",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A loyal protector",
+      "zone": "Night Harbor",
+      "min": 18,
+      "max": 18
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    }
+  ],
+  "Tattered Wool Belt": [
+    {
+      "npc": "A skeletal guard",
+      "zone": "Ancient Crypt",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal acolyte",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A loyal protector",
+      "zone": "Night Harbor",
+      "min": 18,
+      "max": 18
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    }
+  ],
+  "Tattered Wool Cap": [
+    {
+      "npc": "A skeletal guard",
+      "zone": "Ancient Crypt",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "npc": "A Bloodynose voodooist",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "npc": "A Bloodynose witch doctor",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal acolyte",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    }
+  ],
+  "Tattered Wool Gorget": [
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose captain",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A Muggrah raider",
+      "zone": "Glass Flats",
+      "min": 17,
+      "max": 22
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    }
+  ],
+  "Rusty Iron Plate Boots": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Claw henchman",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A cultist guard",
+      "zone": "Glass Flats",
+      "min": 44,
+      "max": 44
+    }
+  ],
+  "Rusty Iron Plate Pauldrons": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Claw enforcer",
+      "zone": "Night Harbor",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn faithful",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 37
+    },
+    {
+      "npc": "A treant",
+      "zone": "Glinting Hollow",
+      "min": 38,
+      "max": 38
+    },
+    {
+      "npc": "A Witchguard sacramir",
+      "zone": "Shallow Shoals",
+      "min": 39,
+      "max": 41
+    }
+  ],
+  "Rusty Iron Plate Breastplate": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Witchguard sacramir",
+      "zone": "Shallow Shoals",
+      "min": 39,
+      "max": 41
+    },
+    {
+      "npc": "A glutted ghoul",
+      "zone": "Caves of Irem",
+      "min": null,
+      "max": null
+    },
+    {
+      "npc": "A smuggler",
+      "zone": "Fallen Pass",
+      "min": null,
+      "max": null
+    },
+    {
+      "npc": "A plague-sworn squire",
+      "zone": "Fallen Watch",
+      "min": null,
+      "max": null
+    },
+    {
+      "npc": "A poacher",
+      "zone": "Keeper's Bight",
+      "min": null,
+      "max": null
+    }
+  ],
+  "Tattered Cotton Cap": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A salt gatherer",
+      "zone": "Glass Flats",
+      "min": 30,
+      "max": 30
+    },
+    {
+      "npc": "A ghostly figure",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn scholar",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 37
+    },
+    {
+      "npc": "A Claw enforcer",
+      "zone": "Night Harbor",
+      "min": 34,
+      "max": 36
+    }
+  ],
+  "Tattered Cotton Veil": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A skeletal slave",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn scholar",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A crystallized skeleton",
+      "zone": "Glass Flats",
+      "min": 35,
+      "max": 39
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    }
+  ],
+  "Tattered Cotton Gorget": [
+    {
+      "npc": "A ghostly cleric",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A craven cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A nefarious cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn scholar",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 37
+    },
+    {
+      "npc": "A Claw enforcer",
+      "zone": "Night Harbor",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    }
+  ],
+  "Tattered Cotton Mantle": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn scholar",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 37
+    },
+    {
+      "npc": "A crystallized skeleton",
+      "zone": "Glass Flats",
+      "min": 35,
+      "max": 39
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn knight",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 43
+    },
+    {
+      "npc": "An enthralled druid",
+      "zone": "Caves of Irem",
+      "min": 40,
+      "max": 40
+    }
+  ],
+  "Tattered Cotton Cape": [
+    {
+      "npc": "A smuggler lookout",
+      "zone": "Fallen Pass",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher herbalist",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A druidic cultist",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A craven cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A devoted cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    }
+  ],
+  "Tattered Cotton Tunic": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A smuggler laborer",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A craven cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A skeletal captive",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn scholar",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 37
+    },
+    {
+      "npc": "A Claw henchman",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    }
+  ],
+  "Tattered Cotton Robe": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A ghostly fighter",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A ghostly figure",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A druidic cultist",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A profane spiritist",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A craven cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A nefarious cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    }
+  ],
+  "Tattered Cotton Bracer": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A nefarious cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn scholar",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 37
+    },
+    {
+      "npc": "Qassem Brolt",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 34
+    },
+    {
+      "npc": "A grizzled smuggler",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn knight",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 43
+    }
+  ],
+  "Tattered Cotton Pantaloons": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn scholar",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 37
+    },
+    {
+      "npc": "A Claw vilicus",
+      "zone": "Night Harbor",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A grizzled smuggler",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 37
+    }
+  ],
+  "Tattered Cotton Belt": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A diminished ghost",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A nefarious cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Plagueborn scholar",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 37
+    },
+    {
+      "npc": "A Claw enforcer",
+      "zone": "Night Harbor",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Claw shafi",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    }
+  ],
+  "Tattered Cotton Gloves": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher herbalist",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A ghostly fighter",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A cultist acolyte",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A craven cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A nefarious cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    }
+  ],
+  "Tattered Cotton Boots": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A devoted cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Plagueborn scholar",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 37
+    },
+    {
+      "npc": "A Claw enforcer",
+      "zone": "Night Harbor",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn knight",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 43
+    },
+    {
+      "npc": "A Witchguard serverat",
+      "zone": "Shallow Shoals",
+      "min": 39,
+      "max": 41
+    }
+  ],
+  "Rusty Iron Chain Wristguard": [
+    {
+      "npc": "A smuggler lookout",
+      "zone": "Fallen Pass",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "Layla Faraj",
+      "zone": "Glass Flats",
+      "min": 30,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Witchguard serverat",
+      "zone": "Shallow Shoals",
+      "min": 39,
+      "max": 41
+    }
+  ],
+  "Rusty Iron Axe": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend patroller",
+      "zone": "Vale of Zintar",
+      "min": 29,
+      "max": 31
+    },
+    {
+      "npc": "A devoted cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    }
+  ],
+  "Tattered Leather Mask": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher herbalist",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A druidic cultist",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A craven cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    }
+  ],
+  "Tattered Leather Shoulderpads": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A ghostly figure",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A druidic cultist",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A craven cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    }
+  ],
+  "Rusty Iron Battle Axe": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A ghostly fighter",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A skeletal worker",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A grizzled smuggler",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn faithful",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 37
+    }
+  ],
+  "Rusty Iron Trident": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Claw henchman",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Claw shafi",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn knight",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 43
+    }
+  ],
+  "Rusty Iron Warhammer": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher herbalist",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Claw henchman",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    }
+  ],
+  "Rusty Iron Scimitar": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher herbalist",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend patroller",
+      "zone": "Vale of Zintar",
+      "min": 29,
+      "max": 31
+    },
+    {
+      "npc": "A smuggler laborer",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A crystallized skeleton",
+      "zone": "Glass Flats",
+      "min": 35,
+      "max": 39
+    }
+  ],
+  "Rusty Iron Chain Gloves": [
+    {
+      "npc": "A smuggler lookout",
+      "zone": "Fallen Pass",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A craven cultist",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A crystallized skeleton",
+      "zone": "Glass Flats",
+      "min": 35,
+      "max": 39
+    },
+    {
+      "npc": "A Claw blackguard",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    }
+  ],
+  "Rusty Iron Chain Waistguard": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Witchguard sacramir",
+      "zone": "Shallow Shoals",
+      "min": 39,
+      "max": 41
+    },
+    {
+      "npc": "An enthralled mercenary",
+      "zone": "Caves of Irem",
+      "min": 40,
+      "max": 40
+    }
+  ],
+  "Rusty Iron Chain Cloak": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A crystallized skeleton",
+      "zone": "Glass Flats",
+      "min": 35,
+      "max": 39
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "An enthralled adventurer",
+      "zone": "Caves of Irem",
+      "min": 40,
+      "max": 40
+    },
+    {
+      "npc": "A grizzled raider",
+      "zone": "Glass Flats",
+      "min": 42,
+      "max": 44
+    }
+  ],
+  "Rusty Iron Chain Shoulderguards": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A ghostly cleric",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A ghostly fighter",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Claw shafi",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    }
+  ],
+  "Tattered Leather Cap": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Claw henchman",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A Plagueborn knight",
+      "zone": "Fallen Pass",
+      "min": 38,
+      "max": 43
+    }
+  ],
+  "Tattered Leather Gorget": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A wandering skeleton",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A druidic cultist",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A smuggler laborer",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A Claw henchman",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    }
+  ],
+  "Tattered Leather Boots": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A smuggler laborer",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "Qassem Brolt",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 34
+    },
+    {
+      "npc": "A Plagueborn constable",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A crystallized skeleton",
+      "zone": "Glass Flats",
+      "min": 35,
+      "max": 39
+    },
+    {
+      "npc": "A Claw henchman",
+      "zone": "Night Harbor",
+      "min": 35,
+      "max": 35
+    }
+  ],
+  "Tattered Leather Tunic": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A Dustrend patroller",
+      "zone": "Vale of Zintar",
+      "min": 29,
+      "max": 31
+    },
+    {
+      "npc": "A smuggler laborer",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "Kallen Oison",
+      "zone": "Fallen Pass",
+      "min": 37,
+      "max": 37
+    }
+  ],
+  "Rusty Iron Scythe": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A diminished ghost",
+      "zone": "Grain Cellar",
+      "min": 31,
+      "max": 32
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Dustrend sacramir",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn scholar",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    },
+    {
+      "npc": "A roostguard giant",
+      "zone": "Caves of Irem",
+      "min": 39,
+      "max": 39
+    }
+  ],
+  "Rusty Iron Shortsword": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A ghostly fighter",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A ghostly figure",
+      "zone": "Grain Cellar",
+      "min": 30,
+      "max": 32
+    },
+    {
+      "npc": "A druidic cultist",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn patrolman",
+      "zone": "Fallen Pass",
+      "min": 34,
+      "max": 36
+    },
+    {
+      "npc": "A crystallized skeleton",
+      "zone": "Glass Flats",
+      "min": 35,
+      "max": 39
+    }
+  ],
+  "Rusty War Lance": [
+    {
+      "npc": "A rotting skeleton",
+      "zone": "Evershade Weald",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "npc": "A Fellstone scout",
+      "zone": "Evershade Weald",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "npc": "A Fellstone warrior",
+      "zone": "Evershade Weald",
+      "min": 3,
+      "max": 7
+    },
+    {
+      "npc": "A skeletal fighter",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 3,
+      "max": 10
+    },
+    {
+      "npc": "A Deepcut miner",
+      "zone": "Underdocks",
+      "min": 3,
+      "max": 5
+    },
+    {
+      "npc": "A skeletal warrior",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 4,
+      "max": 11
+    },
+    {
+      "npc": "A skeletal deacon",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 5,
+      "max": 6
+    },
+    {
+      "npc": "A skeletal monk",
+      "zone": "Tomb of the Last Wyrmsbane",
+      "min": 8,
+      "max": 10
+    }
+  ],
+  "Rusty Iron Mace": [
+    {
+      "npc": "A poacher bruiser",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A poacher pathfinder",
+      "zone": "Keeper's Bight",
+      "min": 28,
+      "max": 30
+    },
+    {
+      "npc": "A salt gatherer",
+      "zone": "Glass Flats",
+      "min": 30,
+      "max": 30
+    },
+    {
+      "npc": "A profane spiritist",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A smuggler laborer",
+      "zone": "Fallen Pass",
+      "min": 31,
+      "max": 33
+    },
+    {
+      "npc": "A Dustrend legionary",
+      "zone": "Vale of Zintar",
+      "min": 31,
+      "max": 31
+    },
+    {
+      "npc": "A Plagueborn worshipper",
+      "zone": "Fallen Pass",
+      "min": 35,
+      "max": 37
+    },
+    {
+      "npc": "A Plagueborn citizen",
+      "zone": "Fallen Pass",
+      "min": 36,
+      "max": 38
+    }
+  ],
+  "Tattered Hide Leggings": [
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose sergeant",
+      "zone": "Tel Ekir",
+      "min": 15,
+      "max": 15
+    },
+    {
+      "npc": "A ghastly cook",
+      "zone": "Ancient Crypt",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "A Bloodynose captain",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "An ashira ain guard",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 19
+    },
+    {
+      "npc": "A skeletal soldier",
+      "zone": "Ancient Crypt",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A fallen sentinel",
+      "zone": "Ancient Crypt",
+      "min": 19,
+      "max": 19
+    }
+  ],
+  "Tattered Hide Gorget": [
+    {
+      "npc": "A cultist",
+      "zone": "Night Harbor",
+      "min": 14,
+      "max": 17
+    },
+    {
+      "npc": "A Bloodynose captain",
+      "zone": "Tel Ekir",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "npc": "A lawbreaker",
+      "zone": "Night Harbor",
+      "min": 17,
+      "max": 17
+    },
+    {
+      "npc": "A fallen sentinel",
+      "zone": "Ancient Crypt",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A river pirate",
+      "zone": "Night Harbor",
+      "min": 19,
+      "max": 19
+    },
+    {
+      "npc": "A restless skeleton",
+      "zone": "Fallen Pass",
+      "min": 20,
+      "max": 23
+    },
+    {
+      "npc": "A Blacktide brute",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "npc": "A Blacktide guard",
+      "zone": "Keeper's Bight",
+      "min": 23,
+      "max": 24
+    }
+  ],
+  "Corroded Bronze Chain Wristguard": [
+    {
+      "npc": "A threatening figure",
+      "zone": "Night Harbor",
+      "min": null,
+      "max": null
+    }
+  ]
+}

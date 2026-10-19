@@ -1,0 +1,3046 @@
+[
+  {
+    "id": "a-bag-merchant",
+    "name": "A bag merchant",
+    "zones": [
+      "Faelindral",
+      "Night Harbor"
+    ],
+    "location": "In Faelindral: Traders Terrace In Night Harbor: Night Market / North Gate / Shortfolk Area",
+    "sells": [
+      "Backpack",
+      "Pouch",
+      "Satchel",
+      "Small Field Pack"
+    ],
+    "buys": [
+      "Bags and packs",
+      "Hides"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_bag_merchant"
+  },
+  {
+    "id": "a-baker-night-market",
+    "name": "A baker (Night Market)",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night market, at a window near the forge",
+    "sells": [
+      "Night Market",
+      "Halva",
+      "Harissa",
+      "Knafeh",
+      "Mountain Flatbread",
+      "Szuur's Famous Foods"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_baker_(Night_Market)"
+  },
+  {
+    "id": "a-baker-shortfolk-area",
+    "name": "A baker (Shortfolk Area)",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Shortfolk Area",
+    "sells": [
+      "Mountain Flatbread",
+      "Water Flask"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_baker_(Shortfolk_Area)"
+  },
+  {
+    "id": "a-barkeep",
+    "name": "A barkeep",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "The North Gate Inn, The Thirsty Glance",
+    "sells": [
+      "Langsdorf Pale Ale",
+      "Ration",
+      "Twilight Bay Rum",
+      "Water Flask",
+      "Weak Beer"
+    ],
+    "buys": [
+      "Charred fish",
+      "Cooked meat",
+      "Roots (Harvallen, Multhele)",
+      "Snake eggs",
+      "Vegetables (Wild Carrots ...)"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_barkeep"
+  },
+  {
+    "id": "a-beastmaster-instructor",
+    "name": "A beastmaster instructor",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Seekers of the Lost Eye (shaman / beastmaster guild)",
+    "sells": [
+      "Beastmaster spells scrolls",
+      "Spellbook"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_beastmaster_instructor"
+  },
+  {
+    "id": "a-blacksmith",
+    "name": "A blacksmith",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market, at the forge, next to Blacksmith Musafar",
+    "sells": [
+      "Rivet Cutters",
+      "Smithing Hammer",
+      "Smithing Pliers"
+    ],
+    "buys": [
+      "Carapaces",
+      "Gems",
+      "Ores",
+      "Stones",
+      "Metal Scraps"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_blacksmith"
+  },
+  {
+    "id": "a-bowyer-night-harbor",
+    "name": "A bowyer (Night Harbor)",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Shortfolk Area",
+    "sells": [
+      "Arrow",
+      "Bow",
+      "Hip Quiver",
+      "Large Back Quiver",
+      "Small Back Quiver",
+      "Throwing Dagger",
+      "Recipe: Pitch-Wrapped Arrow (x20)",
+      "Recipe: Net Arrow (x20)",
+      "Recipe: Smoke Bomb Arrow (x20)"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_bowyer_(Night_Harbor)"
+  },
+  {
+    "id": "a-chain-armorer",
+    "name": "A chain armorer",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market",
+    "sells": [],
+    "buys": [
+      "Chain Armor",
+      "Metal Scraps"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_chain_armorer"
+  },
+  {
+    "id": "a-cleric-scribe",
+    "name": "A cleric scribe",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Wayfarers Hospice in the Sojourners camp",
+    "sells": [
+      "Spellbook",
+      "Token of Deliverance",
+      "Token of Devotion",
+      "Token of Divinity"
+    ],
+    "buys": [
+      "Blister Beetle Gland",
+      "Immature Snake Venom Sac",
+      "Intact Diseased Bat Bile Duct"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_cleric_scribe"
+  },
+  {
+    "id": "a-cloth-armorer",
+    "name": "A cloth armorer",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market. Shortfolk area",
+    "sells": [
+      "Heavy Thread",
+      "Light Thread",
+      "Rough Thread",
+      "Satin Thread",
+      "Seam Ripper",
+      "Tailoring Kit"
+    ],
+    "buys": [
+      "Cloth Armor",
+      "Thread",
+      "Cloth Scraps"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_cloth_armorer"
+  },
+  {
+    "id": "a-cobbler",
+    "name": "A cobbler",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "The Night Market",
+    "sells": [
+      "Patched Cloth Boots"
+    ],
+    "buys": [
+      "Boots"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_cobbler"
+  },
+  {
+    "id": "a-composer",
+    "name": "A composer",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "One platform above the Willows Whisper stage, in the building across from the rogue guild",
+    "sells": [
+      "Bard songs"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_composer"
+  },
+  {
+    "id": "a-cook",
+    "name": "A cook",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "The Shaded Bloom Inn",
+    "sells": [
+      "Bottle of High-Quality Olive Oil",
+      "Camp Kitchen",
+      "Cellar of Sea Salt",
+      "Crab Leg Stew",
+      "Roasting Spit",
+      "Wooden Skewers",
+      "Basil",
+      "Black Pepper",
+      "Butter",
+      "Cleaver",
+      "Cooking Sage",
+      "Milk",
+      "Paprika",
+      "Parsley",
+      "Rice",
+      "Stock",
+      "Thyme",
+      "Wheat Flour"
+    ],
+    "buys": [
+      "Animal parts (meat, foot, legs, ear, tooth, eye, fang, egg ...)",
+      "Cleaver",
+      "Fish (raw, charred, grilled, scales ...)",
+      "Herbs (thyme ...)",
+      "Skeleton parts (chips, jawbone ...)",
+      "Vegetables (wild carrots ...)",
+      "Wood"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_cook"
+  },
+  {
+    "id": "a-druid-scribe",
+    "name": "A druid scribe",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Circle of the Scarce Rains (Druid guild)",
+    "sells": [
+      "Druid spells scrolls",
+      "Spellbook"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_druid_scribe"
+  },
+  {
+    "id": "a-farmer",
+    "name": "A farmer",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "Down the Kennel Lift",
+    "sells": [
+      "Currently sells nothing."
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_farmer"
+  },
+  {
+    "id": "a-fisherman-faelindral",
+    "name": "A fisherman (Faelindral)",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "Base of the Traveler's Lift (aka Noob lift)",
+    "sells": [
+      "Fishing Pole (1.50 silver)",
+      "Grub (6 copper)"
+    ],
+    "buys": [
+      "Bait (Grub ...)",
+      "Fish",
+      "Wood"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_fisherman_(Faelindral)"
+  },
+  {
+    "id": "a-fisherman-night-harbor",
+    "name": "A fisherman (Night Harbor)",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Twilight Harbor at the end of the 3rd pier from the west",
+    "sells": [
+      "Fishing Pole (1.50 silver)",
+      "Grub (6 copper)"
+    ],
+    "buys": [
+      "Bait (Grub ...)",
+      "Fish",
+      "Wood"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_fisherman_(Night_Harbor)"
+  },
+  {
+    "id": "a-fishwife",
+    "name": "A fishwife",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Saltbreeze Park, on the west wall",
+    "sells": [
+      "Cooked Whitefish Fillet (75 copper)",
+      "Whitefish (25 copper)"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_fishwife"
+  },
+  {
+    "id": "a-fletcher",
+    "name": "A fletcher",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Halfling Area",
+    "sells": [
+      "Arrow",
+      "Fletching Kit"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_fletcher"
+  },
+  {
+    "id": "a-goods-merchant",
+    "name": "A goods merchant",
+    "zones": [
+      "Night Harbor",
+      "Shallow Shoals"
+    ],
+    "location": "North gate, first building on the right when heading to the Mage Tower. Smallfolk area in Night Harbor",
+    "sells": [
+      "Animal Glue",
+      "Backpack",
+      "Candle",
+      "Cellar of Sea Salt",
+      "Charcoal",
+      "Cleaver",
+      "Lantern",
+      "Lantern Fuel",
+      "Lumberjack Axe",
+      "Parchment",
+      "Portion of Olive Oil",
+      "Pouch",
+      "Torch"
+    ],
+    "buys": [
+      "Bags",
+      "Torches"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_goods_merchant"
+  },
+  {
+    "id": "a-grain-seller",
+    "name": "A grain seller",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "North bank, next to a druid and a guild registrar",
+    "sells": [
+      "Chickpeas",
+      "Cup of Basmati Rice",
+      "Wheat Flour"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_grain_seller"
+  },
+  {
+    "id": "a-greedy-halfling",
+    "name": "A greedy halfling",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Tucked away in a ruined building within the Sojourner's Camp.",
+    "sells": [
+      "Candle",
+      "Dispel Stone",
+      "Lantern",
+      "Lantern Fuel",
+      "Lock Pick",
+      "Lumberjack Axe",
+      "Malleable Bone Ornamented Coffin",
+      "Torch",
+      "Volatile Rift Potion"
+    ],
+    "buys": [],
+    "greedy": true,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_greedy_halfling"
+  },
+  {
+    "id": "a-grocer",
+    "name": "A grocer",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market, next to a used weapons dealer. Appears only at night.",
+    "sells": [
+      "Bell Pepper",
+      "Cauliflower",
+      "Cayenne Peppers",
+      "Celery",
+      "Chicken Egg",
+      "Grape Leaves",
+      "Habanero Pepper",
+      "Lemon",
+      "Red Cabbage",
+      "Tomatoes",
+      "White Onion"
+    ],
+    "buys": [
+      "Bell Pepper",
+      "Cheese",
+      "Various vegetables"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_grocer"
+  },
+  {
+    "id": "a-jewelcrafter",
+    "name": "A jewelcrafter",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market",
+    "sells": [
+      "Annealed Earring Mold",
+      "Annealed Necklace Mold",
+      "Annealed Ring Mold",
+      "Crude Earring Mold",
+      "Crude Necklace Mold",
+      "Crude Ring Mold",
+      "Hardened Earring Mold",
+      "Hardened Necklace Mold",
+      "Hardened Ring Mold",
+      "Jewelcrafting Kit",
+      "Tempered Earring Mold",
+      "Tempered Necklace Mold",
+      "Tempered Ring Mold"
+    ],
+    "buys": [
+      "Jewelry",
+      "Gems"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_jewelcrafter"
+  },
+  {
+    "id": "a-leatherworker",
+    "name": "A leatherworker",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "North Night Harbor, Tannery",
+    "sells": [
+      "Heavy Thread",
+      "Leatherworking Kit",
+      "Light Thread",
+      "Rough Thread",
+      "Satin Thread",
+      "Seam Ripper",
+      "Skinning Knife"
+    ],
+    "buys": [
+      "Leather Armor",
+      "Hides",
+      "Thread"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_leatherworker"
+  },
+  {
+    "id": "a-lumberjack",
+    "name": "A lumberjack",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Located in Sojourner's Camp.",
+    "sells": [
+      "Lumberjack Axe",
+      "Lumberjack Pouch"
+    ],
+    "buys": [
+      "Lumberjack Materials"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_lumberjack"
+  },
+  {
+    "id": "a-mason",
+    "name": "A mason",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "Down the Kennel Lift",
+    "sells": [
+      "Currently sells nothing."
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_mason"
+  },
+  {
+    "id": "a-medic",
+    "name": "A medic",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Sojourner Camp",
+    "sells": [],
+    "buys": [
+      "Bandages"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_medic"
+  },
+  {
+    "id": "a-merchant-traveler",
+    "name": "A merchant traveler",
+    "zones": [
+      "Vale of Zintar"
+    ],
+    "location": "",
+    "sells": [
+      "Carrots (13 copper)",
+      "Cauliflower (41 copper)",
+      "Celery (18 copper)",
+      "Green Onions (13 copper)",
+      "Lemon (9 copper)",
+      "Ration (20 copper)",
+      "Red Cabbage (41 copper)",
+      "Tomato (41 copper)",
+      "Water Flask (5 copper)"
+    ],
+    "buys": [
+      "Animal parts (meat, silk, skin, teeth, wings ...)"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_merchant_traveler"
+  },
+  {
+    "id": "a-miner",
+    "name": "A miner",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Sojourner Camp",
+    "sells": [
+      "Mining Pick",
+      "Mining Pouch"
+    ],
+    "buys": [
+      "Ores",
+      "Gems"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_miner"
+  },
+  {
+    "id": "a-paladin-instructor",
+    "name": "A paladin instructor",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Wayfarers Hospice in the Sojourners camp",
+    "sells": [
+      "Paladin spells scrolls",
+      "Spellbook"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_paladin_instructor"
+  },
+  {
+    "id": "a-pelt-trader",
+    "name": "A pelt trader",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Blackfeather Bazaar",
+    "sells": [
+      "Heavy Thread",
+      "Leatherworking Kit",
+      "Light Thread",
+      "Rough Thread",
+      "Satin Thread",
+      "Seam Ripper",
+      "Skinning Knife"
+    ],
+    "buys": [
+      "Leather Armor",
+      "Hides",
+      "Thread"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_pelt_trader"
+  },
+  {
+    "id": "a-plate-armorer",
+    "name": "A plate armorer",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market",
+    "sells": [],
+    "buys": [
+      "Plate Armor",
+      "Metal Scraps"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_plate_armorer"
+  },
+  {
+    "id": "a-poison-maker-night-harbor",
+    "name": "A poison maker (Night Harbor)",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Second floor of The City Illuminator's Guild",
+    "sells": [
+      "Annealed Vial",
+      "Crystallized Vial",
+      "Debilitant Agent",
+      "Deliriant Agent",
+      "Lock Pick",
+      "Makeshift Vial",
+      "Poison Making Kit",
+      "Soporific Agent",
+      "Tempered Vial",
+      "Throwing Dagger",
+      "Torporific Agent",
+      "Vial of Smoke"
+    ],
+    "buys": [
+      "Bat Wing",
+      "Bone Ash",
+      "Bone Chips",
+      "Fire Beetle Eye",
+      "Fire Beetle Gland",
+      "Ghoul Skin",
+      "Holy Water",
+      "Multhele Root",
+      "Resin",
+      "Zombie Skin"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_poison_maker_(Night_Harbor)"
+  },
+  {
+    "id": "a-produce-vendor",
+    "name": "A produce vendor",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Saltbreeze Park, on the west wall",
+    "sells": [
+      "Cauliflower (45 copper)",
+      "Chicken Egg (30 copper)",
+      "Red Cabbage (45 copper)",
+      "Tomatoes (25 copper)",
+      "White Onion (25 copper)"
+    ],
+    "buys": [
+      "Bell Pepper",
+      "Cheese",
+      "Mushroom",
+      "Various vegetables"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_produce_vendor"
+  },
+  {
+    "id": "a-property-merchant",
+    "name": "A property merchant",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market, next to Suhib the Night Market Realtor North bank, next to Auditor Kristoff",
+    "sells": [
+      "Furniture Wrench",
+      "Property Key"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_property_merchant"
+  },
+  {
+    "id": "a-reagent-vendor-chartered-academy-of-arcane-inquiry",
+    "name": "A reagent vendor (Chartered Academy of Arcane Inquiry)",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Chartered Academy of Arcane Inquiry (wizard guild)",
+    "sells": [
+      "Guide to the Spirit World",
+      "Mage Light Core",
+      "Quill",
+      "Rift Dust"
+    ],
+    "buys": [
+      "Bat Wing",
+      "Bone Chips",
+      "Drake Scale",
+      "Fire Beetle Gland",
+      "Ghoul Skin",
+      "Multhele Root",
+      "Resin",
+      "Zombie Skin"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_reagent_vendor_(Chartered_Academy_of_Arcane_Inquiry)"
+  },
+  {
+    "id": "a-reagent-vendor-concourse-of-souls",
+    "name": "A reagent vendor (Concourse of Souls)",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Concourse of Souls",
+    "sells": [
+      "Malleable Bone Ornamented Coffin",
+      "Nature Walker's Journal",
+      "Quill"
+    ],
+    "buys": [
+      "Bat Fur",
+      "Bat Wing",
+      "Bone Chips",
+      "Ghoul Skin",
+      "Multhele Root",
+      "Resin",
+      "Scorched Skeletal Remains",
+      "Shattered Skeleton Femur",
+      "Skeleton Jawbone",
+      "Zombie Skin"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_reagent_vendor_(Concourse_of_Souls)"
+  },
+  {
+    "id": "a-reagent-vendor-shortfolk-area",
+    "name": "A reagent vendor (Shortfolk Area)",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Shortfolk Area",
+    "sells": [
+      "Powdered Tangle Vine",
+      "Quill",
+      "Tome of Shadows"
+    ],
+    "buys": [
+      "Bat Wing",
+      "Bone Chips",
+      "Fire Beetle Eye",
+      "Fire Beetle Gland",
+      "Ghoul Skin",
+      "Holy Water",
+      "Multhele Root",
+      "Resin",
+      "Zombie Skin"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_reagent_vendor_(Shortfolk_Area)"
+  },
+  {
+    "id": "a-reagent-vendor-spellbinders-of-the-spire",
+    "name": "A reagent vendor (Spellbinders of the Spire)",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Spellbinders of the Spire bottom floor, in Registrar Vauquelin's room. Take 2 rights when entering from the entrance in the residential area",
+    "sells": [
+      "Ethereal Dagger (15 copper)"
+    ],
+    "buys": [
+      "Bat Wing",
+      "Bone Chips",
+      "Fire Beetle Gland",
+      "Ghoul Skin",
+      "Multhele Root",
+      "Resin",
+      "Zombie Skin"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_reagent_vendor_(Spellbinders_of_the_Spire)"
+  },
+  {
+    "id": "a-reagent-vendor-wayfarers-hospice",
+    "name": "A reagent vendor (Wayfarers Hospice)",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Wayfarers Hospice in the Sojourners camp",
+    "sells": [
+      "Blessed Beeswax Candle (25 copper)",
+      "Prayer Beads (4.50 silver)",
+      "Quill (30 copper)",
+      "Spellbook (1 silver)",
+      "Lectionary of Light (30 copper)",
+      "Vial of Anointing Oil (50 copper)"
+    ],
+    "buys": [
+      "Animal parts",
+      "Limestone",
+      "Multhele Root",
+      "Resin",
+      "Sealants",
+      "Undead parts"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_reagent_vendor_(Wayfarers_Hospice)"
+  },
+  {
+    "id": "a-rider",
+    "name": "A rider",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Sojourner Camp",
+    "sells": [
+      "Basic Pack Rigging"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_rider"
+  },
+  {
+    "id": "a-scrap-dealer",
+    "name": "A scrap dealer",
+    "zones": [
+      "Evershade Weald"
+    ],
+    "location": "",
+    "sells": [
+      "Rusty Dagger",
+      "Rusty Mace",
+      "Rusty Shortsword",
+      "Rusty Spear"
+    ],
+    "buys": [
+      "All Weapons"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_scrap_dealer"
+  },
+  {
+    "id": "a-shady-peddler",
+    "name": "A shady peddler",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Tucked in an alley in the Night Market, just southeast of the forge. Appears only at night (spawns at 6 PM in-game time and despawns at 6 AM in-game time.)",
+    "sells": [
+      "Backpack",
+      "Cracked Amphora",
+      "Dispel Stone",
+      "Malleable Bone Ornamented Coffin",
+      "Unguent of Revealing",
+      "Volatile Rift Potion"
+    ],
+    "buys": [],
+    "greedy": true,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_shady_peddler"
+  },
+  {
+    "id": "a-shady-trader",
+    "name": "A shady trader",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "By a caravan near the stables",
+    "sells": [
+      "Backpack (1 gold)",
+      "Cracked Amphora (1 gold)",
+      "Dispel Stone (5 silver)",
+      "Malleable Bone Ornamented Coffin (10 gold)",
+      "Unguent of Revealing (2 platinum)",
+      "Volatile Rift Potion (50 gold)"
+    ],
+    "buys": [],
+    "greedy": true,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_shady_trader"
+  },
+  {
+    "id": "a-shaman-scribe",
+    "name": "A shaman scribe",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Seekers of the Lost Eye (shaman / beastmaster guild)",
+    "sells": [
+      "Ancestral Ritual Talisman",
+      "Greater Ritual Talisman",
+      "Ritual Talisman",
+      "Spellbook"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_shaman_scribe"
+  },
+  {
+    "id": "a-shifty-elf",
+    "name": "A shifty elf",
+    "zones": [
+      "Evershade Weald"
+    ],
+    "location": "By a campfire in the forest",
+    "sells": [
+      "Candle",
+      "Charcoal",
+      "Dispel Stone",
+      "Lantern",
+      "Lantern Fuel",
+      "Lock Pick",
+      "Lumberjack Axe",
+      "Malleable Bone Ornamented Coffin",
+      "Parchment",
+      "Ration",
+      "Torch",
+      "Volatile Rift Potion",
+      "Water Flask"
+    ],
+    "buys": [],
+    "greedy": true,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_shifty_elf"
+  },
+  {
+    "id": "a-shifty-gnome",
+    "name": "A shifty gnome",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Out in the western newbie yard by a campfire.",
+    "sells": [
+      "Candle",
+      "Charcoal",
+      "Dispel Stone",
+      "Lantern",
+      "Lantern Fuel",
+      "Lock Pick",
+      "Lumberjack Axe",
+      "Malleable Bone Ornamented Coffin",
+      "Parchment",
+      "Ration",
+      "Torch",
+      "Volatile Rift Potion",
+      "Water Flask"
+    ],
+    "buys": [],
+    "greedy": true,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_shifty_gnome"
+  },
+  {
+    "id": "a-smelter",
+    "name": "A smelter",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market, at the forge",
+    "sells": [
+      "Crude Ingot Mold",
+      "Hardened Ingot Mold",
+      "Masterwork Ingot Mold",
+      "Sturdy Ingot Mold",
+      "Tempered Ingot Mold"
+    ],
+    "buys": [
+      "Antique Billon Coin"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_smelter"
+  },
+  {
+    "id": "a-spicemonger",
+    "name": "A spicemonger",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market, under the arcades",
+    "sells": [
+      "Cardamom Pods",
+      "Cayenne Peppers",
+      "Coriander Seeds",
+      "Cumin Seeds",
+      "Dried Dragon's Breath Peppers",
+      "Dried Garlic",
+      "Fenugrek Seeds",
+      "Paprika",
+      "Pinch of Saffron",
+      "Sesame Seeds",
+      "Sumac Berries"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_spicemonger"
+  },
+  {
+    "id": "a-spymaster",
+    "name": "A spymaster",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Underneath the Bard Guild stage in Night Harbor",
+    "sells": [
+      "Charcoal",
+      "Parchment"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_spymaster"
+  },
+  {
+    "id": "a-stonecutter",
+    "name": "A stonecutter",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "Down the Kennel Lift",
+    "sells": [
+      "Currently sells nothing."
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_stonecutter"
+  },
+  {
+    "id": "a-survivalist",
+    "name": "A survivalist",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Sojourner Camp",
+    "sells": [],
+    "buys": [
+      "Lighting items",
+      "Resins"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_survivalist"
+  },
+  {
+    "id": "a-suspicious-salesman",
+    "name": "A suspicious salesman",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Just inside the North Gate and to the west. Tucked in an alley. Seems to appear only at night.",
+    "sells": [
+      "Candle",
+      "Charcoal",
+      "Dispel Stone",
+      "Lantern",
+      "Lantern Fuel",
+      "Lock Pick",
+      "Lumberjack Axe",
+      "Malleable Bone Ornamented Coffin",
+      "Parchment",
+      "Ration",
+      "Torch",
+      "Volatile Rift Potion",
+      "Water Flask"
+    ],
+    "buys": [],
+    "greedy": true,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_suspicious_salesman"
+  },
+  {
+    "id": "a-tanner",
+    "name": "A tanner",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "The Tannery",
+    "sells": [],
+    "buys": [
+      "Hides",
+      "Leather",
+      "Thread"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_tanner"
+  },
+  {
+    "id": "a-used-weapons-dealer",
+    "name": "A used weapons dealer",
+    "zones": [
+      "Night Harbor",
+      "Shallow Shoals"
+    ],
+    "location": "Night Market, Shortfolk area",
+    "sells": [
+      "Rusty Dagger",
+      "Rusty Mace",
+      "Rusty Shortsword"
+    ],
+    "buys": [
+      "All Weapons"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_used_weapons_dealer"
+  },
+  {
+    "id": "a-used-weapons-dealer-faelindral",
+    "name": "A used weapons dealer-Faelindral",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "Trader's Terrace",
+    "sells": [
+      "Rusty Dagger",
+      "Rusty Mace",
+      "Rusty Shortsword"
+    ],
+    "buys": [
+      "All Weapons"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_used_weapons_dealer-Faelindral"
+  },
+  {
+    "id": "a-weaponsmith",
+    "name": "A weaponsmith",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market",
+    "sells": [
+      "Rivet Cutters",
+      "Smithing Hammer",
+      "Smithing Pliers",
+      "Water Flask"
+    ],
+    "buys": [
+      "Carapaces",
+      "Gems",
+      "Ores",
+      "Stones",
+      "Blacksmithed items"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_weaponsmith"
+  },
+  {
+    "id": "a-wise-elder",
+    "name": "A wise elder",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Inside the temple against the cliff between Sojourner's Camp and the Tannery.",
+    "sells": [
+      "Wooden Bow",
+      "Wooden Claw",
+      "Wooden Club",
+      "Wooden Dagger",
+      "Wooden Scythe",
+      "Wooden Sword"
+    ],
+    "buys": [
+      "Handmade Torch",
+      "Resin",
+      "Wood"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_wise_elder"
+  },
+  {
+    "id": "adah-mukhtar",
+    "name": "Adah Mukhtar",
+    "zones": [
+      "Sungreet Strand"
+    ],
+    "location": "River pirate tavern.",
+    "sells": [
+      "Baladi (5 silver 50 copper)",
+      "Langsdorf Pale Ale (3 silver 85 copper)",
+      "Twilight Bay Rum (2 silver 20 copper)",
+      "Water Flask (6 copper)",
+      "Weak Beer (1 silver 65 copper)"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Adah_Mukhtar"
+  },
+  {
+    "id": "adventure-gear",
+    "name": "Adventure Gear",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "Trader's Terrace",
+    "sells": [
+      "Animal Glue (2.50 silver)",
+      "Backpack (1 gold)",
+      "Candle (75 copper)",
+      "Charcoal (10 copper)",
+      "Cooking Pot (92.80 silver)",
+      "Fish Scaler (48 silver)",
+      "Grappling Hook (1 gold)",
+      "Lantern (1 gold)",
+      "Lantern Fuel (2.50 silver)",
+      "Lumberjack Axe (25 copper)",
+      "Parchment (1 copper)",
+      "Rope, Hempen, 50 Length (25 copper)",
+      "Rope, Silk, 50 Length (1 silver}",
+      "Small Field Pack (2.50 silver)"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Adventure_Gear"
+  },
+  {
+    "id": "alysse-selegrass",
+    "name": "Alysse Selegrass",
+    "zones": [
+      "Keeper's Bight"
+    ],
+    "location": "Treehouse",
+    "sells": [
+      "Ration",
+      "Water Flask"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Alysse_Selegrass"
+  },
+  {
+    "id": "an-alchemist",
+    "name": "An alchemist",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Alchemy Supplies shop in the Black Feather Bazaar",
+    "sells": [
+      "Annealed Vial",
+      "Crude Flask",
+      "Crystallized Vial",
+      "Imbued Flask",
+      "Leaded Flask",
+      "Makeshift Vial",
+      "Mortar and Pestle",
+      "Potion Bandolier",
+      "Runed Flask",
+      "Tempered Vial"
+    ],
+    "buys": [
+      "Cauldrons",
+      "Ghoul Bile",
+      "Limestone",
+      "Sealants",
+      "Spectral Dust"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_alchemist"
+  },
+  {
+    "id": "an-archaeologist-faelindral",
+    "name": "An archaeologist-Faelindral",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "Down the Kennel Lift",
+    "sells": [
+      "Currently sells nothing."
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_archaeologist-Faelindral"
+  },
+  {
+    "id": "an-elemental-quartermaster",
+    "name": "An elemental quartermaster",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Bottom alcove in the School of the Fourfold Path (ELE/MNK guildhall)",
+    "sells": [
+      "Crushed Malachite (20 copper)",
+      "Crushed Pearl",
+      "Quill",
+      "Small Incense Stick",
+      "Tablet of the Elements",
+      "Water Flask (5 copper)"
+    ],
+    "buys": [
+      "Basic Mortar",
+      "Bone Chips",
+      "Coarse Sand",
+      "Chipped Malachite",
+      "Fire Beetle Eye",
+      "Fire Beetle Gland",
+      "Ghoul Skin",
+      "Golden Palm Resin",
+      "Limestone",
+      "Multhele Root",
+      "Resin",
+      "Small Incense Stick",
+      "Water Flask",
+      "Zombie Skin"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_elemental_quartermaster"
+  },
+  {
+    "id": "an-enchanter",
+    "name": "An enchanter",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "* Enchanters guild (near the docks), on a balcony with Vauquelin and Disenchanter Qaridi * Spellbinders of the Spire, next to Enchanter Haffiz",
+    "sells": [
+      "Disenchanting Cube (1 silver)",
+      "Tome of Enchantment (1 silver)"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_enchanter"
+  },
+  {
+    "id": "an-enchanter-scribe",
+    "name": "An enchanter scribe",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Next to Master Khaila.",
+    "sells": [
+      "Enchanter spells scrolls",
+      "Spellbook"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_enchanter_scribe"
+  },
+  {
+    "id": "an-exotic-cook",
+    "name": "An exotic cook",
+    "zones": [
+      "Shallow Shoals"
+    ],
+    "location": "On Zaedin's Landing island, upstairs from the cooking apprentice room.",
+    "sells": [
+      "Ceramic Mixing Bowl",
+      "Hunter's Guide to Carnivorism",
+      "Ration",
+      "Water Flask",
+      "Basilisk Seasoning"
+    ],
+    "buys": [
+      "Bone Chips",
+      "Fish",
+      "Food",
+      "Wood"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_exotic_cook"
+  },
+  {
+    "id": "an-herbalist",
+    "name": "An herbalist",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Sojourner Camp",
+    "sells": [
+      "Sickle",
+      "Herb Pouch"
+    ],
+    "buys": [
+      "Herbs"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_herbalist"
+  },
+  {
+    "id": "an-innkeeper",
+    "name": "An innkeeper",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "The Shaded Bloom Inn",
+    "sells": [
+      "Ration",
+      "Water Flask"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_innkeeper"
+  },
+  {
+    "id": "an-inquisitor-instructor",
+    "name": "An inquisitor instructor",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Spellbinders of the Spire",
+    "sells": [
+      "Inquisitor spells scrolls",
+      "Spellbook"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_inquisitor_instructor"
+  },
+  {
+    "id": "an-outdoorsman",
+    "name": "An outdoorsman",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Sojourner Camp",
+    "sells": [
+      "Currently no wilderness items"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_outdoorsman"
+  },
+  {
+    "id": "an-outfitter",
+    "name": "An outfitter",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "",
+    "sells": [
+      "Animal Glue",
+      "Backpack",
+      "Candle",
+      "Charcoal",
+      "Cooking Pot",
+      "Fish Scaler",
+      "Grappling Hook",
+      "Lantern",
+      "Lantern Fuel",
+      "Lumberjack Axe",
+      "Parchment",
+      "Rope, Hempen, 50 Length",
+      "Rope, Silk, 50 Length",
+      "Small Field Pack",
+      "Torch"
+    ],
+    "buys": [
+      "Bags",
+      "Torches"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_outfitter"
+  },
+  {
+    "id": "aragon-brythe",
+    "name": "Aragon Brythe",
+    "zones": [
+      "Keeper's Bight"
+    ],
+    "location": "In the abbey south of village of Penshaw. He is located in the northern hallway, by the north door.",
+    "sells": [
+      "Inquisitor spells scrolls",
+      "Spellbook"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Aragon_Brythe"
+  },
+  {
+    "id": "barkeep-zahra",
+    "name": "Barkeep Zahra",
+    "zones": [
+      "Shallow Shoals"
+    ],
+    "location": "The Rusted Anchor, on Zaedin's Landing island.",
+    "sells": [
+      "Ration",
+      "Twilight Bay Rum",
+      "Water Flask",
+      "Weak Beer"
+    ],
+    "buys": [
+      "Water Flask"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Barkeep_Zahra"
+  },
+  {
+    "id": "blacksmith-baran",
+    "name": "Blacksmith Baran",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market forge, next to Blacksmith Musafar",
+    "sells": [
+      "Schematic: Bronze Axe (85)",
+      "Schematic: Bronze Battle Axe (85)",
+      "Schematic: Bronze Bracket (65)",
+      "Schematic: Bronze Cauldron (75)",
+      "Schematic: Bronze Chain Boots (100)",
+      "Schematic: Bronze Chain Cloak (80)",
+      "Schematic: Bronze Chain Coif (110)",
+      "Schematic: Bronze Chain Gambeson (100)",
+      "Schematic: Bronze Chain Gloves (80)",
+      "Schematic: Bronze Chain Gorget (70)",
+      "Schematic: Bronze Chain Leggings (120)",
+      "Schematic: Bronze Chain Mask (90)",
+      "Schematic: Bronze Chain Shoulderguards (110)",
+      "Schematic: Bronze Chain Tunic (130)",
+      "Schematic: Bronze Chain Waistguard (90)",
+      "Schematic: Bronze Chain Wristguard (70)",
+      "Schematic: Bronze Dagger (75)",
+      "Schematic: Bronze Great Scythe (95)",
+      "Schematic: Bronze Greatsword (135)",
+      "Schematic: Bronze Hinge (65)",
+      "Schematic: Bronze Kite Shield (105)",
+      "Schematic: Bronze Longsword (95)",
+      "Schematic: Bronze Mace (105)",
+      "Schematic: Bronze Maul (135)",
+      "Schematic: Bronze Plate Arming Doublet (100)",
+      "Schematic: Bronze Plate Barding (125)",
+      "Schematic: Bronze Plate Boots (100)",
+      "Schematic: Bronze Plate Bracer (70)",
+      "Schematic: Bronze Plate Breastplate (130)",
+      "Schematic: Bronze Plate Cloak (80)",
+      "Schematic: Bronze Plate Collar (70)",
+      "Schematic: Bronze Plate Gauntlets (80)",
+      "Schematic: Bronze Plate Girdle (90)",
+      "Schematic: Bronze Plate Greaves (120)",
+      "Schematic: Bronze Plate Helm (110)",
+      "Schematic: Bronze Plate Pauldrons (110)",
+      "Schematic: Bronze Plate Visor (90)",
+      "Schematic: Bronze Scimitar (85)",
+      "Schematic: Bronze Scythe (85)",
+      "Schematic: Bronze Shortsword (75)",
+      "Schematic: Bronze Spear (95)",
+      "Schematic: Bronze Stirrups (115)",
+      "Schematic: Bronze Throwing Dagger x100 (75)",
+      "Schematic: Bronze Throwing Dagger x20 (75)",
+      "Schematic: Bronze Throwing Dagger x200 (75)",
+      "Schematic: Bronze Tower Shield (135)",
+      "Schematic: Bronze Tread (105)",
+      "Schematic: Bronze Trident (95)",
+      "Schematic: Bronze War Lance (115)",
+      "Schematic: Bronze Warhammer (105)",
+      "Schematic: Copper Axe (10)",
+      "Schematic: Copper Battle Axe (10)",
+      "Schematic: Copper Cauldron (0)",
+      "Schematic: Copper Chain Boots (25)",
+      "Schematic: Copper Chain Cloak (5)",
+      "Schematic: Copper Chain Coif (35)",
+      "Schematic: Copper Chain Gambeson (25)",
+      "Schematic: Copper Chain Gloves (5)",
+      "Schematic: Copper Chain Gorget (0)",
+      "Schematic: Copper Chain Leggings (45)",
+      "Schematic: Copper Chain Mask (15)",
+      "Schematic: Copper Chain Shoulderguards (35)",
+      "Schematic: Copper Chain Tunic (55)",
+      "Schematic: Copper Chain Waistguard (15)",
+      "Schematic: Copper Chain Wristguard (0)",
+      "Schematic: Copper Dagger (0)",
+      "Schematic: Copper Great Scythe (20)",
+      "Schematic: Copper Greatsword (60)",
+      "Schematic: Copper Kite Shield (30)",
+      "Schematic: Copper Longsword (20)",
+      "Schematic: Copper Mace (30)",
+      "Schematic: Copper Maul (60)",
+      "Schematic: Copper Nails (0)",
+      "Schematic: Copper Plate Arming Doublet (25)",
+      "Schematic: Copper Plate Barding (50)",
+      "Schematic: Copper Plate Boots (25)",
+      "Schematic: Copper Plate Bracer (0)",
+      "Schematic: Copper Plate Breastplate (55)",
+      "Schematic: Copper Plate Cloak (5)",
+      "Schematic: Copper Plate Collar (0)",
+      "Schematic: Copper Plate Gauntlets (5)",
+      "Schematic: Copper Plate Girdle (15)",
+      "Schematic: Copper Plate Greaves (45)",
+      "Schematic: Copper Plate Helm (35)",
+      "Schematic: Copper Plate Pauldrons (35)",
+      "Schematic: Copper Plate Visor (15)",
+      "Schematic: Copper Scimitar (10)",
+      "Schematic: Copper Scythe (10)",
+      "Schematic: Copper Shortsword (0)",
+      "Schematic: Copper Spear (20)",
+      "Schematic: Copper Stirrups (0)",
+      "Schematic: Copper Throwing Dagger x100 (0)",
+      "Schematic: Copper Throwing Dagger x20 (0)",
+      "Schematic: Copper Throwing Dagger x200 (0)",
+      "Schematic: Copper Tower Shield (60)",
+      "Schematic: Copper Tread (30)",
+      "Schematic: Copper Trident (20)",
+      "Schematic: Copper War Lance (40)",
+      "Schematic: Copper Warhammer (30)",
+      "Schematic: Enchanted Bronze Chain Coif (110)",
+      "Schematic: Enchanted Bronze Chain Leggings (120)",
+      "Schematic: Enchanted Bronze Chain Tunic (130)",
+      "Schematic: Enchanted Bronze Plate Breastplate (130)",
+      "Schematic: Enchanted Bronze Plate Greaves (120)",
+      "Schematic: Enchanted Bronze Plate Helm (110)",
+      "Schematic: Enchanted Copper Chain Coif (35)",
+      "Schematic: Enchanted Copper Chain Leggings (45)",
+      "Schematic: Enchanted Copper Chain Tunic (55)",
+      "Schematic: Enchanted Copper Plate Breastplate (55)",
+      "Schematic: Enchanted Copper Plate Greaves (45)",
+      "Schematic: Enchanted Copper Plate Helm (35)",
+      "Schematic: Enchanted Iron Chain Coif (185)",
+      "Schematic: Enchanted Iron Chain Leggings (190)",
+      "Schematic: Enchanted Iron Chain Tunic (205)",
+      "Schematic: Enchanted Iron Plate Breastplate (205)",
+      "Schematic: Enchanted Iron Plate Greaves (190)",
+      "Schematic: Enchanted Iron Plate Helm (185)",
+      "Schematic: Enchanted Steel Chain Coif (260)",
+      "Schematic: Enchanted Steel Chain Leggings (265)",
+      "Schematic: Enchanted Steel Chain Tunic (280)",
+      "Schematic: Enchanted Steel Plate Breastplate (280)",
+      "Schematic: Enchanted Steel Plate Greaves (265)",
+      "Schematic: Enchanted Steel Plate Helm (260)",
+      "Schematic: Gold Plate Barding (200)",
+      "Schematic: Gold Stirrups (190)",
+      "Schematic: Iron Axe (160)",
+      "Schematic: Iron Battle Axe (160)",
+      "Schematic: Iron Cauldron (150)",
+      "Schematic: Iron Chain Boots (175)",
+      "Schematic: Iron Chain Cloak (155)",
+      "Schematic: Iron Chain Coif (185)",
+      "Schematic: Iron Chain Gambeson (175)",
+      "Schematic: Iron Chain Gloves (155)",
+      "Schematic: Iron Chain Gorget (145)",
+      "Schematic: Iron Chain Leggings (190)",
+      "Schematic: Iron Chain Mask (165)",
+      "Schematic: Iron Chain Shoulderguards (185)",
+      "Schematic: Iron Chain Tunic (205)",
+      "Schematic: Iron Chain Waistguard (165)",
+      "Schematic: Iron Chain Wristguard (145)",
+      "Schematic: Iron Dagger (150)",
+      "Schematic: Iron Great Scythe (170)",
+      "Schematic: Iron Greatsword (210)",
+      "Schematic: Iron Kite Shield (180)",
+      "Schematic: Iron Longsword (170)",
+      "Schematic: Iron Mace (180)",
+      "Schematic: Iron Maul (210)",
+      "Schematic: Iron Plate Arming Doublet (175)",
+      "Schematic: Iron Plate Barding (200)",
+      "Schematic: Iron Plate Boots (175)",
+      "Schematic: Iron Plate Bracer (145)",
+      "Schematic: Iron Plate Breastplate (205)",
+      "Schematic: Iron Plate Cloak (155)",
+      "Schematic: Iron Plate Collar (145)",
+      "Schematic: Iron Plate Gauntlets (155)",
+      "Schematic: Iron Plate Girdle (165)",
+      "Schematic: Iron Plate Greaves (190)",
+      "Schematic: Iron Plate Helm (185)",
+      "Schematic: Iron Plate Pauldrons (185)",
+      "Schematic: Iron Plate Visor (165)",
+      "Schematic: Iron Scimitar (160)",
+      "Schematic: Iron Scythe (160)",
+      "Schematic: Iron Shortsword (150)",
+      "Schematic: Iron Spear (170)",
+      "Schematic: Iron Stirrups (190)",
+      "Schematic: Iron Throwing Dagger x100 (150)",
+      "Schematic: Iron Throwing Dagger x20 (150)",
+      "Schematic: Iron Throwing Dagger x200 (150)",
+      "Schematic: Iron Tower Shield (210)",
+      "Schematic: Iron Tread (180)",
+      "Schematic: Iron Trident (170)",
+      "Schematic: Iron War Lance (190)",
+      "Schematic: Iron Warhammer (180)",
+      "Schematic: Platinum Plate Barding (275)",
+      "Schematic: Platinum Stirrups (265)",
+      "Schematic: Silver Plate Barding (125)",
+      "Schematic: Silver Stirrups (115)",
+      "Schematic: Steel Axe (235)",
+      "Schematic: Steel Battle Axe (235)",
+      "Schematic: Steel Cauldron (225)",
+      "Schematic: Steel Chain Boots (250)",
+      "Schematic: Steel Chain Cloak (230)",
+      "Schematic: Steel Chain Coif (260)",
+      "Schematic: Steel Chain Gambeson (250)",
+      "Schematic: Steel Chain Gloves (230)",
+      "Schematic: Steel Chain Gorget (220)",
+      "Schematic: Steel Chain Leggings (265)",
+      "Schematic: Steel Chain Mask (240)",
+      "Schematic: Steel Chain Shoulderguards (260)",
+      "Schematic: Steel Chain Tunic (280)",
+      "Schematic: Steel Chain Waistguard (240)",
+      "Schematic: Steel Chain Wristguard (220)",
+      "Schematic: Steel Dagger (225)",
+      "Schematic: Steel Great Scythe (245)",
+      "Schematic: Steel Greatsword (285)",
+      "Schematic: Steel Kite Shield (255)",
+      "Schematic: Steel Longsword (245)",
+      "Schematic: Steel Mace (255)",
+      "Schematic: Steel Maul (285)",
+      "Schematic: Steel Plate Arming Doublet (250)",
+      "Schematic: Steel Plate Barding (275)",
+      "Schematic: Steel Plate Boots (250)",
+      "Schematic: Steel Plate Bracer (220)",
+      "Schematic: Steel Plate Breastplate (280)",
+      "Schematic: Steel Plate Cloak (230)",
+      "Schematic: Steel Plate Collar (220)",
+      "Schematic: Steel Plate Gauntlets (230)",
+      "Schematic: Steel Plate Girdle (240)",
+      "Schematic: Steel Plate Greaves (265)",
+      "Schematic: Steel Plate Helm (260)",
+      "Schematic: Steel Plate Pauldrons (260)",
+      "Schematic: Steel Plate Visor (240)",
+      "Schematic: Steel Scimitar (235)",
+      "Schematic: Steel Scythe (235)",
+      "Schematic: Steel Shortsword (225)",
+      "Schematic: Steel Spear (245)",
+      "Schematic: Steel Stirrups (265)",
+      "Schematic: Steel Throwing Dagger x100 (225)",
+      "Schematic: Steel Throwing Dagger x20 (225)",
+      "Schematic: Steel Throwing Dagger x200 (225)",
+      "Schematic: Steel Tower Shield (285)",
+      "Schematic: Steel Tread (255)",
+      "Schematic: Steel Trident (245)",
+      "Schematic: Steel War Lance (265)",
+      "Schematic: Steel Warhammer (255)",
+      "Schematic: Tin Cauldron (75)"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Blacksmith_Baran"
+  },
+  {
+    "id": "bowyer-nulvessa",
+    "name": "Bowyer Nulvessa",
+    "zones": [
+      "Ail'Vorith"
+    ],
+    "location": "Foreign Quarter",
+    "sells": [
+      "Recipe: Pitch-Wrapped Arrow (x20)",
+      "Recipe: Net Arrow (x20)",
+      "Recipe: Smoke Bomb Arrow (x20)",
+      "Arrow",
+      "Bow",
+      "Fletching Kit",
+      "Hip Quiver",
+      "Large Back Quiver",
+      "Small Back Quiver",
+      "Throwing Dagger"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Bowyer_Nulvessa"
+  },
+  {
+    "id": "captain-eilionoir",
+    "name": "Captain Eilionoir",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "The Changing of the Guard",
+    "sells": [
+      "Langsdorf Pale Ale",
+      "Twilight Bay Rum",
+      "Water Flask",
+      "Weak Beer"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Captain_Eilionoir"
+  },
+  {
+    "id": "chef-belle",
+    "name": "Chef Belle",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "At the North Gate inn, next to Chef Daisy",
+    "sells": [
+      "Bottle of High-Quality Olive Oil",
+      "Camp Kitchen",
+      "Cellar of Sea Salt",
+      "Ration",
+      "Water Flask"
+    ],
+    "buys": [
+      "Animal parts (meat, legs ...)",
+      "Skeleton parts (chips, jawbone ...)",
+      "Vegetables (wild carrots ...)",
+      "Fish",
+      "Wood"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Chef_Belle"
+  },
+  {
+    "id": "chef-daisy",
+    "name": "Chef Daisy",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "At the North Gate inn, next to Chef Belle",
+    "sells": [
+      "Basil",
+      "Black Pepper",
+      "Butter",
+      "Cleaver",
+      "Cooking Sage",
+      "Milk",
+      "Paprika",
+      "Parsley",
+      "Rice",
+      "Stock",
+      "Thyme",
+      "Wheat Flour"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Chef_Daisy"
+  },
+  {
+    "id": "cheswik-barrelgirth",
+    "name": "Cheswik Barrelgirth",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "East of the Steel Talon Garrison",
+    "sells": [
+      "Langsdorf Pale Ale",
+      "Twilight Bay Rum",
+      "Water Flask",
+      "Weak Beer"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Cheswik_Barrelgirth"
+  },
+  {
+    "id": "clint-the-innocent",
+    "name": "Clint the Innocent",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "A greedy merchant out in the northern newbie yard, tucked away in the southeast corner.",
+    "sells": [
+      "Candle",
+      "Charcoal",
+      "Clint's Special Formula",
+      "Dispel Stone",
+      "Lantern",
+      "Lantern Fuel",
+      "Lock Pick",
+      "Lumberjack Axe",
+      "Malleable Bone Ornamented Coffin",
+      "Parchment",
+      "Ration",
+      "Torch",
+      "Volatile Rift Potion",
+      "Water Flask"
+    ],
+    "buys": [],
+    "greedy": true,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Clint_the_Innocent"
+  },
+  {
+    "id": "cyra-brinewell",
+    "name": "Cyra Brinewell",
+    "zones": [
+      "Keeper's Bight"
+    ],
+    "location": "The Salty Fish, at the docks",
+    "sells": [
+      "Fisherman's Guide to Dinner",
+      "Raw Bay Crab",
+      "Raw Swordfish Steak"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Cyra_Brinewell"
+  },
+  {
+    "id": "delloreli-the-butcher",
+    "name": "Delloreli the Butcher",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "",
+    "sells": [
+      "Raw Beef",
+      "Raw Mutton"
+    ],
+    "buys": [
+      "Fish",
+      "Monster Parts"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Delloreli_the_Butcher"
+  },
+  {
+    "id": "dilshad-abolfazl",
+    "name": "Dilshad Abolfazl",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "West building in the Tannery",
+    "sells": [
+      "Backpack",
+      "Pouch",
+      "Satchel",
+      "Small Field Pack",
+      "Small Trader's Pack",
+      "Trader's Backpack",
+      "Trader's Pouch",
+      "Trader's Satchel"
+    ],
+    "buys": [
+      "Bags",
+      "Hides"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Dilshad_Abolfazl"
+  },
+  {
+    "id": "drogo-the-grocer",
+    "name": "Drogo the Grocer",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "",
+    "sells": [
+      "Cauliflower",
+      "Celery",
+      "Chickpeas",
+      "Cup of Basmati Rice",
+      "Green Onions",
+      "Lemon",
+      "Ration",
+      "Red Cabbage",
+      "Tomato",
+      "Water Flask",
+      "Wheat Flour"
+    ],
+    "buys": [
+      "Food",
+      "Vegetables"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Drogo_the_Grocer"
+  },
+  {
+    "id": "enchanter-reagents",
+    "name": "Enchanter Reagents",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Spellbinders of the Spire, outside the door an on a balcony from Jaakima",
+    "sells": [
+      "Ethereal Dagger (15 copper)"
+    ],
+    "buys": [
+      "Animal parts",
+      "Chipped gems",
+      "Limestone",
+      "Multhele Roots (1c)",
+      "Resin (1c)",
+      "Sealants",
+      "Undead parts (bone chips - 1c)"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanter_Reagents"
+  },
+  {
+    "id": "feslan-godfrey",
+    "name": "Feslan Godfrey",
+    "zones": [
+      "Underdocks"
+    ],
+    "location": "Inn behind pirate's tavern.",
+    "sells": [
+      "Basil",
+      "Black Pepper",
+      "Sea Salt"
+    ],
+    "buys": [
+      "Cooking Supplies",
+      "Creature parts"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Feslan_Godfrey"
+  },
+  {
+    "id": "fisher-mardan",
+    "name": "Fisher Mardan",
+    "zones": [
+      "Sungreet Strand"
+    ],
+    "location": "",
+    "sells": [
+      "Fishing Pole",
+      "Grub"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Fisher_Mardan"
+  },
+  {
+    "id": "gorik-tundsen",
+    "name": "Gorik Tundsen",
+    "zones": [
+      "Underdocks"
+    ],
+    "location": "Inn behind pirate's tavern.",
+    "sells": [],
+    "buys": [
+      "Cooking Supplies",
+      "Creature parts"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Gorik_Tundsen"
+  },
+  {
+    "id": "greedy-merchant",
+    "name": "Greedy Merchant",
+    "zones": [],
+    "location": "",
+    "sells": [],
+    "buys": [],
+    "greedy": true,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Greedy_Merchant"
+  },
+  {
+    "id": "halrinn-grimsul",
+    "name": "Halrinn Grimsul",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "The Shaded Bloom Inn",
+    "sells": [
+      "Crab Leg Stew",
+      "Langsdorf Pale Ale",
+      "Ration",
+      "Water Flask",
+      "Weak Beer"
+    ],
+    "buys": [
+      "Drinks"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Halrinn_Grimsul"
+  },
+  {
+    "id": "haredi",
+    "name": "Haredi",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Haredi is in the Library. Once there, take the teleportation platform in front of you. You'll see Haredi to the left.",
+    "sells": [
+      "Pocket Mirror",
+      "Quill"
+    ],
+    "buys": [
+      "Spell scrolls"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Haredi"
+  },
+  {
+    "id": "hendrick-valbreken",
+    "name": "Hendrick Valbreken",
+    "zones": [
+      "Keeper's Bight"
+    ],
+    "location": "Village of Penshaw - Timberwolf Trading Co.",
+    "sells": [
+      "Animal Glue 2s 50c",
+      "Backpack 1g",
+      "Candle 75c",
+      "Charcoal 10c",
+      "Cleaver 1s",
+      "Lantern 1g",
+      "Lantern Fuel 2s 50c",
+      "Parchment 1c",
+      "Portion of Olive Oil 64c",
+      "Pouch 50c",
+      "Satchel 2s",
+      "Torch 75c"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Hendrick_Valbreken"
+  },
+  {
+    "id": "hendrik-valbreken",
+    "name": "Hendrik Valbreken",
+    "zones": [
+      "Keeper's Bight"
+    ],
+    "location": "Timberwolf Trading Co.",
+    "sells": [
+      "Animal Glue",
+      "Backpack",
+      "Candle",
+      "Cellar of Sea Salt",
+      "Charcoal",
+      "Cleaver",
+      "Lantern",
+      "Lantern Fuel",
+      "Lumberjack Axe",
+      "Parchment",
+      "Portion of Olive Oil",
+      "Pouch",
+      "Torch"
+    ],
+    "buys": [
+      "Bags",
+      "Torches"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Hendrik_Valbreken"
+  },
+  {
+    "id": "instructor-afzal",
+    "name": "Instructor Afzal",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Spellbinders of the Spire",
+    "sells": [
+      "Level 1 to 60 enchanter spells",
+      "Spellbook",
+      "Major Sigil of the Mind",
+      "Minor Sigil of the Mind",
+      "Sigil of the Mind"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Instructor_Afzal"
+  },
+  {
+    "id": "ivar-copperpot",
+    "name": "Ivar Copperpot",
+    "zones": [
+      "Underdocks"
+    ],
+    "location": "The inn across from Citadel Exchange. Downstairs. The backroom behind the bar.",
+    "sells": [],
+    "buys": [
+      "Cooking Supplies",
+      "Creature parts"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Ivar_Copperpot"
+  },
+  {
+    "id": "kalessa-velgarrith",
+    "name": "Kalessa Velgarrith",
+    "zones": [
+      "Blind Midden"
+    ],
+    "location": "",
+    "sells": [
+      "Deep Gnome Guise - 1P 10G",
+      "Recipe: Charred Mudfish - 3s 30c",
+      "Recipe: Crude Prison Shiv -3s 30c",
+      "Recipe: Shale Hilt - 3s 30c"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Kalessa_Velgarrith"
+  },
+  {
+    "id": "karlin-saddler",
+    "name": "Karlin Saddler",
+    "zones": [
+      "Underdocks"
+    ],
+    "location": "Underdocks stables",
+    "sells": [
+      "Animal Feed",
+      "Basic Pack Rigging",
+      "Premium Animal Feed"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Karlin_Saddler"
+  },
+  {
+    "id": "karsyn",
+    "name": "Karsyn",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Enchanters guild (near the docks), outside the door and on a balcony from Jaakima",
+    "sells": [
+      "Ethereal Dagger (15 copper)",
+      "Pinch of Sparkling Sand (4 silver, 50 copper)",
+      "Tome of Shadows (25 copper)"
+    ],
+    "buys": [
+      "Animal parts",
+      "Chipped gems",
+      "Limestone",
+      "Multhele Root",
+      "Resin",
+      "Sealants",
+      "Undead parts"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Karsyn"
+  },
+  {
+    "id": "leatherworker-saif",
+    "name": "Leatherworker Saif",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Tannery, next to Leatherworker Haiat",
+    "sells": [
+      "(along with their respective \"white difficulty\" level)",
+      "Pattern: Enchanted Hide Cap (125)",
+      "Pattern: Enchanted Hide Leggings (130)",
+      "Pattern: Enchanted Hide Tunic (135)",
+      "Pattern: Enchanted Leather Cap (200)",
+      "Pattern: Enchanted Leather Leggings (205)",
+      "Pattern: Enchanted Leather Tunic (210)",
+      "Pattern: Enchanted Padded Leather Cap (275)",
+      "Pattern: Enchanted Padded Leather Leggings (280)",
+      "Pattern: Enchanted Padded Leather Tunic (280)",
+      "Pattern: Enchanted Rawhide Cap (50)",
+      "Pattern: Enchanted Rawhide Leggings (55)",
+      "Pattern: Enchanted Rawhide Tunic (60)",
+      "Pattern: Hide Backpack (125)",
+      "Pattern: Hide Belt (90)",
+      "Pattern: Hide Boots (100)",
+      "Pattern: Hide Bracelet (70)",
+      "Pattern: Hide Cap (110)",
+      "Pattern: Hide Gloves (80)",
+      "Pattern: Hide Gorget (70)",
+      "Pattern: Hide Leggings (120)",
+      "Pattern: Hide Mask (90)",
+      "Pattern: Hide Pouch (85)",
+      "Pattern: Hide Saddle (115)",
+      "Pattern: Hide Satchel (95)",
+      "Pattern: Hide Shoulderpads (110)",
+      "Pattern: Hide Tunic (130)",
+      "Pattern: Hide Vest (100)",
+      "Pattern: Leather Backpack (200)",
+      "Pattern: Leather Belt (165)",
+      "Pattern: Leather Boots (175)",
+      "Pattern: Leather Bracelet (145)",
+      "Pattern: Leather Cap (185)",
+      "Pattern: Leather Gloves (155)",
+      "Pattern: Leather Gorget (145)",
+      "Pattern: Leather Leggings (195)",
+      "Pattern: Leather Mask (165)",
+      "Pattern: Leather Pouch (160)",
+      "Pattern: Leather Saddle (190)",
+      "Pattern: Leather Satchel (170)",
+      "Pattern: Leather Shoulderpads (185)",
+      "Pattern: Leather Tunic (205)",
+      "Pattern: Leather Vest (175)",
+      "Pattern: Linen Backpack (275)",
+      "Pattern: Padded Leather Belt (240)",
+      "Pattern: Padded Leather Boots (250)",
+      "Pattern: Padded Leather Bracelet (220)",
+      "Pattern: Padded Leather Cap (260)",
+      "Pattern: Padded Leather Gloves (230)",
+      "Pattern: Padded Leather Gorget (220)",
+      "Pattern: Padded Leather Leggings (270)",
+      "Pattern: Padded Leather Mask (240)",
+      "Pattern: Padded Leather Pouch (235)",
+      "Pattern: Padded Leather Saddle (265)",
+      "Pattern: Padded Leather Satchel (245)",
+      "Pattern: Padded Leather Shoulderpads (260)",
+      "Pattern: Padded Leather Tunic",
+      "Pattern: Padded Leather Vest (250)",
+      "Pattern: Rawhide Backpack (50)",
+      "Pattern: Rawhide Belt (15)",
+      "Pattern: Rawhide Boots (25)",
+      "Pattern: Rawhide Bracelet (0)",
+      "Pattern: Rawhide Cap (35)",
+      "Pattern: Rawhide Gloves (5)",
+      "Pattern: Rawhide Gorget (0)",
+      "Pattern: Rawhide Mask (15)",
+      "Pattern: Rawhide Pouch (10)",
+      "Pattern: Rawhide Saddle (40)",
+      "Pattern: Rawhide Saddlebag (30)",
+      "Pattern: Rawhide Satchel (20)",
+      "Pattern: Rawhide Shoulderpads (35)",
+      "Pattern: Rawhide Tunic (55)",
+      "Pattern: Rawhide Vest (25)",
+      "Pattern: Thin Leather (0)"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Leatherworker_Saif"
+  },
+  {
+    "id": "leatherworker-vex",
+    "name": "Leatherworker Vex",
+    "zones": [
+      "Ail'Vorith"
+    ],
+    "location": "Foreign Trader's Market",
+    "sells": [
+      "Leatherworking Patterns",
+      "Thread",
+      "Leatherworking Kit"
+    ],
+    "buys": [
+      "Tattered Rawhide",
+      "Rawhide Scraps"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Leatherworker_Vex"
+  },
+  {
+    "id": "leatherworking-supplies",
+    "name": "Leatherworking Supplies",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Sojourner Camp",
+    "sells": [
+      "Leatherworking Kit",
+      "Seam Ripper",
+      "Skinning Knife"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Leatherworking_Supplies"
+  },
+  {
+    "id": "lloyd-matthias",
+    "name": "Lloyd Matthias",
+    "zones": [
+      "Keeper's Bight"
+    ],
+    "location": "Treehouse",
+    "sells": [
+      "Calafreyan Sap",
+      "Elven Wine",
+      "Langsdorf Pale Ale",
+      "Water Flask",
+      "Weak Beer"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Lloyd_Matthias"
+  },
+  {
+    "id": "mafeed-the-butcher",
+    "name": "Mafeed the Butcher",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market",
+    "sells": [
+      "Raw Beef",
+      "Raw Mutton"
+    ],
+    "buys": [
+      "Fish",
+      "Monster Parts"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Mafeed_the_Butcher"
+  },
+  {
+    "id": "marcus-aden",
+    "name": "Marcus Aden",
+    "zones": [
+      "Fallen Watch"
+    ],
+    "location": "To the left of the zone in",
+    "sells": [
+      "Scrivener's Satchel - 13g 20s"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Marcus_Aden"
+  },
+  {
+    "id": "mason-steinn",
+    "name": "Mason Steinn",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Inside the temple against the cliff between Sojourner's Camp and the Tannery.",
+    "sells": [
+      "Hammer and Chisel"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Mason_Steinn"
+  },
+  {
+    "id": "master-tailor-sansha",
+    "name": "Master Tailor Sansha",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "North gate, third door on the right when heading to the Mage Tower",
+    "sells": [
+      "Fine Blue Cloth Robe",
+      "Fine Green Cloth Robe",
+      "Fine Red Cloth Robe",
+      "Heavy Thread",
+      "Light Thread",
+      "Rough Thread",
+      "Satin Thread",
+      "Seam Ripper",
+      "Tailoring Kit"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Master_Tailor_Sansha"
+  },
+  {
+    "id": "melzorra",
+    "name": "Melzorra",
+    "zones": [
+      "Ail'Vorith"
+    ],
+    "location": "Foreign Quarter's Courtyard",
+    "sells": [
+      "Backpack",
+      "Pouch",
+      "Satchel",
+      "Small Field Pack",
+      "Small Trader's Pack",
+      "Trader's Backpack",
+      "Trader's Pouch",
+      "Trader's Satchel"
+    ],
+    "buys": [
+      "Bags",
+      "Bat Fur",
+      "Leatherworking Mats",
+      "Large Bat Fur",
+      "Wererat Pelt"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Melzorra"
+  },
+  {
+    "id": "minel-ublast",
+    "name": "Minel Ublast",
+    "zones": [
+      "Ail'Vorith"
+    ],
+    "location": "By the inquisitor guards in the main city, up ramp on right",
+    "sells": [
+      "Leatherworking Patterns",
+      "Thread",
+      "Leatherworking Kit"
+    ],
+    "buys": [
+      "Tattered Rawhide Armor",
+      "Rawhide Scarps"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Minel_Ublast"
+  },
+  {
+    "id": "mira-gables",
+    "name": "Mira Gables",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "North gate, third door on the right when heading to the Mage Tower",
+    "sells": [
+      "Heavy Thread",
+      "Light Thread",
+      "Rough Thread",
+      "Satin Thread",
+      "Seam Ripper",
+      "Tailoring Kit"
+    ],
+    "buys": [
+      "Animal fur, fangs, silk",
+      "Bandages",
+      "Skeleton parts",
+      "Tailored armor",
+      "Tailoring material (scraps ...)"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Mira_Gables"
+  },
+  {
+    "id": "munk",
+    "name": "Munk",
+    "zones": [
+      "Underdocks"
+    ],
+    "location": "",
+    "sells": [
+      "Munk's Meat",
+      "Raw Beef",
+      "Raw Mutton"
+    ],
+    "buys": [
+      "Fish",
+      "Monster Parts"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Munk"
+  },
+  {
+    "id": "nerida-thinblade",
+    "name": "Nerida Thinblade",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "The Spirit Tap (in the Black Feather Bazaar)",
+    "sells": [
+      "Black Feather Whiskey",
+      "Water Flask",
+      "Weak Beer"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Nerida_Thinblade"
+  },
+  {
+    "id": "nibs-mudknuckle",
+    "name": "Nibs Mudknuckle",
+    "zones": [
+      "Blind Midden"
+    ],
+    "location": "",
+    "sells": [
+      "Deep Gnome Guise - 1P 10G",
+      "Recipe: Charred Mudfish - 3s 30c",
+      "Recipe: Crude Prison Shiv -3s 30c",
+      "Recipe: Shale Hilt - 3s 30c"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Nibs_Mudknuckle"
+  },
+  {
+    "id": "nyssara-mesmerin",
+    "name": "Nyssara Mesmerin",
+    "zones": [
+      "Underdocks"
+    ],
+    "location": "Casters Guild",
+    "sells": [
+      "Many Enchanter spells",
+      "Major Sigil of the Mind",
+      "Minor Sigil of the Mind",
+      "Spellbook"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Nyssara_Mesmerin"
+  },
+  {
+    "id": "nyxia-ak-kin",
+    "name": "Nyxia Ak'kin",
+    "zones": [
+      "Ail'Vorith"
+    ],
+    "location": "Foreign Quarter Supper Hall",
+    "sells": [
+      "Ration",
+      "Water Flask"
+    ],
+    "buys": [
+      "Drinks",
+      "Deep Beetle Eye (79c)",
+      "Food"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Nyxia_Ak'kin"
+  },
+  {
+    "id": "otto-roth",
+    "name": "Otto Roth",
+    "zones": [
+      "Keeper's Bight"
+    ],
+    "location": "The Wheelhouse Tavern",
+    "sells": [
+      "Calafreyan Sap",
+      "Elven Wine",
+      "Langsdorf Pale Ale",
+      "Water Flask",
+      "Weak Beer"
+    ],
+    "buys": [
+      "Water Flask"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Otto_Roth"
+  },
+  {
+    "id": "quartermaster-obaid",
+    "name": "Quartermaster Obaid",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "The Steel Talons Garrison",
+    "sells": [
+      "Buckler",
+      "Candle",
+      "Garrison Longsword",
+      "Kite Shield",
+      "Lumberjack Axe",
+      "Ration",
+      "Small Field Pack",
+      "Torch",
+      "Tower Shield",
+      "Water Flask"
+    ],
+    "buys": [
+      "Weapons",
+      "Armor",
+      "Food"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Quartermaster_Obaid"
+  },
+  {
+    "id": "rais-alyssum",
+    "name": "Rais Alyssum",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Glimmermoon Hall (bard guild), in a room next to Jalwa Noor",
+    "sells": [
+      "Simple Brass Horn (2 silver, 50 copper)",
+      "Simple Wood Flute (2 silver, 50 copper)",
+      "Simple Wooden Lute (5 silver)",
+      "Small Hand Drum (5 silver)"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Rais_Alyssum"
+  },
+  {
+    "id": "riham",
+    "name": "Riham",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Docks",
+    "sells": [
+      "Tallow Potash",
+      "Tallow Soap"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Riham"
+  },
+  {
+    "id": "rolan-talmula",
+    "name": "Rolan Talmula",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Found around the entrance of the druid guild in Saltbreeze Park",
+    "sells": [
+      "Druid spells scrolls",
+      "Spellbook"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Rolan_Talmula"
+  },
+  {
+    "id": "ruzzuna",
+    "name": "Ruzzuna",
+    "zones": [
+      "Ail'Vorith"
+    ],
+    "location": "Foreign Trader's Market",
+    "sells": [
+      "Cloth Armour Recipes"
+    ],
+    "buys": [
+      "Cloth Armor"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Ruzzuna"
+  },
+  {
+    "id": "sproggets-bedsprings",
+    "name": "Sproggets Bedsprings",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night market inside the house just northwest of a used weapons dealer",
+    "sells": [
+      "Animal Glue",
+      "Backpack",
+      "Candle",
+      "Charcoal",
+      "Cooking Pot",
+      "Fish Scaler",
+      "Grappling Hook",
+      "Lantern",
+      "Lantern Fuel",
+      "Lumberjack Axe",
+      "Parchment",
+      "Rope, Hempen, 50 Length",
+      "Rope, Silk, 50 Length",
+      "Small Field Pack",
+      "Torch"
+    ],
+    "buys": [
+      "Bags",
+      "Bandages",
+      "Light Stones",
+      "Giant Beetle Eyes",
+      "Torches"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Sproggets_Bedsprings"
+  },
+  {
+    "id": "stonecutter-selin",
+    "name": "Stonecutter Selin",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Inside the temple against the cliff between Sojourner's Camp and the Tannery.",
+    "sells": [
+      "Hammer and Chisel"
+    ],
+    "buys": [
+      "Brittle Stone",
+      "Weighty Stone"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Stonecutter_Selin"
+  },
+  {
+    "id": "supplier-jul",
+    "name": "Supplier Jul",
+    "zones": [
+      "Ail'Vorith"
+    ],
+    "location": "Located in Foreign Quarter in first house on left.",
+    "sells": [
+      "Candle",
+      "Dispel Stone",
+      "Lantern",
+      "Lantern Fuel",
+      "Lock Pick",
+      "Lumberjack Axe",
+      "Parchment",
+      "Torch"
+    ],
+    "buys": [
+      "Tattered Cloth",
+      "Tattered Rawhide",
+      "Raw Meats",
+      "Gems",
+      "Food"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Supplier_Jul"
+  },
+  {
+    "id": "sybille-abegg",
+    "name": "Sybille Abegg",
+    "zones": [
+      "Keeper's Bight"
+    ],
+    "location": "Village of Penshaw - Mossy Brook Inn",
+    "sells": [
+      "fish, vegetables, and meats"
+    ],
+    "buys": [
+      "fish, vegetables, and meats"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Sybille_Abegg"
+  },
+  {
+    "id": "tailor-darya",
+    "name": "Tailor Darya",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market, next to Noura the Tailor",
+    "sells": [
+      "(along with their respective \"white difficulty\" level)",
+      "Pattern: Cloth Backpack (50)",
+      "Pattern: Cloth Pouch (10)",
+      "Pattern: Cloth Satchel (20)",
+      "Pattern: Cotton Backpack (200)",
+      "Pattern: Cotton Pouch (160)",
+      "Pattern: Cotton Satchel (170)",
+      "Pattern: Enchanted Cloth Cap (50)",
+      "Pattern: Enchanted Cloth Pants (55)",
+      "Pattern: Enchanted Cloth Tunic (210)",
+      "Pattern: Enchanted Cotton Cap (200)",
+      "Pattern: Enchanted Cotton Pants (205)",
+      "Pattern: Enchanted Cotton Tunic (60)",
+      "Pattern: Enchanted Linen Cap (275)",
+      "Pattern: Enchanted Linen Pants (280)",
+      "Pattern: Enchanted Linen Tunic (285)",
+      "Pattern: Enchanted Wool Cap (125)",
+      "Pattern: Enchanted Wool Pants (130)",
+      "Pattern: Enchanted Wool Tunic (135)",
+      "Pattern: Fine Cloth Belt (15)",
+      "Pattern: Fine Cloth Boots (25)",
+      "Pattern: Fine Cloth Bracer (0)",
+      "Pattern: Fine Cloth Cap (35)",
+      "Pattern: Fine Cloth Cape (5)",
+      "Pattern: Fine Cloth Gloves (5)",
+      "Pattern: Fine Cloth Gorget (0)",
+      "Pattern: Fine Cloth Mantle (35)",
+      "Pattern: Fine Cloth Pants (45)",
+      "Pattern: Fine Cloth Robe (55)",
+      "Pattern: Fine Cloth Shirt (25)",
+      "Pattern: Fine Cloth Tunic (55)",
+      "Pattern: Fine Cloth Veil (15)",
+      "Pattern: Fine Cotton Belt (165)",
+      "Pattern: Fine Cotton Boots (175)",
+      "Pattern: Fine Cotton Bracer (145)",
+      "Pattern: Fine Cotton Cap (185)",
+      "Pattern: Fine Cotton Cape (155)",
+      "Pattern: Fine Cotton Gloves (155)",
+      "Pattern: Fine Cotton Gorget (145)",
+      "Pattern: Fine Cotton Mantle (185)",
+      "Pattern: Fine Cotton Pants (195)",
+      "Pattern: Fine Cotton Robe (205)",
+      "Pattern: Fine Cotton Shirt (175)",
+      "Pattern: Fine Cotton Tunic (205)",
+      "Pattern: Fine Cotton Veil (165)",
+      "Pattern: Fine Linen Belt (240)",
+      "Pattern: Fine Linen Boots (250)",
+      "Pattern: Fine Linen Bracer (220)",
+      "Pattern: Fine Linen Cap (260)",
+      "Pattern: Fine Linen Cape (230)",
+      "Pattern: Fine Linen Gloves (230)",
+      "Pattern: Fine Linen Gorget (220)",
+      "Pattern: Fine Linen Mantle (260)",
+      "Pattern: Fine Linen Pants (270)",
+      "Pattern: Fine Linen Robe (280)",
+      "Pattern: Fine Linen Shirt (250)",
+      "Pattern: Fine Linen Tunic (280)",
+      "Pattern: Fine Linen Veil (240)",
+      "Pattern: Fine Wool Belt (90)",
+      "Pattern: Fine Wool Boots (100)",
+      "Pattern: Fine Wool Bracer (70)",
+      "Pattern: Fine Wool Cap (110)",
+      "Pattern: Fine Wool Cape (80)",
+      "Pattern: Fine Wool Gloves (80)",
+      "Pattern: Fine Wool Gorget (70)",
+      "Pattern: Fine Wool Mantle (110)",
+      "Pattern: Fine Wool Pants (120)",
+      "Pattern: Fine Wool Robe (130)",
+      "Pattern: Fine Wool Shirt (100)",
+      "Pattern: Fine Wool Tunic (130)",
+      "Pattern: Fine Wool Veil (90)",
+      "Pattern: Linen Backpack (275)",
+      "Pattern: Linen Pouch (235)",
+      "Pattern: Linen Satchel (245)",
+      "Pattern: Wool Backpack (125)",
+      "Pattern: Wool Pouch (85)",
+      "Pattern: Wool Satchel (95)"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Tailor_Darya"
+  },
+  {
+    "id": "talnach-wilenner",
+    "name": "Talnach Wilenner",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Seekers of the Lost Eye (shaman / beastmaster guild)",
+    "sells": [
+      "Shaman spells scrolls",
+      "Spellbook"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Talnach_Wilenner"
+  },
+  {
+    "id": "tessa-kentwell",
+    "name": "Tessa Kentwell",
+    "zones": [
+      "Keeper's Bight"
+    ],
+    "location": "In the tannery near the Red Mantle building.",
+    "sells": [],
+    "buys": [
+      "Pelts and Hides",
+      "Threads"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Tessa_Kentwell"
+  },
+  {
+    "id": "tinkerer-vilsis",
+    "name": "Tinkerer Vilsis",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Inside the temple against the cliff between Sojourner's Camp and the Tannery.",
+    "sells": [
+      "Schematic: Chompers (0)",
+      "Schematic: Copper Spring (0)",
+      "Schematic: Miniature Bell (0)",
+      "Schematic: Pressure Plate (0)",
+      "Tinkering Toolkit"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Tinkerer_Vilsis"
+  },
+  {
+    "id": "tolrad-oarsen",
+    "name": "Tolrad Oarsen",
+    "zones": [
+      "Keeper's Bight"
+    ],
+    "location": "In the fishing camp at the end of the docks of Penshaw.",
+    "sells": [
+      "Fishing Pole",
+      "Grub"
+    ],
+    "buys": [
+      "Grub",
+      "Wood"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Tolrad_Oarsen"
+  },
+  {
+    "id": "used-armor-trader",
+    "name": "Used Armor Trader",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Night Market",
+    "sells": [],
+    "buys": [
+      "Various Armor Drops"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Used_Armor_Trader"
+  },
+  {
+    "id": "veldara-stillflask",
+    "name": "Veldara Stillflask",
+    "zones": [
+      "Underdocks"
+    ],
+    "location": "Alchemy Supplies shop in Western District",
+    "sells": [
+      "Annealed Vial",
+      "Bone Ash",
+      "Crude Fish Oil",
+      "Crude Flask",
+      "Crude Wood Finish",
+      "Crystallized Vial",
+      "Ghost Poppy Powder",
+      "Glass Vial",
+      "Imbued Flask",
+      "Leaded Flask",
+      "Makeshift Vial",
+      "Minor Serum of Strength",
+      "Mortar and Pestle",
+      "Potion Bandolier",
+      "Runed Flask",
+      "Tempered Vial"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Veldara_Stillflask"
+  },
+  {
+    "id": "weaponsmith-sielah-zefir",
+    "name": "Weaponsmith Sielah Zefir",
+    "zones": [
+      "Night Harbor"
+    ],
+    "location": "Blackfeather Bazaar",
+    "sells": [
+      "Rusty Dagger",
+      "Rusty Mace",
+      "Rusty Shortsword"
+    ],
+    "buys": [
+      "Weapons"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Weaponsmith_Sielah_Zefir"
+  },
+  {
+    "id": "xeldrin-waymark",
+    "name": "Xeldrin Waymark",
+    "zones": [
+      "Underdocks"
+    ],
+    "location": "",
+    "sells": [
+      "Ranger spell and ability scrolls"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Xeldrin_Waymark"
+  }
+]
