@@ -1,12 +1,16 @@
 {
-  "name": "harbormark",
+  "name": "skillooth",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
+    "build:pages": "tsc --noEmit && vite build --base /skillooth/",
     "preview": "vite preview",
-    "scrape": "node scripts/scrape.mjs"
+    "scrape": "node scripts/scrape.mjs",
+    "facts": "node scripts/build-item-facts.mjs",
+    "names": "node scripts/build-item-names.mjs",
+    "refresh": "node scripts/scrape.mjs && node scripts/build-item-names.mjs && node scripts/build-item-facts.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

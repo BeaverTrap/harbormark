@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { recipeFor, recipes } from "./craft";
+import { itemPage } from "./goods";
 import { atlasForZone, knownZones, wikiPage } from "./links";
 import { OutLink } from "./OutLink";
 
@@ -10,7 +11,7 @@ const ITEM_NAMES = [
   .sort((a, b) => b.length - a.length);
 
 export function ItemLink({ name }: { name: string }) {
-  const href = recipeFor(name).find((recipe) => recipe.wiki)?.wiki || wikiPage(name);
+  const href = itemPage(name) || recipeFor(name).find((recipe) => recipe.wiki)?.wiki || wikiPage(name);
   return (
     <OutLink href={href} title={`${name} on the wiki`}>
       {name}

@@ -1,6 +1,7 @@
+import itemNames from "./data/item-names.json";
 import { recipes } from "./craft";
 import { merchants } from "./catalog";
-import { FAMILIES } from "./families";
+import { FAMILIES, mentions } from "./families";
 import { normalize } from "./match";
 
 export type Good = {
@@ -12,22 +13,8 @@ export type Good = {
 
 const OTHER = "Other";
 
-function tokenHits(token: string, word: string): boolean {
-  if (token === word) return true;
-  if (word.length < 4) return false;
-  return token === `${word}s` || token === `${word}es`;
-}
-
 function familyFor(text: string): string {
-  const haystack = normalize(text);
-  const tokens = haystack.split(" ").filter(Boolean);
-  const match = FAMILIES.find((family) =>
-    family.words.some((word) => {
-      const normalized = normalize(word);
-      if (normalized.includes(" ")) return haystack.includes(normalized);
-      return tokens.some((token) => tokenHits(token, normalized));
-    }),
-  );
+  const match = FAMILIES.find((family) => family.words.some((word) => mentions(text, word)));
   return match?.label ?? OTHER;
 }
 
@@ -68,11 +55,18 @@ function buildGoods(): Good[] {
   for (const recipe of recipes) {
     for (const ingredient of recipe.ingredients) add(ingredient.name, false);
   }
+  for (const item of itemNames) add(item.name, false);
 
   return [...byName.values()].sort((a, b) => Number(b.bought) - Number(a.bought) || a.name.localeCompare(b.name));
 }
 
 export const goods = buildGoods();
+
+const itemPages = new Map(itemNames.map((item) => [normalize(item.name), `https://monstersandmemories.wiki/items/${item.id}`]));
+
+export function itemPage(name: string): string | null {
+  return itemPages.get(normalize(name)) ?? null;
+}
 
 export function familyShort(label: string): string {
   return FAMILIES.find((family) => family.label === label)?.short ?? "Other";

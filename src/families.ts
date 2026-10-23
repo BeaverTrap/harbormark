@@ -4,7 +4,122 @@ export type TradeFamily = {
   words: string[];
 };
 
+function plain(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .replace(/\s+/g, " ");
+}
+
+export function mentions(text: string, word: string): boolean {
+  const haystack = plain(text);
+  const normalized = plain(word);
+  if (!normalized) return false;
+  if (normalized.includes(" ")) return haystack.includes(normalized);
+  const tokens = haystack.split(" ").filter(Boolean);
+  return tokens.some((token) => token === normalized || token === `${normalized}s` || token === `${normalized}es`);
+}
+
+const GEAR_LABELS = new Set(["weapons", "armor", "jewelry"]);
+const MATERIAL_LABELS = new Set([
+  "meat and animal parts",
+  "fish",
+  "vegetables, roots, and herbs",
+  "hides and leather",
+  "cloth and thread",
+  "ore and metal",
+  "wood",
+  "reagents and spell parts",
+]);
+
+export function gearQuery(text: string): boolean {
+  return FAMILIES.some(
+    (family) => GEAR_LABELS.has(family.label) && family.words.some((word) => mentions(text, word)),
+  );
+}
+
+export function materialFamily(label: string): boolean {
+  return MATERIAL_LABELS.has(label);
+}
+
 export const FAMILIES: TradeFamily[] = [
+  {
+    label: "weapons",
+    short: "Weapons",
+    words: [
+      "weapon",
+      "sword",
+      "shortsword",
+      "dagger",
+      "mace",
+      "axe",
+      "staff",
+      "bow",
+      "blade",
+      "spear",
+      "knife",
+      "cleaver",
+      "hammer",
+      "club",
+      "flail",
+      "wand",
+      "rapier",
+      "halberd",
+      "pike",
+      "scythe",
+      "arrow",
+      "bolt",
+    ],
+  },
+  {
+    label: "armor",
+    short: "Armor",
+    words: [
+      "armor",
+      "armour",
+      "boot",
+      "tunic",
+      "vest",
+      "robe",
+      "cap",
+      "helm",
+      "hood",
+      "mask",
+      "belt",
+      "cloak",
+      "cape",
+      "mantle",
+      "legging",
+      "pant",
+      "trouser",
+      "greave",
+      "shoulderpads",
+      "pauldron",
+      "gorget",
+      "glove",
+      "gauntlet",
+      "bracer",
+      "vambrace",
+      "sleeve",
+      "breastplate",
+      "chainmail",
+      "platemail",
+      "coif",
+      "circlet",
+      "crown",
+      "sandal",
+      "shoe",
+      "shield",
+      "buckler",
+    ],
+  },
+  {
+    label: "jewelry",
+    short: "Jewelry",
+    words: ["jewelry", "ring", "earring", "necklace", "amulet", "pendant", "choker"],
+  },
   {
     label: "meat and animal parts",
     short: "Meat",
@@ -29,16 +144,6 @@ export const FAMILIES: TradeFamily[] = [
     label: "cloth and thread",
     short: "Cloth",
     words: ["cloth", "silk", "thread", "linen", "fabric"],
-  },
-  {
-    label: "weapons",
-    short: "Weapons",
-    words: ["weapon", "sword", "shortsword", "dagger", "mace", "axe", "staff", "bow", "blade", "spear", "knife", "cleaver", "hammer"],
-  },
-  {
-    label: "armor",
-    short: "Armor",
-    words: ["armor", "armour", "boot", "chain", "plate", "helm", "gauntlet", "bracer", "vambrace"],
   },
   {
     label: "ore and metal",

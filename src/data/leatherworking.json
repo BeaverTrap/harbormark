@@ -1,0 +1,2667 @@
+{
+  "recipes": [
+    {
+      "product": "Rawhide Canvas",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 5,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 6,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Canvas",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/5/5b/Itemicon0125AA.png"
+    },
+    {
+      "product": "Rawhide Strap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 5,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Strap",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/bd/Itemicon0010AA.png"
+    },
+    {
+      "product": "Rawhide Bracelet",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Bracelet",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fc/Itemicon0014AA.png"
+    },
+    {
+      "product": "Rawhide Gorget",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Gorget",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/3/34/Itemicon0008AA.png"
+    },
+    {
+      "product": "Patched Rawhide Mask",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Rawhide Mask",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Rawhide_Mask",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/ee/Itemicon0011AA.png"
+    },
+    {
+      "product": "Patched Rawhide Tunic",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Tattered Rawhide Tunic",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Rawhide_Tunic",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/c/cd/Itemicon0026AA.png"
+    },
+    {
+      "product": "Patched Rawhide Leggings",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Tattered Rawhide Leggings",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Rawhide_Leggings",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/e9/Itemicon0019AA.png"
+    },
+    {
+      "product": "Patched Rawhide Shoulderpads",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Rawhide Shoulderpads",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Rawhide_Shoulderpads",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fa/Itemicon0053AA.png"
+    },
+    {
+      "product": "Patched Rawhide Cap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Tattered Rawhide Cap",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Rawhide_Cap",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fd/Itemicon0031AA.png"
+    },
+    {
+      "product": "Patched Rawhide Cloak",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Tattered Rawhide Cloak",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Rawhide_Cloak",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/f1/Itemicon0012AC.png"
+    },
+    {
+      "product": "Patched Rawhide Gloves",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Rawhide Gloves",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Rawhide_Gloves",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/6/66/Itemicon0015AA.png"
+    },
+    {
+      "product": "Patched Rawhide Bracelet",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Rawhide Bracer",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Rawhide_Bracelet",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fc/Itemicon0014AA.png"
+    },
+    {
+      "product": "Patched Rawhide Belt",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Rawhide Belt",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Rawhide_Belt",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/bd/Itemicon0010AA.png"
+    },
+    {
+      "product": "Patched Rawhide Gorget",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Rawhide Gorget",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Rawhide_Gorget",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/3/34/Itemicon0008AA.png"
+    },
+    {
+      "product": "Patched Rawhide Boots",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Rawhide Boots",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Rawhide_Boots",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/bd/Itemicon0037AA.png"
+    },
+    {
+      "product": "Rawhide Cloak",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 20,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Cloak",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/f1/Itemicon0012AC.png"
+    },
+    {
+      "product": "Rawhide Gloves",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 20,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Gloves",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/6/66/Itemicon0015AA.png"
+    },
+    {
+      "product": "Rawhide Belt",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 30,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Belt",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/bd/Itemicon0010AA.png"
+    },
+    {
+      "product": "Rawhide Mask",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 30,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Mask",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/ee/Itemicon0011AA.png"
+    },
+    {
+      "product": "Rawhide Boots",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 40,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Boots",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/bd/Itemicon0037AA.png"
+    },
+    {
+      "product": "Rawhide Saddlebag",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 45,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 6,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 4,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Saddlebag",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/a/a5/Itemicon0266AA.png"
+    },
+    {
+      "product": "Rawhide Cap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 50,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Cap",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fd/Itemicon0031AA.png"
+    },
+    {
+      "product": "Rawhide Shoulderpads",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 50,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Shoulderpads",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fa/Itemicon0053AA.png"
+    },
+    {
+      "product": "Enchanted Rawhide Canvas",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 55,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Rawhide",
+          "qty": 6,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Rawhide_Canvas",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/5/5b/Itemicon0125AA.png"
+    },
+    {
+      "product": "Rawhide Saddle",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 60,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Scraps",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Rawhide Strap",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Copper Stirrups",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Saddle",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/9/90/Itemicon0268AA.png"
+    },
+    {
+      "product": "Rawhide Backpack",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 65,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 7,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Backpack",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/3/34/Itemicon0086AA.png"
+    },
+    {
+      "product": "Rawhide Leggings",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 70,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Leggings",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/e9/Itemicon0019AA.png"
+    },
+    {
+      "product": "Enchanted Rawhide Cap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 70,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Rawhide Canvas",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Rawhide_Cap",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fd/Itemicon0031AA.png"
+    },
+    {
+      "product": "Enchanted Rawhide Leggings",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 70,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Rawhide Canvas",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Rawhide_Leggings",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/e9/Itemicon0019AA.png"
+    },
+    {
+      "product": "Rawhide Tunic",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 70,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Rawhide Canvas",
+          "qty": 4,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Tunic",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/c/cd/Itemicon0026AA.png"
+    },
+    {
+      "product": "Enchanted Rawhide Tunic",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 75,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Rawhide Canvas",
+          "qty": 4,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Cloth Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Rawhide_Tunic",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/c/cd/Itemicon0026AA.png"
+    },
+    {
+      "product": "Patched Hide Tunic",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Tattered Hide Tunic",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Hide_Tunic",
+      "icon": ""
+    },
+    {
+      "product": "Patched Hide Leggings",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Tattered Hide Leggings",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Hide_Leggings",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/e9/Itemicon0019AA.png"
+    },
+    {
+      "product": "Patched Hide Cap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Tattered Hide Cap",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Hide_Cap",
+      "icon": ""
+    },
+    {
+      "product": "Patched Hide Gloves",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Hide Gloves",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Hide_Gloves",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/6/66/Itemicon0015AA.png"
+    },
+    {
+      "product": "Patched Hide Belt",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Hide Belt",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Hide_Belt",
+      "icon": ""
+    },
+    {
+      "product": "Patched Hide Gorget",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Hide Gorget",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Hide_Gorget",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/3/34/Itemicon0008AA.png"
+    },
+    {
+      "product": "Patched Hide Cloak",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Hide Cloak",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Hide_Cloak",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/f1/Itemicon0012AC.png"
+    },
+    {
+      "product": "Patched Hide Mask",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Hide Mask",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Hide_Mask",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/ee/Itemicon0011AA.png"
+    },
+    {
+      "product": "Patched Hide Boots",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Hide Boots",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Hide_Boots",
+      "icon": ""
+    },
+    {
+      "product": "Patched Hide Bracer",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Hide Bracer",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Hide_Bracer",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fc/Itemicon0014AA.png"
+    },
+    {
+      "product": "Patched Hide Shoulderpads",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 10,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Tattered Hide Shoulderpads",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Patched_Hide_Shoulderpads",
+      "icon": ""
+    },
+    {
+      "product": "Hide Canvas",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 80,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 6,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Canvas",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/5/5b/Itemicon0125AA.png"
+    },
+    {
+      "product": "Hide Strap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 80,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Strap",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/bd/Itemicon0010AA.png"
+    },
+    {
+      "product": "Hide Bracelet",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 85,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Bracelet",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fc/Itemicon0014AA.png"
+    },
+    {
+      "product": "Hide Gorget",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 85,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Gorget",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/3/34/Itemicon0008AA.png"
+    },
+    {
+      "product": "Hide Cloak",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 95,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Cloak",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/f1/Itemicon0012AC.png"
+    },
+    {
+      "product": "Hide Gloves",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 95,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Gloves",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/6/66/Itemicon0015AA.png"
+    },
+    {
+      "product": "Hide Belt",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 105,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Belt",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/bd/Itemicon0010AA.png"
+    },
+    {
+      "product": "Hide Mask",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 105,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Mask",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/ee/Itemicon0011AA.png"
+    },
+    {
+      "product": "Enchanted Hide Canvas",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 115,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Hide",
+          "qty": 6,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Hide_Canvas",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/5/5b/Itemicon0125AA.png"
+    },
+    {
+      "product": "Hide Boots",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 115,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Boots",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/bd/Itemicon0037AA.png"
+    },
+    {
+      "product": "Hide Saddlebag",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 120,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 6,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 4,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Saddlebag",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/3/34/Itemicon0086AA.png"
+    },
+    {
+      "product": "Hide Saddle",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 125,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Scraps",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Hide Strap",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Bronze Stirrups",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Saddle",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/9/90/Itemicon0268AA.png"
+    },
+    {
+      "product": "Hide Cap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 125,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Cap",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fd/Itemicon0031AA.png"
+    },
+    {
+      "product": "Hide Shoulderpads",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 125,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Shoulderpads",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fa/Itemicon0053AA.png"
+    },
+    {
+      "product": "Hide Backpack",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 130,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 7,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Backpack",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/3/34/Itemicon0086AA.png"
+    },
+    {
+      "product": "Hide Leggings",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 135,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Leggings",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/e9/Itemicon0019AA.png"
+    },
+    {
+      "product": "Enchanted Hide Cap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 140,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Hide Canvas",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Hide_Cap",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fd/Itemicon0031AA.png"
+    },
+    {
+      "product": "Enchanted Hide Leggings",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 150,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Hide Canvas",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Hide_Leggings",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/e9/Itemicon0019AA.png"
+    },
+    {
+      "product": "Hide Tunic",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 150,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Hide Canvas",
+          "qty": 4,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Hide_Tunic",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/c/cd/Itemicon0026AA.png"
+    },
+    {
+      "product": "Enchanted Hide Tunic",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 150,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Hide Canvas",
+          "qty": 4,
+          "note": ""
+        },
+        {
+          "name": "Rough Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Wool Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Hide_Tunic",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/c/cd/Itemicon0026AA.png"
+    },
+    {
+      "product": "Leather Canvas",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 155,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Scraps",
+          "qty": 6,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Canvas",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/5/5b/Itemicon0125AA.png"
+    },
+    {
+      "product": "Leather Strap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 155,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Scraps",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Strap",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/bd/Itemicon0010AA.png"
+    },
+    {
+      "product": "Leather Bracelet",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 160,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Bracelet",
+      "icon": ""
+    },
+    {
+      "product": "Leather Gorget",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 160,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Gorget",
+      "icon": ""
+    },
+    {
+      "product": "Leather Cloak",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 170,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Cloak",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/f1/Itemicon0012AC.png"
+    },
+    {
+      "product": "Leather Gloves",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 170,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Gloves",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/6/66/Itemicon0015AA.png"
+    },
+    {
+      "product": "Enchanted Leather Canvas",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 180,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Leather",
+          "qty": 6,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Leather_Canvas",
+      "icon": ""
+    },
+    {
+      "product": "Leather Belt",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 180,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Belt",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/bd/Itemicon0010AA.png"
+    },
+    {
+      "product": "Leather Mask",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 180,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Mask",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/ee/Itemicon0011AA.png"
+    },
+    {
+      "product": "Leather Saddle",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 190,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Scraps",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Leather Strap",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Iron Stirrups",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Saddle",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/9/90/Itemicon0268AA.png"
+    },
+    {
+      "product": "Leather Boots",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 190,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Boots",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/bd/Itemicon0037AA.png"
+    },
+    {
+      "product": "Leather Saddlebag",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 195,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 6,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 4,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Saddlebag",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/d/d0/Itemicon0266AB.png"
+    },
+    {
+      "product": "Leather Cap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 200,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Cap",
+      "icon": ""
+    },
+    {
+      "product": "Leather Shoulderpads",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 200,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Shoulderpads",
+      "icon": ""
+    },
+    {
+      "product": "Leather Backpack",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 205,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 7,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Backpack",
+      "icon": ""
+    },
+    {
+      "product": "Leather Leggings",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 210,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Leggings",
+      "icon": ""
+    },
+    {
+      "product": "Enchanted Leather Cap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 215,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Leather Canvas",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Leather_Cap",
+      "icon": ""
+    },
+    {
+      "product": "Enchanted Leather Leggings",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 225,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Leather Canvas",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Leather_Leggings",
+      "icon": ""
+    },
+    {
+      "product": "Leather Tunic",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 225,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Leather Canvas",
+          "qty": 4,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Leather_Tunic",
+      "icon": ""
+    },
+    {
+      "product": "Enchanted Leather Tunic",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 230,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Leather Canvas",
+          "qty": 4,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Cotton Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Leather_Tunic",
+      "icon": ""
+    },
+    {
+      "product": "Padded Leather Canvas",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 230,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Scraps",
+          "qty": 6,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Canvas",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/5/5b/Itemicon0125AA.png"
+    },
+    {
+      "product": "Padded Leather Strap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 230,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Scraps",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Strap",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/bd/Itemicon0010AA.png"
+    },
+    {
+      "product": "Padded Leather Bracelet",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 240,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Bracelet",
+      "icon": ""
+    },
+    {
+      "product": "Padded Leather Gorget",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 240,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Gorget",
+      "icon": ""
+    },
+    {
+      "product": "Enchanted Padded Leather Canvas",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 250,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Padded Leather",
+          "qty": 6,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Padded_Leather_Canvas",
+      "icon": ""
+    },
+    {
+      "product": "Padded Leather Cloak",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 250,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Cloak",
+      "icon": ""
+    },
+    {
+      "product": "Padded Leather Gloves",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 250,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Gloves",
+      "icon": ""
+    },
+    {
+      "product": "Padded Leather Saddle",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 255,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Scraps",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Padded Leather Strap",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Steel Stirrups",
+          "qty": 1,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Saddle",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/9/90/Itemicon0268AA.png"
+    },
+    {
+      "product": "Padded Leather Belt",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 255,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Belt",
+      "icon": ""
+    },
+    {
+      "product": "Padded Leather Mask",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 255,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Mask",
+      "icon": ""
+    },
+    {
+      "product": "Padded Leather Boots",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 260,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 1,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Boots",
+      "icon": ""
+    },
+    {
+      "product": "Padded Leather Saddlebag",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 265,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 6,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 4,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Saddlebag",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/d/d0/Itemicon0266AB.png"
+    },
+    {
+      "product": "Padded Leather Cap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 270,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Cap",
+      "icon": ""
+    },
+    {
+      "product": "Padded Leather Shoulderpads",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 270,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Shoulderpads",
+      "icon": ""
+    },
+    {
+      "product": "Padded Leather Backpack",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 275,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 7,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Backpack",
+      "icon": ""
+    },
+    {
+      "product": "Padded Leather Leggings",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 280,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Leggings",
+      "icon": ""
+    },
+    {
+      "product": "Enchanted Padded Leather Cap",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 285,
+      "stations": [
+        "Leatherworking Kit"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Padded Leather Canvas",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 2,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 2,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Padded_Leather_Cap",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fd/Itemicon0031AA.png"
+    },
+    {
+      "product": "Enchanted Padded Leather Leggings",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 295,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Padded Leather Canvas",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Padded_Leather_Leggings",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/e9/Itemicon0019AA.png"
+    },
+    {
+      "product": "Padded Leather Tunic",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 295,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Padded Leather Canvas",
+          "qty": 4,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Padded_Leather_Tunic",
+      "icon": ""
+    },
+    {
+      "product": "Enchanted Padded Leather Tunic",
+      "qty": 1,
+      "skill": "Leatherworking",
+      "trivial": 300,
+      "stations": [
+        "Leatherworking Station"
+      ],
+      "ingredients": [
+        {
+          "name": "Enchanted Padded Leather Canvas",
+          "qty": 4,
+          "note": ""
+        },
+        {
+          "name": "Light Thread",
+          "qty": 3,
+          "note": ""
+        },
+        {
+          "name": "Linen Padding",
+          "qty": 3,
+          "note": ""
+        }
+      ],
+      "wiki": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Padded_Leather_Tunic",
+      "icon": "https://static.wikitide.net/monstersandmemorieswiki/c/cd/Itemicon0026AA.png"
+    }
+  ],
+  "breakdowns": [
+    {
+      "item": "Tattered Rawhide Leggings",
+      "yields": "Rawhide Scraps",
+      "qty": 2
+    },
+    {
+      "item": "Tattered Rawhide Cap",
+      "yields": "Rawhide Scraps",
+      "qty": 2
+    },
+    {
+      "item": "Tattered Rawhide Shoulderpads",
+      "yields": "Rawhide Scraps",
+      "qty": 2
+    },
+    {
+      "item": "Tattered Rawhide Vest",
+      "yields": "Rawhide Scraps",
+      "qty": 1
+    },
+    {
+      "item": "Tattered Rawhide Gloves",
+      "yields": "Rawhide Scraps",
+      "qty": 1
+    },
+    {
+      "item": "Tattered Rawhide Tunic",
+      "yields": "Rawhide Scraps",
+      "qty": 4
+    },
+    {
+      "item": "Tattered Rawhide Gorget",
+      "yields": "Rawhide Scraps",
+      "qty": 1
+    },
+    {
+      "item": "Tattered Rawhide Bracer",
+      "yields": "Rawhide Scraps",
+      "qty": 1
+    },
+    {
+      "item": "Tattered Rawhide Mask",
+      "yields": "Rawhide Scraps",
+      "qty": 1
+    },
+    {
+      "item": "Tattered Rawhide Cloak",
+      "yields": "Rawhide Scraps",
+      "qty": 1
+    },
+    {
+      "item": "Tattered Rawhide Boots",
+      "yields": "Rawhide Scraps",
+      "qty": 1
+    },
+    {
+      "item": "Tattered Hide Mask",
+      "yields": "Hide Scraps",
+      "qty": 1
+    },
+    {
+      "item": "Tattered Hide Boots",
+      "yields": "Hide Scraps",
+      "qty": 1
+    },
+    {
+      "item": "Tattered Hide Leggings",
+      "yields": "Hide Scraps",
+      "qty": 2
+    },
+    {
+      "item": "Tattered Hide Gloves",
+      "yields": "Hide Scraps",
+      "qty": 1
+    }
+  ]
+}

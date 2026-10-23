@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
+import { readSaved, writeSaved } from "./saved";
 
-const KEY = "harbormark-crafts";
-const EVENT = "harbormark-crafts";
+const EVENT = "skillooth-crafts";
 
 export function readCraftLevels(): Record<string, number> {
   try {
-    const raw: unknown = JSON.parse(localStorage.getItem(KEY) ?? "{}");
+    const raw: unknown = JSON.parse(readSaved("crafts") ?? "{}");
     if (!raw || typeof raw !== "object" || Array.isArray(raw)) return {};
     const levels: Record<string, number> = {};
     for (const [name, value] of Object.entries(raw)) {
@@ -21,7 +21,7 @@ export function writeCraftLevel(name: string, level: number | null): void {
   const levels = readCraftLevels();
   if (level == null) delete levels[name];
   else levels[name] = level;
-  localStorage.setItem(KEY, JSON.stringify(levels));
+  writeSaved("crafts", JSON.stringify(levels));
   window.dispatchEvent(new Event(EVENT));
 }
 

@@ -1,47 +1,38 @@
 import { useEffect, useRef, useState } from "react";
-import { meta } from "./catalog";
-import { CharacterDesk } from "./CharacterDesk";
 import { CraftDesk } from "./CraftDesk";
-import { LevelDesk } from "./LevelDesk";
 import { Glyph, type GlyphName } from "./icons";
-import { ATLAS_HOME, LEDGER_HOME, WIKI_HOME } from "./links";
+import { meta } from "./catalog";
+import { ATLAS_HOME, GAME_WIKI, LEDGER_HOME, LEDGER_LINKS, STORIES_WIKI, WIKI_HOME } from "./links";
 import { OutLink } from "./OutLink";
-import { Routines } from "./Routines";
+import { readSaved, writeSaved } from "./saved";
 import { SellDesk } from "./SellDesk";
 import type { Tab } from "./types";
 
 const TABS: { id: Tab; label: string; glyph: GlyphName }[] = [
-  { id: "craft", label: "Craft", glyph: "craft" },
-  { id: "character", label: "Character", glyph: "armor" },
-  { id: "level", label: "Level", glyph: "pin" },
+  { id: "craft", label: "Skills", glyph: "craft" },
   { id: "sell", label: "Sell", glyph: "coin" },
-  { id: "routines", label: "Routines", glyph: "book" },
 ];
 
-function isTab(value: string): value is Tab {
-  return value === "sell" || value === "level" || value === "routines" || value === "craft" || value === "character";
-}
-
 function readTab(): Tab {
-  const saved = localStorage.getItem("harbormark-tab");
-  if (saved === "haul") return "sell";
-  return saved && isTab(saved) ? saved : "craft";
+  const saved = readSaved("tab");
+  if (saved === "sell" || saved === "haul") return "sell";
+  return "craft";
 }
 
 export function App() {
   const [tab, setTab] = useState<Tab>(readTab);
   const [zone, setZone] = useState(() => {
-    const saved = localStorage.getItem("harbormark-zone");
+    const saved = readSaved("zone");
     if (!saved || saved === "Night Harbor") return "hubs";
     return saved;
   });
 
   useEffect(() => {
-    localStorage.setItem("harbormark-tab", tab);
+    writeSaved("tab", tab);
   }, [tab]);
 
   useEffect(() => {
-    localStorage.setItem("harbormark-zone", zone);
+    writeSaved("zone", zone);
   }, [zone]);
 
   const galaxyRef = useRef<HTMLDivElement>(null);
@@ -94,8 +85,8 @@ export function App() {
     </div>
     <div className="page">
       <header className="mast">
-        <p className="kicker">Monsters & Memories · Loot, buyers, combines, and trades</p>
-        <h1>Harbormark</h1>
+        <p className="kicker">Monsters & Memories</p>
+        <h1>Skillooth</h1>
         <div className="nav-row">
           <nav className="tabs" aria-label="Desks">
             {TABS.map((item) => (
@@ -111,27 +102,45 @@ export function App() {
               </button>
             ))}
           </nav>
-          <nav className="outside" aria-label="Related sites">
-            <OutLink href={WIKI_HOME}>Wiki</OutLink>
+          <nav className="outside" aria-label="Map">
             <OutLink href={ATLAS_HOME}>Atlas</OutLink>
-            <OutLink href={LEDGER_HOME}>Ledger</OutLink>
           </nav>
         </div>
+        <aside className="ledger-banner" aria-label="Advertisement">
+          <span className="ad-mark">Ad</span>
+          <LedgerSigil />
+          <OutLink href={LEDGER_HOME} className="ledger-banner-hit">
+            <span className="ledger-banner-brand">
+              <strong>Castanova's Arcane Ledger</strong>
+              <span>Gear planner</span>
+            </span>
+          </OutLink>
+          <nav className="ledger-links" aria-label="Arcane Ledger">
+            <OutLink className="ad-cta" href={LEDGER_HOME}>
+              Open the Ledger
+            </OutLink>
+            {LEDGER_LINKS.map((link) => (
+              <OutLink key={link.href} href={link.href}>
+                {link.label}
+              </OutLink>
+            ))}
+          </nav>
+        </aside>
       </header>
       <main>
         <Desk tab={tab} zone={zone} onZone={setZone} />
       </main>
       <footer>
         <p>
-          Merchant lists and class guides from the <OutLink href={WIKI_HOME}>Monsters & Memories Wiki</OutLink>{" "}
-          (Miraheze), used under <OutLink href={meta.licenseUrl}>CC BY-SA 4.0</OutLink> and reformatted for this page.
-          Maps by <OutLink href={ATLAS_HOME}>MnM Atlas</OutLink>. The Character page imports a{" "}
-          <OutLink href={LEDGER_HOME}>Castanova's Arcane Ledger</OutLink> sheet; those item names are the
-          wiki&apos;s. Imported{" "}
+          Sources: merchant lists, recipes, and trade notes from the{" "}
+          <OutLink href={WIKI_HOME}>Miraheze wiki</OutLink>, used under{" "}
+          <OutLink href={meta.licenseUrl}>CC BY-SA 4.0</OutLink>. Item names from{" "}
+          <OutLink href={GAME_WIKI}>monstersandmemories.wiki</OutLink>. Skill notes checked against{" "}
+          <OutLink href={STORIES_WIKI}>Stories of MnM</OutLink>. Maps by{" "}
+          <OutLink href={ATLAS_HOME}>MnM Atlas</OutLink>. Camp drops from{" "}
+          <OutLink href={LEDGER_HOME}>Castanova&apos;s Arcane Ledger</OutLink>. Imported{" "}
           {new Date(meta.scrapedAt).toLocaleDateString(undefined, { dateStyle: "medium" })}. Early Access data changes.
-          Check the wiki before you vendor a stack or trust a spell rank.
         </p>
-        <p>The three moons are the large, small, and medium moons from the wiki.</p>
         <p>Unofficial. Not affiliated with Niche Worlds Cult. Game content © Niche Worlds Cult.</p>
       </footer>
     </div>
@@ -139,18 +148,40 @@ export function App() {
   );
 }
 
+function LedgerSigil() {
+  return (
+    <svg className="ledger-sigil" viewBox="-160 -160 320 320" aria-hidden="true">
+      <g className="ledger-sigil-turn">
+        <circle r="150" />
+        <circle r="144" className="ticks" />
+        <circle r="143" className="ticks-major" />
+      </g>
+      <circle r="122" />
+      <circle r="64" className="dashed" />
+      <path className="faint" d="M0-150V150M-150 0H150M-106-106L106 106M-106 106L106-106" />
+      <path className="lines" d="M-96-38L-52-70L-8-58L40-88L84-44M-8-58L-20-6L30 34L78 22M-20-6L-74 30" />
+      <g className="stars">
+        <circle cx="-96" cy="-38" r="3" />
+        <circle cx="-52" cy="-70" r="2.5" />
+        <circle cx="-8" cy="-58" r="3.5" />
+        <circle cx="40" cy="-88" r="2.5" />
+        <circle cx="84" cy="-44" r="3" />
+        <circle cx="-20" cy="-6" r="2.5" />
+        <circle cx="30" cy="34" r="3" />
+        <circle cx="78" cy="22" r="2" />
+        <circle cx="-74" cy="30" r="2.5" />
+      </g>
+      <path className="star" d="M0-22L5-5L22 0L5 5L0 22L-5 5L-22 0L-5-5Z" />
+    </svg>
+  );
+}
+
 function Desk({ tab, zone, onZone }: { tab: Tab; zone: string; onZone: (zone: string) => void }) {
   switch (tab) {
     case "sell":
       return <SellDesk zone={zone} onZone={onZone} />;
-    case "level":
-      return <LevelDesk />;
-    case "routines":
-      return <Routines />;
     case "craft":
       return <CraftDesk />;
-    case "character":
-      return <CharacterDesk />;
     default: {
       const exhaustive: never = tab;
       return exhaustive;

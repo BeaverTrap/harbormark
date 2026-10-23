@@ -37,6 +37,26 @@ function midpoint(camp: RawCamp): number | null {
   return camp.max ?? camp.min;
 }
 
+export function campsFor(names: string[]): MaterialCamp[] {
+  const merged = new Map<string, MaterialCamp>();
+  for (const name of names) {
+    const rows = campsByItem[name];
+    if (!rows) continue;
+    for (const row of rows) {
+      const key = `${row.npc}|${row.zone}`;
+      const existing = merged.get(key);
+      if (existing) {
+        if (!existing.items.includes(name) && existing.items.length < 3) existing.items.push(name);
+        continue;
+      }
+      merged.set(key, { ...row, items: [name] });
+    }
+  }
+  return [...merged.values()]
+    .sort((a, b) => (a.min ?? 999) - (b.min ?? 999) || a.zone.localeCompare(b.zone) || a.npc.localeCompare(b.npc))
+    .slice(0, 8);
+}
+
 export function materialCamps(skill: string, level: number | null): MaterialCamp[] {
   const merged = new Map<string, MaterialCamp>();
   for (const name of ingredientNames(skill)) {

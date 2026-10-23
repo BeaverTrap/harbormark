@@ -1,3 +1,4 @@
+import leatherworkingJson from "./data/leatherworking.json";
 import recipesJson from "./data/recipes.json";
 import { normalize } from "./match";
 
@@ -18,7 +19,17 @@ export type Recipe = {
   icon: string;
 };
 
-export const recipes = recipesJson as Recipe[];
+const leatherworking = leatherworkingJson as {
+  recipes: Recipe[];
+  breakdowns: { item: string; yields: string; qty: number }[];
+};
+
+export const recipes: Recipe[] = [
+  ...(recipesJson as Recipe[]).filter((recipe) => recipe.skill !== "Leatherworking"),
+  ...leatherworking.recipes,
+];
+
+const breakdowns = leatherworking.breakdowns;
 
 const byIngredient = new Map<string, Recipe[]>();
 const byProduct = new Map<string, Recipe[]>();
@@ -88,7 +99,10 @@ export function recipeFor(name: string): Recipe[] {
   return byTrivial(byProduct.get(normalize(name)) ?? []);
 }
 
-const BANDS = [0, 15, 30, 50, 75, 100, 125, 250];
+export type SkillBand = {
+  trivial: number;
+  recipes: Recipe[];
+};
 
 export function sameTrade(skill: string): string[] {
   const key = skill.toLowerCase();
@@ -96,25 +110,40 @@ export function sameTrade(skill: string): string[] {
   return [key];
 }
 
-export function practiceLadder(skill: string): Recipe[] {
+function combineCost(recipe: Recipe): number {
+  return recipe.ingredients.reduce((sum, ingredient) => sum + ingredient.qty, 0);
+}
+
+export function skillBands(skill: string, yours: number | null): SkillBand[] {
   const keys = sameTrade(skill);
-  const mine = recipes.filter(
-    (recipe) => keys.includes(recipe.skill.toLowerCase()) && recipe.trivial != null,
-  );
-  const picked: Recipe[] = [];
-  for (let index = 0; index < BANDS.length - 1; index += 1) {
-    const low = BANDS[index];
-    const high = BANDS[index + 1];
-    const band = mine
-      .filter((recipe) => {
-        const trivial = recipe.trivial ?? 0;
-        return trivial >= low && trivial < high;
-      })
-      .sort((a, b) => (a.trivial ?? 0) - (b.trivial ?? 0) || a.product.localeCompare(b.product));
-    const first = band[0];
-    if (first) picked.push(first);
+  const grouped = new Map<number, Recipe[]>();
+  for (const recipe of recipes) {
+    if (!keys.includes(recipe.skill.toLowerCase()) || recipe.trivial == null) continue;
+    if (yours != null && recipe.trivial <= yours) continue;
+    const list = grouped.get(recipe.trivial) ?? [];
+    list.push(recipe);
+    grouped.set(recipe.trivial, list);
   }
-  return picked;
+  return [...grouped.entries()]
+    .sort((a, b) => a[0] - b[0])
+    .map(([trivial, list]) => ({
+      trivial,
+      recipes: list.sort(
+        (a, b) =>
+          Number(a.product.toLowerCase().startsWith("patched")) -
+            Number(b.product.toLowerCase().startsWith("patched")) ||
+          combineCost(a) - combineCost(b) ||
+          a.product.localeCompare(b.product),
+      ),
+    }));
+}
+
+export function breaksInto(material: string): { item: string; qty: number }[] {
+  const key = normalize(material);
+  return breakdowns
+    .filter((row) => normalize(row.yields) === key)
+    .map((row) => ({ item: row.item, qty: row.qty }))
+    .sort((a, b) => b.qty - a.qty || a.item.localeCompare(b.item));
 }
 
 export function recipeCountFor(skill: string): number {

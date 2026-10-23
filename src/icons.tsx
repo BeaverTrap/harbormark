@@ -68,6 +68,7 @@ export function glyphForShort(short: string): GlyphName {
     case "Ore":
       return "ore";
     case "Gems":
+    case "Jewelry":
       return "gems";
     case "Wood":
       return "wood";

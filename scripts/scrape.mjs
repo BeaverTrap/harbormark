@@ -3,7 +3,7 @@
  * Monsters & Memories Wiki on Miraheze (CC BY-SA 4.0).
  */
 const API = "https://monstersandmemories.miraheze.org/w/api.php";
-const UA = "Harbormark/0.1 (local fan tool; CC BY-SA 4.0 attribution)";
+const UA = "Skillooth/0.1 (local fan tool; CC BY-SA 4.0 attribution)";
 const WIKI = "https://monstersandmemories.miraheze.org/wiki/";
 
 const CLASSES = [
@@ -31,15 +31,20 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function api(params) {
   const url = `${API}?${new URLSearchParams({ ...params, format: "json", formatversion: "2" })}`;
-  const response = await fetch(url, { headers: { "User-Agent": UA, Accept: "application/json" } });
-  if (!response.ok) {
-    throw new Error(`${response.status} ${url}`);
+  let lastError = new Error(url);
+  for (let attempt = 0; attempt < 4; attempt++) {
+    try {
+      const response = await fetch(url, { headers: { "User-Agent": UA, Accept: "application/json" } });
+      if (!response.ok) throw new Error(`${response.status} ${url}`);
+      const data = await response.json();
+      if (data.error) throw new Error(data.error.info || JSON.stringify(data.error));
+      return data;
+    } catch (error) {
+      lastError = error instanceof Error ? error : new Error(String(error));
+      await sleep(1000 * (attempt + 1));
+    }
   }
-  const data = await response.json();
-  if (data.error) {
-    throw new Error(data.error.info || JSON.stringify(data.error));
-  }
-  return data;
+  throw lastError;
 }
 
 function pageContent(page) {

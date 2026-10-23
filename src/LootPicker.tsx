@@ -1,35 +1,62 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { merchants } from "./catalog";
 import { iconFor } from "./craft";
 import { familyCounts, familyShort, goods } from "./goods";
 import { glyphForShort, Glyph, ItemMark } from "./icons";
-import { normalize } from "./match";
+import { findBuyers, normalize } from "./match";
 
 const TRADES = familyCounts();
-const SHOW_LIMIT = 48;
+const BROWSE_LIMIT = 80;
+const SEARCH_LIMIT = 200;
 
 export function LootPicker({
   picked,
   onPick,
+  zone,
 }: {
   picked: { name: string; qty?: number }[];
   onPick: (name: string) => void;
+  zone: string;
 }) {
   const [query, setQuery] = useState("");
   const [family, setFamily] = useState<string | null>(null);
-  const trimmed = query.trim();
-  const pickedQty = new Map(picked.map((item) => [normalize(item.name), item.qty ?? 1]));
+  const [trimmed, setTrimmed] = useState("");
+  useEffect(() => {
+    const id = window.setTimeout(() => setTrimmed(query.trim()), 150);
+    return () => window.clearTimeout(id);
+  }, [query]);
+  const pickedNames = new Set(picked.map((item) => normalize(item.name)));
 
   const shown = useMemo(() => {
     const needle = normalize(trimmed);
-    return goods.filter((good) => {
+    const matches = goods.filter((good) => {
       if (family && !needle && good.family !== family) return false;
       if (!needle) return Boolean(family);
       const haystack = normalize(`${good.name} ${good.note} ${familyShort(good.family)}`);
       return haystack.includes(needle);
     });
+    if (!needle) return matches;
+    const ranked = matches.map((good) => {
+      const normalized = normalize(good.name);
+      const rank = normalized === needle ? 0 : normalized.startsWith(needle) ? 1 : normalized.split(" ").includes(needle) ? 2 : 3;
+      return { good, rank };
+    });
+    ranked.sort((a, b) => a.rank - b.rank || a.good.name.localeCompare(b.good.name));
+    return ranked.map((entry) => entry.good);
   }, [family, trimmed]);
 
-  const visible = shown.slice(0, SHOW_LIMIT);
+  const limit = trimmed ? SEARCH_LIMIT : BROWSE_LIMIT;
+  const visible = shown.slice(0, limit);
+  const visibleKey = visible.map((good) => good.name).join("\n");
+  const buyers = useMemo(() => {
+    const labels = new Map<string, string>();
+    for (const name of visibleKey ? visibleKey.split("\n") : []) {
+      const hits = findBuyers(name, merchants, zone);
+      const best = hits.here[0] ?? hits.elsewhere[0];
+      labels.set(normalize(name), best ? best.merchant.name : "No vendor buys this");
+    }
+    return labels;
+  }, [visibleKey, zone]);
   const browsing = !trimmed && family === null;
 
   return (
@@ -39,7 +66,7 @@ export function LootPicker({
         <input
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Pelt, bushmeat, bone chips…"
+          placeholder="Any item: boots, bone chips, a ring…"
           autoComplete="off"
         />
       </label>
@@ -80,25 +107,27 @@ export function LootPicker({
           </div>
           <div className="goods">
             {visible.map((good) => {
-              const qty = pickedQty.get(normalize(good.name));
+              const pickedName = pickedNames.has(normalize(good.name));
               return (
                 <button
                   key={good.name}
                   type="button"
-                  className={qty ? "good on" : "good"}
+                  className={pickedName ? "good on" : "good"}
                   onClick={() => onPick(good.name)}
                 >
                   <ItemMark src={iconFor(good.name)} glyph={glyphForShort(familyShort(good.family))} />
-                  <span className="good-name">{good.name}</span>
-                  {qty ? <em>{qty}</em> : null}
+                  <span className="good-copy">
+                    <span className="good-name">{good.name}</span>
+                    <small className="craft-hint">{buyers.get(normalize(good.name))}</small>
+                  </span>
                 </button>
               );
             })}
           </div>
-          {shown.length === 0 ? <p className="note">Nothing in the merchant lists matches that.</p> : null}
-          {shown.length > SHOW_LIMIT ? (
+          {shown.length === 0 ? <p className="note">No wiki item matches that.</p> : null}
+          {shown.length > limit ? (
             <p className="note">
-              Showing {SHOW_LIMIT} of {shown.length}. Narrow it with a trade or a few more letters.
+              Showing {limit} of {shown.length}. Type more of the name.
             </p>
           ) : null}
         </>

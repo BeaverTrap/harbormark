@@ -50,4 +50,4 @@ export type TradeSkill = {
   wiki: string;
 };
 
-export type Tab = "sell" | "level" | "routines" | "craft" | "character";
+export type Tab = "craft" | "sell";

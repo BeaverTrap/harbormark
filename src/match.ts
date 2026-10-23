@@ -1,5 +1,6 @@
-import { FAMILIES } from "./families";
+import { FAMILIES, gearQuery, materialFamily, mentions } from "./families";
 import type { BuyerHit, Merchant } from "./types";
+import { armorMaterial, type ArmorMaterial } from "./wear";
 
 const STOP = new Set(["the", "and", "for", "with", "from", "into", "your", "a", "an", "of"]);
 
@@ -67,6 +68,10 @@ const GENERIC_BUY = new Set([
   "bags",
 ]);
 
+// A merchant who buys "Jewelry" does not buy every ring and necklace.
+// The Night Harbor jewelcrafter's shop is molds, wire, and loose gems.
+const WORN_JEWELRY = new Set(["ring", "earring", "necklace", "amulet", "pendant", "choker"]);
+
 export function normalize(value: string): string {
   return value
     .toLowerCase()
@@ -93,58 +98,141 @@ function unique(values: string[]): string[] {
   return kept;
 }
 
-export function scoreMerchant(query: string, merchant: Merchant): BuyerHit | null {
-  if (merchant.greedy) return null;
+type BuyKind = ArmorMaterial | "bare" | "open";
+
+function buyKind(buy: string): BuyKind {
+  const bought = normalize(buy);
+  if (bought.includes("leather armor") || bought.includes("rawhide armor")) return "leather";
+  if (
+    bought.includes("cloth armor") ||
+    bought.includes("cloth armour") ||
+    bought.includes("tailored armor") ||
+    bought.includes("tailored armour")
+  ) {
+    return "cloth";
+  }
+  if (bought.includes("plate armor") || bought.includes("plate armour")) return "plate";
+  if (bought.includes("chain armor") || bought.includes("chain armour")) return "chain";
+  if (bought === "armor" || bought === "armour" || bought.includes("various armor")) return "bare";
+  return "open";
+}
+
+function buyFitsItem(query: string, buy: string): boolean {
+  const kind = buyKind(buy);
+  const material = armorMaterial(query);
+  switch (kind) {
+    case "open":
+      return true;
+    case "bare":
+      return material === null && (mentions(query, "armor") || mentions(query, "armour"));
+    case "leather":
+    case "chain":
+    case "plate":
+    case "cloth":
+      return material === kind;
+    default: {
+      const uncovered: never = kind;
+      return uncovered;
+    }
+  }
+}
+
+type PreparedMerchant = {
+  buys: { raw: string; bought: string }[];
+  sells: string[];
+  name: string;
+  nameLabels: Set<string>;
+};
+
+const preparedMerchants = new WeakMap<Merchant, PreparedMerchant>();
+
+function preparedMerchant(merchant: Merchant): PreparedMerchant {
+  const existing = preparedMerchants.get(merchant);
+  if (existing) return existing;
+  const name = normalize(merchant.name);
+  const nameLabels = new Set<string>();
+  for (const family of FAMILIES) {
+    if (family.words.some((word) => name.includes(normalize(word)))) nameLabels.add(family.label);
+  }
+  const record = {
+    buys: merchant.buys.map((raw) => ({ raw, bought: normalize(raw) })),
+    sells: merchant.sells.map((sell) => normalize(sell)),
+    name,
+    nameLabels,
+  };
+  preparedMerchants.set(merchant, record);
+  return record;
+}
+
+type QueryProfile = {
+  q: string;
+  queryTokens: string[];
+  families: { family: (typeof FAMILIES)[number]; matchedWords: string[] }[];
+};
+
+function profileQuery(query: string): QueryProfile | null {
   const q = normalize(query);
   const queryTokens = tokens(query);
   if (!q || queryTokens.length === 0) return null;
+  const gear = gearQuery(query);
+  const families: QueryProfile["families"] = [];
+  for (const family of FAMILIES) {
+    if (gear && materialFamily(family.label)) continue;
+    const matchedWords = family.words.filter((word) => mentions(query, word));
+    if (matchedWords.length > 0) families.push({ family, matchedWords });
+  }
+  return { q, queryTokens, families };
+}
 
+export function scoreMerchant(query: string, merchant: Merchant, profile = profileQuery(query)): BuyerHit | null {
+  if (merchant.greedy || !profile) return null;
+  const { q, queryTokens } = profile;
+
+  const record = preparedMerchant(merchant);
   let score = 0;
   const reasons: string[] = [];
 
-  for (const buy of merchant.buys) {
-    const bought = normalize(buy);
-    const overlap = queryTokens.filter((token) => bought.includes(token));
-    const penalty = specificPenalty(queryTokens, buy);
-    const fullMatch = bought.includes(q) || (queryTokens.length > 0 && queryTokens.every((token) => bought.includes(token)));
+  for (const buy of record.buys) {
+    const overlap = queryTokens.filter((token) => buy.bought.includes(token));
+    const penalty = specificPenalty(queryTokens, buy.raw);
+    const fullMatch = buy.bought.includes(q) || (queryTokens.length > 0 && queryTokens.every((token) => buy.bought.includes(token)));
     const gained = fullMatch ? Math.max(30, 110 - penalty) : overlap.length > 0 ? Math.max(0, 20 * overlap.length - penalty) : 0;
     if (gained > 0) {
       score += gained;
-      reasons.push(`Buys ${buy}`);
+      reasons.push(`Buys ${buy.raw}`);
     }
   }
 
-  for (const family of FAMILIES) {
-    const matchedWords = family.words.filter((word) => q.includes(normalize(word)));
-    if (matchedWords.length === 0) continue;
-    const buy = merchant.buys.find((line) => {
-      const bought = normalize(line);
-      if (matchedWords.some((word) => bought.includes(normalize(word)))) return true;
-      return family.words.some((word) => GENERIC_BUY.has(normalize(word)) && bought.includes(normalize(word)));
+  const worn = unique(
+    profile.families.flatMap(({ matchedWords }) =>
+      matchedWords.map((word) => normalize(word)).filter((word) => WORN_JEWELRY.has(word)),
+    ),
+  );
+  for (const { family, matchedWords } of profile.families) {
+    if (worn.length > 0 && family.label !== "jewelry") continue;
+    const buy = record.buys.find((line) => {
+      if (!buyFitsItem(query, line.raw)) return false;
+      if (worn.length > 0) return worn.some((word) => mentions(line.raw, word));
+      if (matchedWords.some((word) => line.bought.includes(normalize(word)))) return true;
+      return family.words.some((word) => GENERIC_BUY.has(normalize(word)) && line.bought.includes(normalize(word)));
     });
     if (!buy) continue;
-    const bought = normalize(buy);
     const rawQuery = q.includes("raw");
-    const prepared = /\b(cooked|charred|grilled)\b/.test(bought);
+    const prepared = /\b(cooked|charred|grilled)\b/.test(buy.bought);
     if (rawQuery && prepared) continue;
     score += 60;
-    reasons.push(`Buys ${buy}`);
+    reasons.push(`Buys ${buy.raw}`);
   }
 
-  const stock = merchant.sells.find((sell) => {
-    const sold = normalize(sell);
-    return sold === q || queryTokens.every((token) => sold.includes(token));
-  });
+  const stock = record.sells.find((sold) => sold === q || queryTokens.every((token) => sold.includes(token)));
   if (stock) {
     score += 55;
     reasons.push(`Stocks ${stock}, so this is their trade`);
   }
 
-  const merchantName = normalize(merchant.name);
-  if (queryTokens.some((token) => merchantName.includes(token))) score += 15;
-  for (const family of FAMILIES) {
-    if (!family.words.some((word) => q.includes(normalize(word)))) continue;
-    if (family.words.some((word) => merchantName.includes(normalize(word)))) score += 12;
+  if (queryTokens.some((token) => record.name.includes(token))) score += 15;
+  for (const { family } of profile.families) {
+    if (record.nameLabels.has(family.label)) score += 12;
   }
 
   if (score < 40) return null;
@@ -170,11 +258,25 @@ function inSelectedZone(merchantZones: string[], zone: string): boolean {
   return merchantZones.some((name) => selected.includes(name));
 }
 
+const hitCache = new Map<string, BuyerHit[]>();
+
+function rankedHits(query: string, merchants: Merchant[]): BuyerHit[] {
+  const key = normalize(query);
+  const cached = hitCache.get(key);
+  if (cached) return cached;
+  const profile = profileQuery(query);
+  const hits = profile
+    ? merchants
+        .map((merchant) => scoreMerchant(query, merchant, profile))
+        .filter((hit): hit is BuyerHit => hit !== null)
+        .sort((a, b) => b.score - a.score || a.merchant.name.localeCompare(b.merchant.name))
+    : [];
+  hitCache.set(key, hits);
+  return hits;
+}
+
 export function findBuyers(query: string, merchants: Merchant[], zone: string): { here: BuyerHit[]; elsewhere: BuyerHit[] } {
-  const hits = merchants
-    .map((merchant) => scoreMerchant(query, merchant))
-    .filter((hit): hit is BuyerHit => hit !== null)
-    .sort((a, b) => {
+  const hits = [...rankedHits(query, merchants)].sort((a, b) => {
       const byScore = b.score - a.score;
       if (byScore !== 0) return byScore;
       if (zone === "all") {

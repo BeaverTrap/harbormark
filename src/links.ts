@@ -1,8 +1,18 @@
 import type { Merchant } from "./types";
 
 export const WIKI_HOME = "https://monstersandmemories.miraheze.org/wiki/Main_Page";
+export const STORIES_WIKI = "https://storiesofmnm.com/";
+export const GAME_WIKI = "https://monstersandmemories.wiki/";
 export const ATLAS_HOME = "https://www.mnmatlas.com/";
-export const LEDGER_HOME = "https://arcane-ledger-kappa.vercel.app/";
+export const LEDGER_HOME = "https://arcaneledger.tools/";
+
+export const LEDGER_LINKS = [
+  { href: LEDGER_HOME, label: "Characters", detail: "Sheet and paper doll" },
+  { href: `${LEDGER_HOME}upgrades`, label: "Upgrades", detail: "What to wear next" },
+  { href: `${LEDGER_HOME}best-in-slot`, label: "Best in Slot", detail: "The set for your class" },
+  { href: `${LEDGER_HOME}camps`, label: "Camps", detail: "Where the gear drops" },
+  { href: `${LEDGER_HOME}items`, label: "Items", detail: "Stats on a piece" },
+] as const;
 
 const ZONE_MAPS: Record<string, string> = {
   "Ail'Vorith": "ail-vorith",

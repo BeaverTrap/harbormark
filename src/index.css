@@ -46,7 +46,7 @@ body {
   background: #010206 var(--sky-image) center top / 100% 100% no-repeat;
 }
 .stars {
-  position: absolute;
+  position: fixed;
   inset: 0;
   z-index: 0;
   pointer-events: none;
@@ -182,6 +182,133 @@ a { color: var(--link); }
 
 .outside a:hover { color: var(--gold); }
 
+.ledger-banner {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  height: 128px;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px dashed rgba(207, 166, 78, 0.9);
+  background: #0c1424;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+}
+.ad-mark {
+  position: absolute;
+  z-index: 3;
+  top: 8px;
+  right: 10px;
+  padding: 1px 6px 2px;
+  border-radius: 3px;
+  background: #cfa64e;
+  color: #1a1408;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+.ledger-banner-hit {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-start;
+  padding: 14px 72px 0 16px;
+  text-decoration: none;
+}
+.ledger-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: rgb(214 224 255 / 0.9);
+  -webkit-mask: var(--ledger-sky) 0 0 / 480px 480px repeat;
+  mask: var(--ledger-sky) 0 0 / 480px 480px repeat;
+}
+.ledger-sigil {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  right: -8px;
+  width: 280px;
+  height: 280px;
+  transform: translateY(-50%);
+  fill: none;
+  stroke: rgba(207, 166, 78, 0.85);
+  stroke-width: 1.25;
+  pointer-events: none;
+}
+.ledger-sigil .ticks { stroke-width: 6; stroke-dasharray: 1 11.566; }
+.ledger-sigil .ticks-major { stroke-width: 12; stroke-dasharray: 1.6 73.8; }
+.ledger-sigil .dashed { stroke-dasharray: 3 5; }
+.ledger-sigil .faint { opacity: 0.55; }
+.ledger-sigil .lines { stroke: #b9c8ea; }
+.ledger-sigil .stars { fill: #f2e2b0; stroke: none; }
+.ledger-sigil .star { fill: #8eb6ff; stroke: none; }
+.ledger-banner-hit::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(90deg, rgba(8, 14, 28, 0.5) 0%, rgba(8, 14, 28, 0.15) 46%, transparent 64%);
+}
+.ledger-banner-brand {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+.ledger-banner-brand strong {
+  color: #f3efe4;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+.ledger-banner-brand span {
+  color: #cfa64e;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.ledger-banner-hit:hover strong { color: #cfa64e; }
+.ledger-links {
+  position: absolute;
+  z-index: 2;
+  left: 16px;
+  bottom: 12px;
+  right: 250px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+}
+.ledger-links .ad-cta {
+  padding: 6px 12px;
+  border: 0;
+  border-radius: 999px;
+  background: #cfa64e;
+  color: #1a1408;
+  font-size: 13px;
+  font-weight: 800;
+}
+.ledger-links .ad-cta:hover { background: #f2e2b0; color: #1a1408; }
+.ledger-links a:not(.ad-cta) {
+  padding: 5px 9px;
+  border-radius: 999px;
+  border: 1px solid rgba(207, 166, 78, 0.45);
+  color: #e7e0d2;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.ledger-links a:not(.ad-cta):hover { color: #10182c; background: #cfa64e; border-color: #cfa64e; }
+
 .desk { padding-top: 28px; }
 
 .desk-copy,
@@ -294,7 +421,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 
 .samples { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 8px; }
 
-.chip, .text-btn, .qty button {
+.chip, .text-btn {
   background: transparent;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -359,7 +486,9 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
   text-align: left;
 }
 
+.good-copy { display: grid; min-width: 0; }
 .good-name { color: var(--link); font-weight: 650; }
+.good-copy .craft-hint { color: var(--faint); }
 .good em { margin-left: auto; color: var(--gold); font-style: normal; font-weight: 700; }
 .good:hover .good-name { text-decoration: underline; }
 
@@ -407,9 +536,6 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
   font-size: 18px;
   font-weight: 700;
 }
-
-.qty { display: inline-flex; align-items: center; gap: 8px; color: var(--ink); }
-.qty button { width: 28px; height: 28px; padding: 0; }
 
 .custom-add { display: flex; gap: 8px; margin-top: 12px; }
 .custom-add input { flex: 1; min-width: 0; }
@@ -622,7 +748,9 @@ footer {
   padding-top: 16px;
   font-size: 14px;
 }
-footer p { margin: 0 0 8px; }
+footer p { margin: 0 0 8px; max-width: 72ch; }
+footer a { text-decoration: underline; text-underline-offset: 3px; }
+footer a:hover { color: var(--gold); }
 
 .sheet-identity {
   margin: 0 0 10px;
@@ -813,6 +941,11 @@ footer p { margin: 0 0 8px; }
   .search-row, .routine-layout, .haul-layout, .detail, .pile li, .nav-row { display: grid; }
   .pile span { text-align: left; }
   .zone { min-width: 0; }
+  .ledger-banner { height: 148px; }
+  .ledger-banner-hit { padding: 12px 56px 0 12px; }
+  .ledger-banner-brand strong { font-size: 24px; }
+  .ledger-sigil { width: 210px; height: 210px; right: -36px; }
+  .ledger-links { right: 12px; bottom: 10px; flex-wrap: wrap; }
   .outside { padding-bottom: 8px; }
   .gear-body { grid-template-columns: 1fr; }
   .trait-picks { grid-template-columns: 1fr; }

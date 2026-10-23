@@ -1,11 +1,9 @@
-import guidesJson from "./data/guides.json";
 import merchantsJson from "./data/merchants.json";
 import metaJson from "./data/meta.json";
 import skillsJson from "./data/skills.json";
-import type { ClassGuide, Merchant, TradeSkill } from "./types";
+import type { Merchant, TradeSkill } from "./types";
 
 export const merchants = merchantsJson as Merchant[];
-export const guides = guidesJson as ClassGuide[];
 export const skills = skillsJson as TradeSkill[];
 export const meta = metaJson;
 

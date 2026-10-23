@@ -422,6 +422,44 @@
     "icon": "https://static.wikitide.net/monstersandmemorieswiki/c/c4/Itemicon0148AC.png"
   },
   {
+    "product": "Bronze Bar",
+    "qty": 1,
+    "skill": "Smelting",
+    "trivial": 50,
+    "stations": [
+      "Forge"
+    ],
+    "ingredients": [
+      {
+        "name": "Copper Bar",
+        "qty": 1,
+        "note": "Crafted"
+      },
+      {
+        "name": "Tin Bar",
+        "qty": 1,
+        "note": "Crafted"
+      },
+      {
+        "name": "Sturdy Ingot Mold",
+        "qty": 1,
+        "note": "Bought"
+      },
+      {
+        "name": "Bronze Scraps",
+        "qty": 4,
+        "note": "Looted, Crafted"
+      },
+      {
+        "name": "Sturdy Ingot Mold",
+        "qty": 1,
+        "note": "Bought"
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Bronze_Bar",
+    "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fe/Itemicon0123AA.png"
+  },
+  {
     "product": "Bronze Battle Axe",
     "qty": 1,
     "skill": "Blacksmithing",
@@ -2041,39 +2079,6 @@
     "product": "Copper Bar",
     "qty": 1,
     "skill": "Smelting",
-    "trivial": null,
-    "stations": [
-      "Forge"
-    ],
-    "ingredients": [
-      {
-        "name": "Tin Ore",
-        "qty": 1,
-        "note": "Crafted"
-      },
-      {
-        "name": "Crude Ingot Mold",
-        "qty": 1,
-        "note": "Bought"
-      },
-      {
-        "name": "Tin Scraps",
-        "qty": 6,
-        "note": "Looted, Crafted"
-      },
-      {
-        "name": "Crude Ingot Mold",
-        "qty": 1,
-        "note": "Bought"
-      }
-    ],
-    "wiki": "https://monstersandmemories.miraheze.org/wiki/Tin_Bar",
-    "icon": "https://static.wikitide.net/monstersandmemorieswiki/a/aa/Itemicon0123AD.png"
-  },
-  {
-    "product": "Copper Bar",
-    "qty": 1,
-    "skill": "Smelting",
     "trivial": 25,
     "stations": [
       "Forge"
@@ -2102,34 +2107,6 @@
     ],
     "wiki": "https://monstersandmemories.miraheze.org/wiki/Copper_Bar",
     "icon": "https://static.wikitide.net/monstersandmemorieswiki/4/42/Itemicon0123AB.png"
-  },
-  {
-    "product": "Copper Bar",
-    "qty": 1,
-    "skill": "Smelting",
-    "trivial": 50,
-    "stations": [
-      "Forge"
-    ],
-    "ingredients": [
-      {
-        "name": "Copper Bar",
-        "qty": 1,
-        "note": "Crafted"
-      },
-      {
-        "name": "Tin Bar",
-        "qty": 1,
-        "note": "Crafted"
-      },
-      {
-        "name": "Copper Scraps",
-        "qty": 10,
-        "note": "Looted, Crafted"
-      }
-    ],
-    "wiki": "https://monstersandmemories.miraheze.org/wiki/Bronze_Bar",
-    "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/fe/Itemicon0123AA.png"
   },
   {
     "product": "Copper Battle Axe",
@@ -16501,6 +16478,34 @@
     "icon": "https://static.wikitide.net/monstersandmemorieswiki/9/91/Itemicon0017AA.png"
   },
   {
+    "product": "Morgurah's Mask of the Stifled Snitch",
+    "qty": 1,
+    "skill": "Blacksmithing",
+    "trivial": null,
+    "stations": [
+      "Anvil"
+    ],
+    "ingredients": [
+      {
+        "name": "Rusty Metal Shard",
+        "qty": 10,
+        "note": "Harvested. Perform the MUD command \"/take water\" in the water of Blind Midden and give the sludge to slimes for a chance at receiving"
+      },
+      {
+        "name": "Sewer Sludge",
+        "qty": 10,
+        "note": "Harvested. Perform the MUD command \"/take water\" in the water of Blind Midden for a chance at receiving"
+      },
+      {
+        "name": "Smuggled Wand",
+        "qty": 1,
+        "note": "Harvested. Perform the MUD command \"/take water\" in the water of Blind Midden and give the sludge to slimes for a chance at receiving"
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Morgurah's_Mask_of_the_Stifled_Snitch",
+    "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/ee/Itemicon0011AA.png"
+  },
+  {
     "product": "Mote of Magic",
     "qty": 1,
     "skill": "Disenchanting",
@@ -16522,6 +16527,29 @@
     ],
     "wiki": "https://monstersandmemories.miraheze.org/wiki/Mote_of_Magic",
     "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/e5/Itemicon0131AE.png"
+  },
+  {
+    "product": "Mudfish Wraps",
+    "qty": 1,
+    "skill": "Cooking",
+    "trivial": null,
+    "stations": [
+      "Stove"
+    ],
+    "ingredients": [
+      {
+        "name": "Mudfish",
+        "qty": 3,
+        "note": "Harvested via \"/take water\" command in Blind Midden"
+      },
+      {
+        "name": "Gelskin",
+        "qty": 1,
+        "note": "Dropped, slimes in Blind Midden (needs confirmation)"
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Mudfish_Wraps",
+    "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/b1/Itemicon0067AA.png"
   },
   {
     "product": "Net Arrow",
@@ -18446,6 +18474,29 @@
     "icon": "https://static.wikitide.net/monstersandmemorieswiki/e/ea/Itemicon0227AD.png"
   },
   {
+    "product": "Prison Gruel",
+    "qty": 1,
+    "skill": "Cooking",
+    "trivial": null,
+    "stations": [
+      "Stove"
+    ],
+    "ingredients": [
+      {
+        "name": "Mudfish",
+        "qty": 3,
+        "note": "Harvested, perform MUD command \"/take water\" in water in Blind Midden for a chance at receiving"
+      },
+      {
+        "name": "Gel Cube",
+        "qty": 3,
+        "note": "Dropped from slimes in Blind Midden"
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Prison_Gruel",
+    "icon": "https://static.wikitide.net/monstersandmemorieswiki/b/b1/Itemicon0067AA.png"
+  },
+  {
     "product": "Raw Basa Fillet",
     "qty": 1,
     "skill": "Cooking",
@@ -18628,13 +18679,23 @@
     "skill": "Leatherworking",
     "trivial": 15,
     "stations": [
-      "Leatherworking Kit"
+      "Tanning Bucket"
     ],
     "ingredients": [
       {
         "name": "Rawhide Scraps",
         "qty": 6,
         "note": "Dropped"
+      },
+      {
+        "name": "Wood",
+        "qty": 2,
+        "note": ""
+      },
+      {
+        "name": "Resin",
+        "qty": 2,
+        "note": ""
       }
     ],
     "wiki": "https://monstersandmemories.miraheze.org/wiki/Rawhide_Canvas",
@@ -18961,6 +19022,121 @@
     "icon": "https://static.wikitide.net/monstersandmemorieswiki/c/cd/Itemicon0026AA.png"
   },
   {
+    "product": "Recipe: Double-Bladed Retractable Prison Shiv",
+    "qty": 1,
+    "skill": "Blacksmithing",
+    "trivial": null,
+    "stations": [
+      "Anvil"
+    ],
+    "ingredients": [
+      {
+        "name": "Unknown",
+        "qty": 1,
+        "note": "Harvested"
+      },
+      {
+        "name": "Unknown",
+        "qty": 1,
+        "note": "Bought"
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Recipe%3A_Double-Bladed_Retractable_Prison_Shiv",
+    "icon": "https://static.wikitide.net/monstersandmemorieswiki/8/86/Itemicon0096AA.png"
+  },
+  {
+    "product": "Recipe: Morgurah's Mask of the Stifled Snitch",
+    "qty": 1,
+    "skill": "Blacksmithing",
+    "trivial": null,
+    "stations": [
+      "Anvil"
+    ],
+    "ingredients": [
+      {
+        "name": "Rusty Metal Shard",
+        "qty": 10,
+        "note": "Harvested. Perform the MUD command \"/take water\" in the water of Blind Midden and give the sludge to slimes for a chance at receiving"
+      },
+      {
+        "name": "Sewer Sludge",
+        "qty": 10,
+        "note": "Harvested. Perform the MUD command \"/take water\" in the water of Blind Midden for a chance at receiving"
+      },
+      {
+        "name": "Smuggled Wand",
+        "qty": 1,
+        "note": "Harvested. Perform the MUD command \"/take water\" in the water of Blind Midden and give the sludge to slimes for a chance at receiving"
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Recipe%3A_Morgurah's_Mask_of_the_Stifled_Snitch",
+    "icon": "https://static.wikitide.net/monstersandmemorieswiki/8/86/Itemicon0096AA.png"
+  },
+  {
+    "product": "Recipe: Mudfish Wraps",
+    "qty": 1,
+    "skill": "Cooking",
+    "trivial": null,
+    "stations": [
+      "Stove"
+    ],
+    "ingredients": [
+      {
+        "name": "Mudfish",
+        "qty": 3,
+        "note": "Harvested via \"/take water\" command in Blind Midden"
+      },
+      {
+        "name": "Gelskin",
+        "qty": 1,
+        "note": "Dropped, slimes in Blind Midden (needs confirmation)"
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Recipe%3A_Mudfish_Wraps",
+    "icon": "https://static.wikitide.net/monstersandmemorieswiki/8/86/Itemicon0096AA.png"
+  },
+  {
+    "product": "Recipe: Prison Gruel",
+    "qty": 1,
+    "skill": "Cooking",
+    "trivial": null,
+    "stations": [
+      "Stove"
+    ],
+    "ingredients": [
+      {
+        "name": "Mudfish",
+        "qty": 3,
+        "note": "Harvested, perform MUD command \"/take water\" in water in Blind Midden for a chance at receiving"
+      },
+      {
+        "name": "Gel Cube",
+        "qty": 3,
+        "note": "Dropped from slimes in Blind Midden"
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Recipe%3A_Prison_Gruel",
+    "icon": "https://static.wikitide.net/monstersandmemorieswiki/8/86/Itemicon0096AA.png"
+  },
+  {
+    "product": "Recipe: Shale Weightstone",
+    "qty": 1,
+    "skill": "Stone Cutting",
+    "trivial": null,
+    "stations": [
+      "Grinding Wheel"
+    ],
+    "ingredients": [
+      {
+        "name": "Shale Chunk",
+        "qty": 10,
+        "note": "Harvested, perform \"/take water\" in water in Blind Midden and give sludge to slimes for a chance at receiving"
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Recipe%3A_Shale_Weightstone",
+    "icon": "https://static.wikitide.net/monstersandmemorieswiki/8/86/Itemicon0096AA.png"
+  },
+  {
     "product": "Refined Fish Oil",
     "qty": 5,
     "skill": "Alchemy",
@@ -19246,6 +19422,24 @@
     ],
     "wiki": "https://monstersandmemories.miraheze.org/wiki/Serum_of_Stamina",
     "icon": "https://static.wikitide.net/monstersandmemorieswiki/d/dd/Itemicon0227AG.png"
+  },
+  {
+    "product": "Shale Weightstone",
+    "qty": 1,
+    "skill": "Stone Cutting",
+    "trivial": null,
+    "stations": [
+      "Grinding Wheel"
+    ],
+    "ingredients": [
+      {
+        "name": "Shale Chunk",
+        "qty": 10,
+        "note": "Harvested, perform \"/take water\" in water in Blind Midden and give sludge to slimes for a chance at receiving"
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Shale_Weightstone",
+    "icon": ""
   },
   {
     "product": "Sharpening Stone",
@@ -22052,6 +22246,39 @@
     ],
     "wiki": "https://monstersandmemories.miraheze.org/wiki/Thick_Sharpening_Stone",
     "icon": "https://static.wikitide.net/monstersandmemorieswiki/f/f1/Itemicon0117AA.png"
+  },
+  {
+    "product": "Tin Bar",
+    "qty": 1,
+    "skill": "Smelting",
+    "trivial": 35,
+    "stations": [
+      "Forge"
+    ],
+    "ingredients": [
+      {
+        "name": "Tin Ore",
+        "qty": 1,
+        "note": "Crafted"
+      },
+      {
+        "name": "Crude Ingot Mold",
+        "qty": 1,
+        "note": "Bought"
+      },
+      {
+        "name": "Tin Scraps",
+        "qty": 6,
+        "note": "Looted, Crafted"
+      },
+      {
+        "name": "Crude Ingot Mold",
+        "qty": 1,
+        "note": "Bought"
+      }
+    ],
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/Tin_Bar",
+    "icon": "https://static.wikitide.net/monstersandmemorieswiki/a/aa/Itemicon0123AD.png"
   },
   {
     "product": "Tin Cauldron",

@@ -9,7 +9,7 @@ function publicSky(): Plugin {
       base = config.base;
     },
     transformIndexHtml(html) {
-      const style = `<style>:root{--sky-image:url("${base}sky-bg.jpg?v=9");--stars-image:url("${base}stars.png");--moon-image:url("${base}MOON.png");}</style>`;
+      const style = `<style>:root{--sky-image:url("${base}sky-bg.jpg?v=9");--stars-image:url("${base}stars.png");--moon-image:url("${base}MOON.png");--ledger-sky:url("${base}ledger-sky.svg");}</style>`;
       return html.replace("</head>", `${style}</head>`);
     },
   };

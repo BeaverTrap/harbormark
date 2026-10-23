@@ -1,14 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { skills } from "./catalog";
-import { conOf } from "./consider";
-import { keptFor, practiceLadder, recipeCountFor, recipeFor, type KeptUse } from "./craft";
+import { breaksInto, recipeCountFor, recipeFor, skillBands, type Recipe } from "./craft";
 import { useCraftLevels } from "./crafts";
 import { Glyph, type GlyphName } from "./icons";
 import { ItemLink, LinkedText, NameList, PlaceText, ZoneLink } from "./names";
 import { OutLink } from "./OutLink";
-import { decodeShare } from "./share";
-import { useCharacterLevel, useShareText } from "./useShare";
-import { boughtBy, materialCamps, materialPlan, stockedBy, type MaterialCamp, type MaterialPlan, type VendorLine } from "./supply";
+import { readSaved, writeSaved } from "./saved";
+import { campsFor, materialPlan, stockedBy, type MaterialCamp, type MaterialPlan, type VendorLine } from "./supply";
 import type { TradeSkill } from "./types";
 
 const GLYPHS: Record<string, GlyphName> = {
@@ -82,44 +80,36 @@ function asPlayed(skill: TradeSkill): TradeSkill {
 export function CraftDesk() {
   const all = useMemo(() => skills.filter(isInGame).map(asPlayed), []);
   const [name, setName] = useState(() => {
-    const saved = localStorage.getItem("harbormark-skill") ?? "Tailoring";
+    const saved = readSaved("skill") ?? "Leatherworking";
     return saved === "Blacksmithing" ? "Smithing" : saved;
   });
-  const [shareText] = useShareText();
-  const shared = useMemo(() => decodeShare(shareText), [shareText]);
-  const character = shared.status === "ok" ? shared.character : null;
-  const [level] = useCharacterLevel(character ? Math.min(60, character.level) : 1);
-  const [craftLevels] = useCraftLevels();
-  const you = character ? level : null;
-  const skill = all.find((item) => item.name === name) ?? all.find((item) => item.name === "Tailoring") ?? all[0];
+  const [craftLevels, setCraftLevel] = useCraftLevels();
+  const skill = all.find((item) => item.name === name) ?? all.find((item) => item.name === "Leatherworking") ?? all[0];
 
   useEffect(() => {
-    if (skill) localStorage.setItem("harbormark-skill", skill.name);
+    if (skill) writeSaved("skill", skill.name);
   }, [skill]);
 
-  useEffect(() => {
-    if (!character) return;
-    localStorage.setItem("harbormark-class", character.className);
-  }, [character]);
-
   if (!skill) return null;
-  const ladder = practiceLadder(skill.name);
+  const yours = craftLevels[skill.name] ?? null;
+  const bands = skillBands(skill.name, yours);
+  const current = bands[0]?.recipes ?? [];
+  const made = current.filter((recipe) => !recipe.product.toLowerCase().startsWith("patched"));
+  const steps = made.length > 0 ? made : current;
   const combines = recipeCountFor(skill.name);
   const hasNotes = skill.intro.length > 0 || skill.sections.length > 0;
-  const yours = craftLevels[skill.name];
+  const materials = ladderMaterials(steps);
+  const drops = feedDrops(steps);
 
   return (
     <section className="desk">
       <div className="desk-copy">
-        <h2>Trades</h2>
+        <h2>Skills</h2>
         <p>
-          Who trains the skill, which camps drop the materials, who sells them, and who buys what you make
-          while the number climbs.
+          Enter the skill you are training. Each block is what to repeat until that trivial. The drops match the
+          block you are on.
         </p>
       </div>
-      {character ? (
-        <p className="source">{`Camps are colored for ${character.name}, ${character.className} ${level}.`}</p>
-      ) : null}
       <div className="routine-layout">
         <div className="class-list" role="listbox" aria-label="Trade">
           {all.map((item) => (
@@ -143,9 +133,26 @@ export function CraftDesk() {
               {skill.name}
               {skill.role ? <span className="craft-hint"> {skill.role}</span> : null}
             </h3>
-            {skill.wiki ? <OutLink href={skill.wiki}>Wiki page</OutLink> : null}
           </div>
-          {yours != null ? <p className="source">{`Your ${skill.name} is ${yours}.`}</p> : null}
+          <label className="char-level">
+            {`Your ${skill.name}`}
+            <input
+              type="number"
+              min={0}
+              max={300}
+              value={yours ?? ""}
+              placeholder="0"
+              aria-label={`Your ${skill.name}`}
+              onChange={(event) => {
+                if (event.target.value === "") {
+                  setCraftLevel(skill.name, null);
+                  return;
+                }
+                const next = Number(event.target.value);
+                if (Number.isInteger(next)) setCraftLevel(skill.name, next);
+              }}
+            />
+          </label>
           <dl className="skill-facts">
             {skill.trainers.length > 0 ? (
               <div>
@@ -181,7 +188,50 @@ export function CraftDesk() {
             ) : null}
           </dl>
           </section>
-          <Camps skill={skill.name} you={you} />
+          {bands.length > 0 ? (
+            <section className="pane pane-green">
+              <h3 className="subhead">
+                What to make
+                {combines > 0 ? <span className="craft-hint"> {combines} combines</span> : null}
+              </h3>
+              <p className="source">
+                {`A combine raises ${skill.name} until your skill reaches its trivial. Then move to the next block.`}
+              </p>
+              {bands.map((band, index) => (
+                <div key={band.trivial}>
+                  <h3 className="subhead">
+                    {index === 0 && yours != null ? `At ${yours}, repeat until ${band.trivial}` : `Until ${band.trivial}`}
+                  </h3>
+                  <ul className="pile">
+                    {band.recipes.map((recipe) => (
+                      <li key={`${recipe.product}-${recipe.trivial}`}>
+                        <strong>
+                          <ItemLink name={recipe.product} />
+                          <span className="craft-hint">
+                            {recipe.stations.length > 0 ? recipe.stations.join(", ") : `Trivial ${recipe.trivial}`}
+                          </span>
+                        </strong>
+                        <span>
+                          {recipe.ingredients.map((ingredient, index) => (
+                            <span key={`${ingredient.name}-${index}`}>
+                              {index > 0 ? ", " : null}
+                              {ingredient.qty > 1 ? `${ingredient.qty} ` : null}
+                              <ItemLink name={ingredient.name} />
+                            </span>
+                          ))}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </section>
+          ) : yours != null ? (
+            <p className="note">{`The wiki combines for ${skill.name} are trivial at ${yours}.`}</p>
+          ) : null}
+          <Camps names={drops} yours={yours} skill={skill.name} />
+          <Materials names={materials} />
+          <Market materials={materials} />
           {skill.intro.map((line) => (
             <p key={line} className="source">
               <LinkedText text={line} extra={linkExtras(skill)} />
@@ -202,44 +252,6 @@ export function CraftDesk() {
           {hasNotes ? null : (
             <p className="note">The wiki names this skill and does not say how to raise it yet.</p>
           )}
-          {ladder.length > 0 ? (
-            <section className="pane pane-green">
-              <h3 className="subhead">
-                Combines to practice
-                {combines > 0 ? <span className="craft-hint"> {combines} on the wiki</span> : null}
-              </h3>
-              <ul className="pile">
-                {ladder.map((recipe) => (
-                  <li key={`${recipe.product}-${recipe.trivial}`}>
-                    <strong>
-                      <ItemLink name={recipe.product} />
-                      <span className="craft-hint">
-                        Trivial {recipe.trivial}
-                        {yours != null && recipe.trivial != null
-                          ? recipe.trivial <= yours
-                            ? " · trivial for you"
-                            : " · still raises skill"
-                          : ""}
-                        {recipe.stations.length > 0 ? ` · ${recipe.stations.join(", ")}` : ""}
-                      </span>
-                    </strong>
-                    <span>
-                      {recipe.ingredients.map((ingredient, index) => (
-                        <span key={`${ingredient.name}-${index}`}>
-                          {index > 0 ? ", " : null}
-                          {ingredient.qty > 1 ? `${ingredient.qty} ` : null}
-                          <ItemLink name={ingredient.name} />
-                        </span>
-                      ))}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          ) : null}
-          <Materials names={ladderMaterials(ladder)} you={you} />
-          <Kept products={ladder.map((recipe) => recipe.product)} />
-          <Market materials={ladderMaterials(ladder)} products={ladder.map((recipe) => recipe.product)} camps={materialCamps(skill.name, you)} />
         </div>
       </div>
     </section>
@@ -258,7 +270,32 @@ function ladderMaterials(ladder: { ingredients: { name: string }[] }[]): string[
   return [...new Set(ladder.flatMap((recipe) => recipe.ingredients.map((ingredient) => ingredient.name)))];
 }
 
-function Materials({ names, you }: { names: string[]; you: number | null }) {
+function feedDrops(steps: Recipe[]): string[] {
+  const found: string[] = [];
+  const seen = new Set<string>();
+  const consider = (name: string, depth: number) => {
+    const key = name.toLowerCase();
+    if (seen.has(key)) return;
+    seen.add(key);
+    const camps = materialPlan(name, null).camps.length > 0;
+    if (camps) found.push(name);
+    const pieces = breaksInto(name);
+    if (pieces.length > 0) {
+      for (const piece of pieces) consider(piece.item, 0);
+      return;
+    }
+    if (camps || depth === 0) return;
+    const made = recipeFor(name)[0];
+    if (!made) return;
+    for (const ingredient of made.ingredients) consider(ingredient.name, depth - 1);
+  };
+  for (const step of steps) {
+    for (const ingredient of step.ingredients) consider(ingredient.name, 1);
+  }
+  return found;
+}
+
+function Materials({ names }: { names: string[] }) {
   if (names.length === 0) return null;
   return (
     <section className="pane pane-gold">
@@ -269,7 +306,8 @@ function Materials({ names, you }: { names: string[]; you: number | null }) {
             <strong>
               <ItemLink name={name} />
             </strong>
-            <Ways plan={materialPlan(name, you)} you={you} />
+            <Ways plan={materialPlan(name, null)} />
+            <Breakdown name={name} />
           </li>
         ))}
       </ul>
@@ -277,11 +315,32 @@ function Materials({ names, you }: { names: string[]; you: number | null }) {
   );
 }
 
-function Ways({ plan, you }: { plan: MaterialPlan; you: number | null }) {
+function Breakdown({ name }: { name: string }) {
+  const pieces = breaksInto(name);
+  if (pieces.length === 0) return null;
+  return (
+    <p>
+      {"Seam Ripper in a Leatherworking Kit: "}
+      {pieces.map((piece, index) => (
+        <span key={piece.item}>
+          {index > 0 ? ", " : null}
+          <ItemLink name={piece.item} />
+          {` yields ${piece.qty}`}
+        </span>
+      ))}
+      .
+    </p>
+  );
+}
+
+function Ways({ plan }: { plan: MaterialPlan }) {
   const made = plan.made;
   const covered = new Set<string>();
-  if (made) covered.add("crafted");
-  if (plan.camps.length > 0) covered.add("dropped");
+  if (made || breaksInto(plan.name).length > 0) covered.add("crafted");
+  if (plan.camps.length > 0 || breaksInto(plan.name).length > 0) {
+    covered.add("dropped");
+    covered.add("looted or purchased");
+  }
   if (plan.vendors.length > 0) covered.add("bought");
   const missing = plan.notes.filter((note) => !covered.has(note));
   return (
@@ -309,7 +368,7 @@ function Ways({ plan, you }: { plan: MaterialPlan; you: number | null }) {
           {" in "}
           <ZoneLink zone={camp.zone} />
           {", "}
-          <CampLevel camp={camp} you={you} />
+          <CampLevel camp={camp} />
           .
         </p>
       ))}
@@ -351,13 +410,18 @@ function missingLine(note: string): string {
   return `The wiki marks this as ${note}.`;
 }
 
-function Camps({ skill, you }: { skill: string; you: number | null }) {
-  const camps = materialCamps(skill, you);
+function Camps({ names, yours, skill }: { names: string[]; yours: number | null; skill: string }) {
+  const camps = campsFor(names);
   return (
     <section className="pane pane-blue">
-      <h3 className="subhead">Camps</h3>
+      <h3 className="subhead">Drops for this skill</h3>
       {camps.length > 0 ? (
         <>
+          <p className="source">
+            {yours == null
+              ? `These mobs drop what the first ${skill} combines use. Enter your skill and the list follows the combine you are on.`
+              : `These mobs drop what the combines still raising ${skill} at ${yours} use.`}
+          </p>
           <ul className="pile">
             {camps.map((camp) => (
               <li key={`${camp.npc}|${camp.zone}`}>
@@ -373,13 +437,10 @@ function Camps({ skill, you }: { skill: string; you: number | null }) {
                     ) : null}
                   </span>
                 </strong>
-                <CampLevel camp={camp} you={you} />
+                <CampLevel camp={camp} />
               </li>
             ))}
           </ul>
-          <p className="source">
-            Mob levels are from the wiki. Color is an estimate until the game publishes consider bands.
-          </p>
         </>
       ) : (
         <p className="note">The wiki item list has no mob camp for these materials.</p>
@@ -388,70 +449,11 @@ function Camps({ skill, you }: { skill: string; you: number | null }) {
   );
 }
 
-function Market({
-  materials,
-  products,
-  camps,
-}: {
-  materials: string[];
-  products: string[];
-  camps: MaterialCamp[];
-}) {
-  const farmed = [...new Set(camps.flatMap((camp) => camp.items))];
-  const stock = [...materials, ...farmed];
-  const leftovers = products.filter((product) => !isComponent(product));
+function Market({ materials }: { materials: string[] }) {
   return (
     <div className="market">
-      <VendorCard title="Buy" lines={stockedBy(stock)} empty="No vendor stocks these by name." />
-      <VendorCard title="Sell materials" lines={boughtBy(stock).filter((line) => !isComponent(line.item))} empty="No city buyer is listed." />
-      <VendorCard title="Sell extras" lines={boughtBy(leftovers)} empty="No city buyer is listed for these combines." />
+      <VendorCard title="Who sells the materials" lines={stockedBy(materials)} empty="No vendor stocks these by name." />
     </div>
-  );
-}
-
-function isComponent(item: string): boolean {
-  return recipeFor(item).length > 0 && keptFor(item).length > 0;
-}
-
-function Kept({ products }: { products: string[] }) {
-  const rows = products
-    .map((product) => ({ product, uses: keptFor(product) }))
-    .filter((row) => row.uses.length > 0);
-  if (rows.length === 0) return null;
-  return (
-    <section className="pane pane-green">
-      <h3 className="subhead">What to do with them</h3>
-      <ul className="kept">
-        {rows.map((row) => (
-          <li key={row.product}>
-            <strong>
-              <ItemLink name={row.product} />
-              <span className="craft-hint"> Save them</span>
-            </strong>
-            {row.uses.map((use) => (
-              <p key={use.skill}>{keptLine(use)}</p>
-            ))}
-          </li>
-        ))}
-      </ul>
-    </section>
-  );
-}
-
-function keptLine(use: KeptUse) {
-  const from = use.from == null ? "" : `, from trivial ${use.from}`;
-  const more = use.more > 0 ? `, and ${use.more} more` : "";
-  return (
-    <>
-      {`${use.skill} takes ${use.qtyLabel} each${from}: `}
-      {use.examples.map((example, index) => (
-        <span key={example.name}>
-          {index > 0 ? ", " : null}
-          <ItemLink name={example.name} />
-        </span>
-      ))}
-      {`${more}.`}
-    </>
   );
 }
 
@@ -499,16 +501,8 @@ function groupVendors(lines: VendorLine[]): { merchant: string; where: string; w
   return groups;
 }
 
-function CampLevel({ camp, you }: { camp: MaterialCamp; you: number | null }) {
+function CampLevel({ camp }: { camp: MaterialCamp }) {
   if (camp.min == null) return <span>level unknown</span>;
   const max = camp.max ?? camp.min;
-  if (you == null) return <span>{camp.min === max ? `level ${camp.min}` : `level ${camp.min}–${max}`}</span>;
-  if (camp.min === max) return <span className={`con-${conOf(camp.min, you)}`}>{camp.min}</span>;
-  return (
-    <span>
-      <span className={`con-${conOf(camp.min, you)}`}>{camp.min}</span>
-      –
-      <span className={`con-${conOf(max, you)}`}>{max}</span>
-    </span>
-  );
+  return <span>{camp.min === max ? `level ${camp.min}` : `level ${camp.min}–${max}`}</span>;
 }

@@ -79,6 +79,31 @@
     "wiki": "https://monstersandmemories.miraheze.org/wiki/A_barkeep"
   },
   {
+    "id": "a-barkeep-faelindral",
+    "name": "A barkeep (Faelindral)",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "Around back from Willows Whisper stage.",
+    "sells": [
+      "Birch Sap",
+      "Calafreyan Sap",
+      "Elven Wine",
+      "Ration",
+      "Water Flask",
+      "Weak Beer"
+    ],
+    "buys": [
+      "Charred fish",
+      "Cooked meat",
+      "Roots (Multhele)",
+      "Vegetables (Wild Carrots ...)",
+      "Birch Sap"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_barkeep_(Faelindral)"
+  },
+  {
     "id": "a-beastmaster-instructor",
     "name": "A beastmaster instructor",
     "zones": [
@@ -114,6 +139,27 @@
     ],
     "greedy": false,
     "wiki": "https://monstersandmemories.miraheze.org/wiki/A_blacksmith"
+  },
+  {
+    "id": "a-bowyer-faelindral",
+    "name": "A bowyer (Faelindral)",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "Outside Ranger's Rest.",
+    "sells": [
+      "Recipe: Pitch-Wrapped Arrow",
+      "Recipe: Net Arrow (x20)",
+      "Recipe: Smoke Bomb Arrow (x20)",
+      "Arrow",
+      "Bow",
+      "Fletching Kit",
+      "Hip Quiver",
+      "Large Back Quiver"
+    ],
+    "buys": [],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_bowyer_(Faelindral)"
   },
   {
     "id": "a-bowyer-night-harbor",
@@ -264,6 +310,27 @@
     ],
     "greedy": false,
     "wiki": "https://monstersandmemories.miraheze.org/wiki/A_cook"
+  },
+  {
+    "id": "a-cook-faelindral",
+    "name": "A cook (Faelindral)",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "In the building next to the Inn near Newbie Lift.",
+    "sells": [
+      "Basil",
+      "Black Pepper",
+      "Cabbage",
+      "Sea Salt",
+      "Thyme"
+    ],
+    "buys": [
+      "Mob parts",
+      "Vegetables (Wild Carrots ...)"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_cook_(Faelindral)"
   },
   {
     "id": "a-druid-scribe",
@@ -727,6 +794,23 @@
     "wiki": "https://monstersandmemories.miraheze.org/wiki/A_property_merchant"
   },
   {
+    "id": "a-ranger-instructor",
+    "name": "A ranger instructor",
+    "zones": [
+      "Faelindral"
+    ],
+    "location": "Rangers Rest",
+    "sells": [
+      "Ranger spell and ability scrolls",
+      "Spellbook"
+    ],
+    "buys": [
+      "Multhele Root"
+    ],
+    "greedy": false,
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_ranger_instructor"
+  },
+  {
     "id": "a-reagent-vendor-chartered-academy-of-arcane-inquiry",
     "name": "A reagent vendor (Chartered Academy of Arcane Inquiry)",
     "zones": [
@@ -1144,7 +1228,7 @@
   },
   {
     "id": "a-used-weapons-dealer-faelindral",
-    "name": "A used weapons dealer-Faelindral",
+    "name": "A used weapons dealer (Faelindral)",
     "zones": [
       "Faelindral"
     ],
@@ -1158,7 +1242,7 @@
       "All Weapons"
     ],
     "greedy": false,
-    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_used_weapons_dealer-Faelindral"
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/A_used_weapons_dealer_(Faelindral)"
   },
   {
     "id": "a-weaponsmith",
@@ -1297,7 +1381,7 @@
   },
   {
     "id": "an-archaeologist-faelindral",
-    "name": "An archaeologist-Faelindral",
+    "name": "An archaeologist (Faelindral)",
     "zones": [
       "Faelindral"
     ],
@@ -1307,7 +1391,7 @@
     ],
     "buys": [],
     "greedy": false,
-    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_archaeologist-Faelindral"
+    "wiki": "https://monstersandmemories.miraheze.org/wiki/An_archaeologist_(Faelindral)"
   },
   {
     "id": "an-elemental-quartermaster",
